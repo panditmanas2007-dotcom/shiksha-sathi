@@ -1,212 +1,2702 @@
 [
   {
-    "id": "rel_ug_01",
-    "name": "Reliance Foundation Undergraduate Scholarship",
-    "provider": "Reliance Foundation (CSR)",
-    "benefit": "Up to ₹2,00,000 across degree duration",
-    "min_percentage": 60.0,
-    "max_income_lpa": 15.0,
-    "category": "ALL",
-    "gender": "ALL",
-    "course": "ALL",
-    "deadline": "2026-10-15",
-    "required_docs": ["12th Marksheet", "Income Certificate / ITR", "Bonafide Certificate", "Aadhaar Card"],
-    "apply_url": "https://www.scholarships.reliancefoundation.org"
+    "id": 1,
+    "name": "Central Sector Scheme of Scholarships (CSSS)",
+    "provider": "Government of India (NSP)",
+    "description": "For top 20th percentile students of Class 12th pursuing regular courses.",
+    "income_limit": "₹4,50,000",
+    "amount": "₹12,000/year",
+    "link": "https://scholarships.gov.in/"
   },
   {
-    "id": "nsp_csss_02",
-    "name": "Central Sector Scheme of Scholarships (PM-USP)",
-    "provider": "Ministry of Education (NSP)",
-    "benefit": "₹12,000/year for graduation, ₹20,000/year for PG",
-    "min_percentage": 80.0,
-    "max_income_lpa": 4.5,
-    "category": "ALL",
-    "gender": "ALL",
-    "course": "ALL",
-    "deadline": "2026-11-30",
-    "required_docs": ["12th Board Marksheet", "Income Certificate (< 4.5 LPA)", "Bank Passbook", "Fee Receipt"],
-    "apply_url": "https://scholarships.gov.in"
-  },
-  {
-    "id": "aicte_pragati_03",
+    "id": 2,
     "name": "AICTE Pragati Scholarship for Girls",
-    "provider": "AICTE (Central Govt)",
-    "benefit": "₹50,000 per annum towards college expenses",
-    "min_percentage": 50.0,
-    "max_income_lpa": 8.0,
-    "category": "ALL",
-    "gender": "Female",
-    "course": "B.Tech",
-    "deadline": "2026-12-15",
-    "required_docs": ["10th/12th Marksheet", "Tuition Fee Receipt", "Annual Family Income Certificate", "Aadhaar Card"],
-    "apply_url": "https://www.aicte-india.org"
+    "provider": "AICTE",
+    "description": "For girl students in the first year of Degree/Diploma technical courses.",
+    "income_limit": "₹8,00,000",
+    "amount": "₹50,000/year",
+    "link": "https://scholarships.gov.in/"
   },
   {
-    "id": "aicte_saksham_04",
-    "name": "AICTE Saksham Scholarship (Specially-Abled)",
-    "provider": "AICTE (Central Govt)",
-    "benefit": "₹50,000 per annum",
-    "min_percentage": 50.0,
-    "max_income_lpa": 8.0,
-    "category": "ALL",
-    "gender": "ALL",
-    "course": "B.Tech",
-    "deadline": "2026-12-15",
-    "required_docs": ["Disability Certificate (40%+)", "Admission Letter", "Income Certificate", "Marksheet"],
-    "apply_url": "https://www.aicte-india.org"
+    "id": 3,
+    "name": "AICTE Saksham Scholarship",
+    "provider": "AICTE",
+    "description": "For specially-abled students pursuing technical education.",
+    "income_limit": "₹8,00,000",
+    "amount": "₹50,000/year",
+    "link": "https://scholarships.gov.in/"
   },
   {
-    "id": "hdfc_parivartan_05",
-    "name": "HDFC Bank Parivartan ECSS Programme",
-    "provider": "HDFC Bank CSR",
-    "benefit": "Up to ₹75,000 for undergraduate studies",
-    "min_percentage": 55.0,
-    "max_income_lpa": 2.5,
-    "category": "ALL",
-    "gender": "ALL",
-    "course": "ALL",
-    "deadline": "2026-10-31",
-    "required_docs": ["Previous Marksheet", "Income Certificate / BPL Card", "Admission Proof", "Bank Details"],
-    "apply_url": "https://www.hdfcbank.com"
+    "id": 4,
+    "name": "Post Matric Scholarship for Minorities",
+    "provider": "Ministry of Minority Affairs",
+    "description": "For minority community students (Muslim, Christian, Sikh, Buddhist, Parsi, Jain).",
+    "income_limit": "₹2,00,000",
+    "amount": "Admission/Tuition fee + Maintenance",
+    "link": "https://scholarships.gov.in/"
   },
   {
-    "id": "tata_pankh_06",
-    "name": "Tata Capital Pankh Scholarship Programme",
-    "provider": "Tata Capital CSR",
-    "benefit": "Up to 80% of course fee or max ₹50,000",
-    "min_percentage": 60.0,
-    "max_income_lpa": 2.5,
-    "category": "ALL",
-    "gender": "ALL",
-    "course": "ALL",
-    "deadline": "2026-11-15",
-    "required_docs": ["12th Marksheet", "Income Certificate", "College ID", "Photo ID"],
-    "apply_url": "https://www.tatacapital.com"
+    "id": 5,
+    "name": "Post Matric Scholarship for SC Students",
+    "provider": "Ministry of Social Justice & Empowerment",
+    "description": "Financial assistance for SC students at post-matriculation stage.",
+    "income_limit": "₹2,50,000",
+    "amount": "Full tuition fee + Maintenance",
+    "link": "https://scholarships.gov.in/"
   },
   {
-    "id": "kotak_kanya_07",
+    "id": 6,
+    "name": "Post Matric Scholarship for ST Students",
+    "provider": "Ministry of Tribal Affairs",
+    "description": "Financial assistance to ST students for higher education.",
+    "income_limit": "₹2,50,000",
+    "amount": "Full tuition fee + Maintenance",
+    "link": "https://scholarships.gov.in/"
+  },
+  {
+    "id": 7,
+    "name": "Post Matric Scholarship for OBC Students",
+    "provider": "Ministry of Social Justice & Empowerment",
+    "description": "For OBC students studying in recognized institutions.",
+    "income_limit": "₹2,50,000",
+    "amount": "Tuition fee + Maintenance",
+    "link": "https://scholarships.gov.in/"
+  },
+  {
+    "id": 8,
+    "name": "Ishan Uday Special Scholarship",
+    "provider": "UGC",
+    "description": "For students of the North Eastern Region pursuing degree courses.",
+    "income_limit": "₹4,50,000",
+    "amount": "₹7,800/month (Technical)",
+    "link": "https://scholarships.gov.in/"
+  },
+  {
+    "id": 9,
+    "name": "Reliance Foundation Undergraduate Scholarships",
+    "provider": "Reliance Foundation",
+    "description": "Merit-cum-means scholarship for first-year UG students.",
+    "income_limit": "₹15,00,000",
+    "amount": "Up to ₹2,00,000 over degree",
+    "link": "https://scholarships.reliancefoundation.org/"
+  },
+  {
+    "id": 10,
+    "name": "HDFC Badhte Kadam Scholarship",
+    "provider": "HDFC Bank",
+    "description": "For students facing financial crisis or loss of parent.",
+    "income_limit": "₹6,00,000",
+    "amount": "Up to ₹1,00,000/year",
+    "link": "https://www.buddy4study.com/page/hdfc-bank-parivartans-ecss-programme"
+  },
+  {
+    "id": 11,
+    "name": "ONGC Scholarship to Meritorious Students",
+    "provider": "ONGC",
+    "description": "For SC/ST/OBC and General category students in professional courses.",
+    "income_limit": "₹4,50,000",
+    "amount": "₹48,000/year",
+    "link": "https://ongcscholar.org/"
+  },
+  {
+    "id": 12,
+    "name": "LIC Golden Jubilee Scholarship",
+    "provider": "LIC India",
+    "description": "For EWS students pursuing higher studies.",
+    "income_limit": "₹2,50,000",
+    "amount": "₹20,000/year",
+    "link": "https://licindia.in/"
+  },
+  {
+    "id": 13,
+    "name": "Tata Capital Pankh Scholarship",
+    "provider": "Tata Capital",
+    "description": "For students in undergraduate professional courses.",
+    "income_limit": "₹4,00,000",
+    "amount": "Up to 80% of tuition fees",
+    "link": "https://www.buddy4study.com/page/tata-capital-pankh-scholarship-programme"
+  },
+  {
+    "id": 14,
+    "name": "Mukhya Mantri Medhavi Vidyarthi Yojana (MMVY)",
+    "provider": "Govt of Madhya Pradesh",
+    "description": "For MP domicile students scoring 70%+ in MP Board or 85%+ in CBSE.",
+    "income_limit": "₹6,00,000",
+    "amount": "100% Course Fee",
+    "link": "http://scholarshipportal.mp.nic.in/"
+  },
+  {
+    "id": 15,
+    "name": "Swami Vivekananda Merit Cum Means (SVMCM)",
+    "provider": "Govt of West Bengal",
+    "description": "For meritorious students of West Bengal.",
+    "income_limit": "₹2,50,000",
+    "amount": "₹60,000/year",
+    "link": "https://svmcm.wbhed.gov.in/"
+  },
+  {
+    "id": 16,
+    "name": "MahaDBT Rajarshi Chhatrapati Shahu Maharaj Scheme",
+    "provider": "Govt of Maharashtra",
+    "description": "50% tuition fee concession for EBC students of Maharashtra.",
+    "income_limit": "₹8,00,000",
+    "amount": "50% Tuition Fee",
+    "link": "https://mahadbt.maharashtra.gov.in/"
+  },
+  {
+    "id": 17,
+    "name": "Keep India Smiling Foundational Scholarship",
+    "provider": "Colgate-Palmolive",
+    "description": "For deserving candidates pursuing engineering and vocational courses.",
+    "income_limit": "₹5,00,000",
+    "amount": "₹30,000/year",
+    "link": "https://www.buddy4study.com/colgate-scholarship"
+  },
+  {
+    "id": 18,
+    "name": "SBI Asha Scholarship",
+    "provider": "SBI Foundation",
+    "description": "For low-income undergraduate students.",
+    "income_limit": "₹3,00,000",
+    "amount": "Up to ₹50,000",
+    "link": "https://www.buddy4study.com/page/sbi-asha-scholarship-program"
+  },
+  {
+    "id": 19,
     "name": "Kotak Kanya Scholarship",
-    "provider": "Kotak Education Foundation",
-    "benefit": "₹1,50,000 per year until degree completion",
-    "min_percentage": 75.0,
-    "max_income_lpa": 6.0,
-    "category": "ALL",
-    "gender": "Female",
-    "course": "B.Tech",
-    "deadline": "2026-10-30",
-    "required_docs": ["12th Marksheet", "College Admission Proof", "Income Certificate", "Aadhaar Card"],
-    "apply_url": "https://kotakeducation.org"
+    "provider": "Kotak Mahindra Group",
+    "description": "Exclusive for meritorious girl students pursuing professional graduation.",
+    "income_limit": "₹3,20,000",
+    "amount": "Up to ₹1,50,000/year",
+    "link": "https://www.buddy4study.com/page/kotak-kanya-scholarship"
   },
   {
-    "id": "post_matric_sc_st_08",
-    "name": "Post-Matric Scholarship for SC/ST Students",
-    "provider": "State Social Welfare Dept / NSP",
-    "benefit": "100% Tuition Fee Reimbursement + Monthly Maintenance",
-    "min_percentage": 50.0,
-    "max_income_lpa": 2.5,
-    "category": "SC/ST",
-    "gender": "ALL",
-    "course": "ALL",
-    "deadline": "2026-12-31",
-    "required_docs": ["Caste Certificate", "Income Certificate", "Domicile Certificate", "College Fee Breakdown"],
-    "apply_url": "https://scholarships.gov.in"
+    "id": 20,
+    "name": "Vidyadhan Scholarship",
+    "provider": "Sarojini Damodaran Foundation",
+    "description": "For students from economically backward families passing 12th grade.",
+    "income_limit": "₹2,00,000",
+    "amount": "₹10,000 to ₹60,000/year",
+    "link": "https://www.vidyadhan.org/"
   },
   {
-    "id": "post_matric_obc_09",
-    "name": "Post-Matric Scholarship for OBC Students",
-    "provider": "State Social Welfare Dept",
-    "benefit": "Tuition Fee Reimbursement + Living Allowance",
-    "min_percentage": 50.0,
-    "max_income_lpa": 2.5,
-    "category": "OBC",
-    "gender": "ALL",
-    "course": "ALL",
-    "deadline": "2026-12-31",
-    "required_docs": ["OBC Non-Creamy Layer Certificate", "Income Certificate", "Marksheet", "College Admission Slip"],
-    "apply_url": "https://scholarships.gov.in"
+    "id": 21,
+    "name": "PMSS for Wards of Ex-Servicemen",
+    "provider": "Kendriya Sainik Board",
+    "description": "For dependent wards of Ex-Servicemen pursuing professional degrees.",
+    "income_limit": "No Limit",
+    "amount": "₹36,000/year",
+    "link": "https://ksb.gov.in/"
   },
   {
-    "id": "ongc_merit_10",
-    "name": "ONGC Foundation Scholarship for General & OBC",
-    "provider": "ONGC Foundation",
-    "benefit": "₹48,000 per annum (₹4,000/month)",
-    "min_percentage": 60.0,
-    "max_income_lpa": 2.0,
-    "category": "General/OBC",
-    "gender": "ALL",
-    "course": "B.Tech",
-    "deadline": "2026-11-20",
-    "required_docs": ["Class 12 Marksheet", "Income Certificate", "PAN / Aadhaar", "College ID"],
-    "apply_url": "https://www.ongcscholar.org"
+    "id": 22,
+    "name": "Santoor Women's Scholarship",
+    "provider": "Wipro Cares",
+    "description": "For young women from disadvantaged backgrounds pursuing higher education.",
+    "income_limit": "₹2,00,000",
+    "amount": "₹24,000/year",
+    "link": "https://www.santoorscholarships.com/"
   },
   {
-    "id": "ongc_scst_11",
-    "name": "ONGC Foundation Scholarship for SC/ST",
-    "provider": "ONGC Foundation",
-    "benefit": "₹48,000 per annum",
-    "min_percentage": 60.0,
-    "max_income_lpa": 4.5,
-    "category": "SC/ST",
-    "gender": "ALL",
-    "course": "B.Tech",
-    "deadline": "2026-11-20",
-    "required_docs": ["Caste Certificate", "Income Certificate", "12th Marksheet", "Enrollment Slip"],
-    "apply_url": "https://www.ongcscholar.org"
+    "id": 23,
+    "name": "FAEA Scholar",
+    "provider": "Foundation for Academic Excellence and Access",
+    "description": "For socially/economically disadvantaged students (SC/ST/BPL).",
+    "income_limit": "BPL",
+    "amount": "Full Tuition + Hostel",
+    "link": "http://www.faeaindia.org/"
   },
   {
-    "id": "sitaram_jindal_12",
+    "id": 24,
+    "name": "L'Oréal India For Young Women In Science",
+    "provider": "L'Oréal India",
+    "description": "For young women entering science graduation courses.",
+    "income_limit": "₹6,00,000",
+    "amount": "₹2,50,000",
+    "link": "https://www.buddy4study.com/page/loreal-india-for-young-women-in-science-scholarships"
+  },
+  {
+    "id": 25,
+    "name": "Begum Hazrat Mahal National Scholarship",
+    "provider": "MAEF",
+    "description": "For meritorious girl students belonging to minority communities.",
+    "income_limit": "₹2,00,000",
+    "amount": "₹10,000",
+    "link": "https://scholarships.gov.in/"
+  },
+  {
+    "id": 26,
+    "name": "Samsung Star Scholar",
+    "provider": "Samsung India",
+    "description": "For JNV alumni pursuing B.Tech/Dual Degree.",
+    "income_limit": "No Limit",
+    "amount": "Up to ₹2,00,000/year",
+    "link": "https://www.samsung.com/in/microsite/sapne-hue-bade/star-scholar/"
+  },
+  {
+    "id": 27,
     "name": "Sitaram Jindal Foundation Scholarship",
     "provider": "Sitaram Jindal Foundation",
-    "benefit": "₹2,000 to ₹3,200 per month based on stream",
-    "min_percentage": 65.0,
-    "max_income_lpa": 4.0,
-    "category": "ALL",
-    "gender": "ALL",
-    "course": "ALL",
-    "deadline": "2026-12-31",
-    "required_docs": ["Qualifying Exam Marksheet", "Income Certificate", "Hostel Cert (if applicable)"],
-    "apply_url": "https://www.sitaramjindalfoundation.org"
+    "description": "Merit-cum-means scholarship for UG and PG students.",
+    "income_limit": "₹2,50,000",
+    "amount": "₹2,000/month",
+    "link": "https://www.sitaramjindalfoundation.org/"
   },
   {
-    "id": "infosys_stem_13",
-    "name": "Infosys Foundation STEM Stars Scholarship",
+    "id": 28,
+    "name": "Glow & Lovely Careers Scholarship",
+    "provider": "Hindustan Unilever",
+    "description": "For girl students securing above 60% in 10th and 12th standard.",
+    "income_limit": "₹6,00,000",
+    "amount": "₹25,000 to ₹50,000",
+    "link": "https://www.glowandlovelycareers.in/"
+  },
+  {
+    "id": 29,
+    "name": "FFE Scholarship",
+    "provider": "Foundation for Excellence",
+    "description": "For exceptionally bright students with financial constraints pursuing B.Tech/MBBS.",
+    "income_limit": "₹3,00,000",
+    "amount": "₹40,000/year",
+    "link": "https://ffe.org/"
+  },
+  {
+    "id": 30,
+    "name": "Shriram Automall Education Scholarship",
+    "provider": "Shriram Foundation",
+    "description": "For children of commercial vehicle drivers.",
+    "income_limit": "₹4,00,000",
+    "amount": "₹35,000/year",
+    "link": "https://www.vidyasaarathi.co.in/"
+  },
+  {
+    "id": 31,
+    "name": "Dr. Ambedkar Post Matric Scholarship for EBC",
+    "provider": "Ministry of Social Justice",
+    "description": "For Economically Backward Class students.",
+    "income_limit": "₹1,00,000",
+    "amount": "Maintenance Allowance",
+    "link": "https://scholarships.gov.in/"
+  },
+  {
+    "id": 32,
+    "name": "Inspire Scholarship",
+    "provider": "Department of Science & Technology",
+    "description": "For top 1% students of Class 12 pursuing Basic and Natural Sciences.",
+    "income_limit": "No Limit",
+    "amount": "₹80,000/year",
+    "link": "https://online-inspire.gov.in/"
+  },
+  {
+    "id": 33,
+    "name": "IDFC FIRST Bank MBA Scholarship",
+    "provider": "IDFC FIRST Bank",
+    "description": "For students enrolled in first year of MBA programs.",
+    "income_limit": "₹6,00,000",
+    "amount": "₹1,00,000/year",
+    "link": "https://www.buddy4study.com/page/idfc-first-bank-mba-scholarship"
+  },
+  {
+    "id": 34,
+    "name": "Legrand Scholarship Program",
+    "provider": "Legrand",
+    "description": "For meritorious girl students pursuing B.Tech/B.Arch.",
+    "income_limit": "₹5,00,000",
+    "amount": "₹60,000/year",
+    "link": "https://www.buddy4study.com/page/legrand-scholarship"
+  },
+  {
+    "id": 35,
+    "name": "JK Lakshmi Vidya Scholarship",
+    "provider": "JK Lakshmi Cement",
+    "description": "For UG, PG, and Diploma students from low-income families.",
+    "income_limit": "₹5,00,000",
+    "amount": "Up to ₹40,000",
+    "link": "https://www.vidyasaarathi.co.in/"
+  },
+  {
+    "id": 36,
+    "name": "Aditya Birla Capital COVID Scholarship",
+    "provider": "Aditya Birla Capital",
+    "description": "For students who lost their primary earning member during COVID-19.",
+    "income_limit": "₹6,00,000",
+    "amount": "Up to ₹60,000",
+    "link": "https://www.buddy4study.com/"
+  },
+  {
+    "id": 37,
+    "name": "Rolls-Royce Unnati Scholarships for Women Engineering Students",
+    "provider": "Rolls-Royce",
+    "description": "For girl students studying in the 1st/2nd/3rd year of undergraduate engineering.",
+    "income_limit": "₹4,00,000",
+    "amount": "₹35,000",
+    "link": "https://www.buddy4study.com/page/rolls-royce-unnati-scholarships-for-women-engineering-students"
+  },
+  {
+    "id": 38,
+    "name": "Raman Kant Munjal Scholarship",
+    "provider": "Hero Group",
+    "description": "For students pursuing finance and management degrees.",
+    "income_limit": "₹4,00,000",
+    "amount": "Up to ₹5,00,000",
+    "link": "https://www.rkmfoundation.org/"
+  },
+  {
+    "id": 39,
+    "name": "E-Kalyan Jharkhand Scholarship",
+    "provider": "Govt of Jharkhand",
+    "description": "Post-matric scholarship for SC/ST/OBC students of Jharkhand.",
+    "income_limit": "₹2,50,000",
+    "amount": "Full Tuition Fee",
+    "link": "https://ekalyan.cgg.gov.in/"
+  },
+  {
+    "id": 40,
+    "name": "UP Scholarship (Post Matric)",
+    "provider": "Govt of Uttar Pradesh",
+    "description": "For students studying in 11th, 12th, UG, and PG level courses.",
+    "income_limit": "₹2,00,000",
+    "amount": "Variable Course Fee",
+    "link": "https://scholarship.up.gov.in/"
+  },
+  {
+    "id": 41,
+    "name": "Rajasthan SSO Scholarship",
+    "provider": "Govt of Rajasthan",
+    "description": "For SC/ST/OBC/SBC candidates studying post-matric courses.",
+    "income_limit": "₹2,50,000",
+    "amount": "Tuition Fee + Maintenance",
+    "link": "https://sje.rajasthan.gov.in/"
+  },
+  {
+    "id": 42,
+    "name": "Haryana Post Matric Scholarship",
+    "provider": "Govt of Haryana",
+    "description": "For SC/OBC students of Haryana pursuing higher education.",
+    "income_limit": "₹2,50,000",
+    "amount": "Variable",
+    "link": "https://harchhatravratti.highereduhry.ac.in/"
+  },
+  {
+    "id": 43,
+    "name": "Nirankari Rajmata Scholarship",
+    "provider": "Sant Nirankari Mandal",
+    "description": "For meritorious students pursuing professional degrees.",
+    "income_limit": "₹3,50,000",
+    "amount": "Full Tuition Fee (Up to ₹50,000)",
+    "link": "https://nirankari.org/"
+  },
+  {
+    "id": 44,
+    "name": "O.P. Jindal Engineering and Management Scholarship",
+    "provider": "OP Jindal Group",
+    "description": "For students from top engineering and management institutes.",
+    "income_limit": "No Limit",
+    "amount": "₹80,000 to ₹1,50,000",
+    "link": "https://www.opjems.com/"
+  },
+  {
+    "id": 45,
+    "name": "G.P. Birla Educational Scholarship",
+    "provider": "G.P. Birla Foundation",
+    "description": "For meritorious students from West Bengal.",
+    "income_limit": "₹3,00,000",
+    "amount": "₹50,000/year",
+    "link": "http://gpbirlaedufoundation.com/"
+  },
+  {
+    "id": 46,
+    "name": "CBSE Udaan Scheme",
+    "provider": "CBSE / Govt of India",
+    "description": "To address the lower enrollment of girls in engineering colleges.",
+    "income_limit": "₹6,00,000",
+    "amount": "Free study material and classes",
+    "link": "https://cbseacademic.nic.in/"
+  },
+  {
+    "id": 47,
+    "name": "Kishore Vaigyanik Protsahan Yojana (KVPY/Inspire transition)",
+    "provider": "Govt of India",
+    "description": "Fellowship for students interested in research careers in Basic Sciences.",
+    "income_limit": "No Limit",
+    "amount": "₹5,000/month",
+    "link": "http://kvpy.iisc.ernet.in/"
+  },
+  {
+    "id": 48,
+    "name": "SNB Vidyasaarathi Scholarship",
+    "provider": "Vidyasaarathi Portal",
+    "description": "For students pursuing undergraduate and diploma courses.",
+    "income_limit": "₹5,00,000",
+    "amount": "Up to ₹30,000",
+    "link": "https://www.vidyasaarathi.co.in/"
+  },
+  {
+    "id": 49,
+    "name": "JSW UDAAN Scholarship",
+    "provider": "JSW Foundation",
+    "description": "For students pursuing ITI, Diploma, and Undergraduate degrees.",
+    "income_limit": "₹5,00,000",
+    "amount": "Up to ₹30,000",
+    "link": "https://www.vidyasaarathi.co.in/"
+  },
+  {
+    "id": 50,
+    "name": "NSDL Shiksha Sahyog",
+    "provider": "NSDL",
+    "description": "For economically weaker sections pursuing full-time degrees.",
+    "income_limit": "₹3,00,000",
+    "amount": "Up to ₹12,000",
+    "link": "https://www.vidyasaarathi.co.in/"
+  },
+  {
+    "id": 51,
+    "name": "Mukhyamantri Yuva Swavalamban Yojana (MYSY)",
+    "provider": "Govt of Gujarat",
+    "description": "For EWS students of Gujarat pursuing higher education like B.Tech/MBBS.",
+    "income_limit": "₹6,00,000",
+    "amount": "50% Tuition Fee (Up to ₹50,000)",
+    "link": "https://mysy.guj.nic.in/"
+  },
+  {
+    "id": 52,
+    "name": "Karnataka Vidyasiri Scholarship",
+    "provider": "Govt of Karnataka",
+    "description": "For students from backward classes pursuing post-matric courses.",
+    "income_limit": "₹2,50,000",
+    "amount": "₹1,500/month for hostel/mess",
+    "link": "https://bcwd.karnataka.gov.in/"
+  },
+  {
+    "id": 53,
+    "name": "Jagananna Vidya Deevena",
+    "provider": "Govt of Andhra Pradesh",
+    "description": "Provides full fee reimbursement for ITI, Polytechnic, and Degree students.",
+    "income_limit": "₹2,50,000",
+    "amount": "100% Tuition Fee",
+    "link": "https://navasakam.ap.gov.in/"
+  },
+  {
+    "id": 54,
+    "name": "Telangana ePASS Post Matric Scholarship",
+    "provider": "Govt of Telangana",
+    "description": "For SC/ST/BC/EBC/Minority students of Telangana for higher studies.",
+    "income_limit": "₹2,00,000",
+    "amount": "Full Tuition Fee + Maintenance",
+    "link": "https://telanganaepass.cgg.gov.in/"
+  },
+  {
+    "id": 55,
+    "name": "Suvarna Jubilee Merit Scholarship",
+    "provider": "Govt of Kerala",
+    "description": "For BPL family students pursuing UG/PG courses in Kerala.",
+    "income_limit": "BPL",
+    "amount": "₹10,000/year",
+    "link": "https://dcescholarship.kerala.gov.in/"
+  },
+  {
+    "id": 56,
+    "name": "Bihar Post Matric Scholarship",
+    "provider": "Govt of Bihar",
+    "description": "For SC/ST/OBC students of Bihar pursuing post-matriculation studies.",
+    "income_limit": "₹2,50,000",
+    "amount": "Variable Course Fee",
+    "link": "https://pmsonline.bih.nic.in/"
+  },
+  {
+    "id": 57,
+    "name": "Ashirwad Scholarship",
+    "provider": "Govt of Punjab",
+    "description": "Post-matric scholarship scheme for SC/BC students of Punjab.",
+    "income_limit": "₹2,50,000",
+    "amount": "Variable",
+    "link": "https://scholarships.punjab.gov.in/"
+  },
+  {
+    "id": 58,
+    "name": "Odisha State Scholarship (eMedhabruti)",
+    "provider": "Govt of Odisha",
+    "description": "For meritorious students of Odisha pursuing UG/PG/Technical courses.",
+    "income_limit": "₹6,00,000",
+    "amount": "₹10,000/year",
+    "link": "https://scholarship.odisha.gov.in/"
+  },
+  {
+    "id": 59,
+    "name": "Assam Post Matric Scholarship for OBC",
+    "provider": "Govt of Assam",
+    "description": "For OBC students of Assam for post-secondary education.",
+    "income_limit": "₹2,50,000",
+    "amount": "Maintenance + Fee",
+    "link": "https://directorateofwelfareofptandbc.assam.gov.in/"
+  },
+  {
+    "id": 60,
+    "name": "Xiaomi India Merit Scholarship",
+    "provider": "Xiaomi India",
+    "description": "For Class 11, 12, and undergraduate students to support their education.",
+    "income_limit": "No Limit",
+    "amount": "Up to ₹5,800",
+    "link": "https://www.buddy4study.com/"
+  },
+  {
+    "id": 61,
+    "name": "Vivo For Education Scholarship",
+    "provider": "Vivo India",
+    "description": "For undergraduate students from low-income families.",
+    "income_limit": "₹4,00,000",
+    "amount": "₹50,000/year",
+    "link": "https://www.vidyasaarathi.co.in/"
+  },
+  {
+    "id": 62,
+    "name": "Schindler Igniting Minds Scholarship",
+    "provider": "Schindler India",
+    "description": "For students pursuing diploma or engineering degrees (electrical, mechanical).",
+    "income_limit": "₹3,00,000",
+    "amount": "₹20,000/year",
+    "link": "https://www.buddy4study.com/"
+  },
+  {
+    "id": 63,
+    "name": "Nikon Scholarship Program",
+    "provider": "Nikon India",
+    "description": "For students pursuing photography-related courses.",
+    "income_limit": "₹6,00,000",
+    "amount": "Up to ₹1,00,000",
+    "link": "https://www.buddy4study.com/page/nikon-scholarship-program"
+  },
+  {
+    "id": 64,
+    "name": "Federal Bank Hormis Memorial Foundation",
+    "provider": "Federal Bank",
+    "description": "For first-year students of MBBS, Engineering, B.Sc. Nursing, and MBA.",
+    "income_limit": "₹3,00,000",
+    "amount": "100% Tuition Fee (Up to ₹1 Lakh)",
+    "link": "https://www.federalbank.co.in/scholarships"
+  },
+  {
+    "id": 65,
+    "name": "Muthoot M George Higher Education Scholarship",
+    "provider": "Muthoot Group",
+    "description": "For students pursuing MBBS, B.Tech, and B.Sc Nursing.",
+    "income_limit": "₹2,00,000",
+    "amount": "Variable",
+    "link": "https://www.muthootgroup.com/"
+  },
+  {
+    "id": 66,
+    "name": "BHEL Shiksha Scheme",
+    "provider": "BHEL",
+    "description": "For wards of BHEL employees and local underprivileged students.",
+    "income_limit": "₹3,00,000",
+    "amount": "Maintenance Allowance",
+    "link": "https://www.bhel.com/"
+  },
+  {
+    "id": 67,
+    "name": "DRDO Scholarship for Girls",
+    "provider": "DRDO",
+    "description": "For girl students pursuing UG/PG degrees in Aerospace/Aeronautical engineering.",
+    "income_limit": "No Limit",
+    "amount": "₹1,20,000/year",
+    "link": "https://drdo.gov.in/"
+  },
+  {
+    "id": 68,
+    "name": "Adobe India Women-in-Technology Scholarship",
+    "provider": "Adobe",
+    "description": "For female students enrolled in computer science engineering.",
+    "income_limit": "No Limit",
+    "amount": "Tuition Fee + Stipend",
+    "link": "https://research.adobe.com/scholarship/"
+  },
+  {
+    "id": 69,
+    "name": "Google Venkat Panchapakesan Scholarship",
+    "provider": "Google India",
+    "description": "For university students passionate about computer science and leadership.",
+    "income_limit": "No Limit",
+    "amount": "$750 (approx ₹60,000)",
+    "link": "https://buildyourfuture.withgoogle.com/scholarships"
+  },
+  {
+    "id": 70,
+    "name": "Marubeni India Meritorious Scholarship",
+    "provider": "Marubeni India",
+    "description": "For meritorious students pursuing graduation.",
+    "income_limit": "₹4,00,000",
+    "amount": "₹40,000 to ₹50,000",
+    "link": "https://www.buddy4study.com/page/marubeni-india-meritorious-scholarship"
+  },
+  {
+    "id": 71,
+    "name": "ICICI Bank Foundation Scholarship",
+    "provider": "ICICI Foundation",
+    "description": "For youth undertaking skill development training and graduation.",
+    "income_limit": "₹2,50,000",
+    "amount": "Course Fee Support",
+    "link": "https://icicifoundation.org/"
+  },
+  {
+    "id": 72,
+    "name": "Mahindra All India Talent Scholarship (MAITS)",
+    "provider": "Mahindra Foundation",
+    "description": "For students from low-income families pursuing job-oriented diploma courses.",
+    "income_limit": "₹2,50,000",
+    "amount": "₹10,000/year",
+    "link": "https://www.mahindrafoundation.org/"
+  },
+  {
+    "id": 73,
+    "name": "Vidyadhan Andhra Pradesh Scholarship",
+    "provider": "SDF",
+    "description": "For Class 10 pass students of AP from low-income families.",
+    "income_limit": "₹2,00,000",
+    "amount": "₹10,000/year",
+    "link": "https://www.vidyadhan.org/"
+  },
+  {
+    "id": 74,
+    "name": "Vidyadhan Kerala Scholarship",
+    "provider": "SDF",
+    "description": "For Class 10 pass students of Kerala.",
+    "income_limit": "₹2,00,000",
+    "amount": "₹10,000/year",
+    "link": "https://www.vidyadhan.org/"
+  },
+  {
+    "id": 75,
+    "name": "Vidyadhan Karnataka Scholarship",
+    "provider": "SDF",
+    "description": "For Class 10 pass students of Karnataka.",
+    "income_limit": "₹2,00,000",
+    "amount": "₹10,000/year",
+    "link": "https://www.vidyadhan.org/"
+  },
+  {
+    "id": 76,
+    "name": "Nirankari Rajmata Scholarship (Engineering)",
+    "provider": "Sant Nirankari Mandal",
+    "description": "For students pursuing engineering degrees with excellent academic records.",
+    "income_limit": "₹3,50,000",
+    "amount": "Up to ₹50,000",
+    "link": "https://nirankari.org/"
+  },
+  {
+    "id": 77,
+    "name": "AWS AI & ML Scholarship Program",
+    "provider": "Amazon Web Services",
+    "description": "For students interested in learning AI and Machine Learning.",
+    "income_limit": "No Limit",
+    "amount": "Udacity Nanodegree + Mentorship",
+    "link": "https://aws.amazon.com/machine-learning/scholarship/"
+  },
+  {
+    "id": 78,
+    "name": "Narotam Sekhsaria Scholarship",
+    "provider": "Narotam Sekhsaria Foundation",
+    "description": "Interest-free loan scholarship for post-graduation.",
+    "income_limit": "No Limit",
+    "amount": "Up to ₹20 Lakhs (Loan)",
+    "link": "https://pg.nsfoundation.co.in/"
+  },
+  {
+    "id": 79,
+    "name": "Kothari Fellowship",
+    "provider": "UGC",
+    "description": "For postdoctoral research in sciences.",
+    "income_limit": "No Limit",
+    "amount": "₹47,000/month",
+    "link": "https://ugc.ac.in/"
+  },
+  {
+    "id": 80,
+    "name": "Buddy4Study STEM Scholarship",
+    "provider": "Buddy4Study",
+    "description": "For students pursuing Science, Technology, Engineering, or Math.",
+    "income_limit": "₹5,00,000",
+    "amount": "₹20,000",
+    "link": "https://www.buddy4study.com/"
+  },
+  {
+    "id": 81,
+    "name": "L&T Build India Scholarship",
+    "provider": "Larsen & Toubro",
+    "description": "For engineering graduates to pursue M.Tech in Construction Technology.",
+    "income_limit": "No Limit",
+    "amount": "Tuition Fee + ₹13,400/month stipend",
+    "link": "https://www.lntecc.com/"
+  },
+  {
+    "id": 82,
+    "name": "Chevening India Scholarship",
+    "provider": "UK Government",
+    "description": "For Indian students pursuing a one-year master's degree in the UK.",
+    "income_limit": "No Limit",
+    "amount": "Full Tuition + Living Expenses",
+    "link": "https://www.chevening.org/scholarship/india/"
+  },
+  {
+    "id": 83,
+    "name": "Tata Trusts Medical and Healthcare Scholarship",
+    "provider": "Tata Trusts",
+    "description": "For students pursuing UG/PG in medical sciences and healthcare.",
+    "income_limit": "No Limit",
+    "amount": "Variable (Percentage of tuition fee)",
+    "link": "https://www.tatatrusts.org/"
+  },
+  {
+    "id": 84,
+    "name": "Indian Oil Academic Scholarship",
+    "provider": "Indian Oil Corporation",
+    "description": "For students in 10+/ITI, Engineering, MBBS, and MBA streams.",
+    "income_limit": "₹1,00,000",
+    "amount": "₹3,000/month",
+    "link": "https://iocl.com/"
+  },
+  {
+    "id": 85,
+    "name": "Nirmaan Scholarship",
+    "provider": "Nirmaan Organization",
+    "description": "For underprivileged students to pursue graduation.",
+    "income_limit": "₹1,50,000",
+    "amount": "Mentorship + Variable financial aid",
+    "link": "https://nirmaan.org/"
+  },
+  {
+    "id": 86,
+    "name": "Udaan - Jammu & Kashmir",
+    "provider": "Ministry of Home Affairs",
+    "description": "Skill development and employment initiative for graduates from J&K.",
+    "income_limit": "No Limit",
+    "amount": "Training + Stipend",
+    "link": "https://www.nsdcindia.org/"
+  },
+  {
+    "id": 87,
+    "name": "Ujjwal Bhavishya Scholarship",
+    "provider": "V-Guard",
+    "description": "For students pursuing higher secondary and undergraduate courses.",
+    "income_limit": "₹3,00,000",
+    "amount": "₹10,000",
+    "link": "https://www.vguard.in/"
+  },
+  {
+    "id": 88,
+    "name": "PM CARES for Children Scholarship",
+    "provider": "Govt of India",
+    "description": "For children who lost both parents to COVID-19, pursuing school/college education.",
+    "income_limit": "No Limit",
+    "amount": "₹20,000/year",
+    "link": "https://pmcaresforchildren.in/"
+  },
+  {
+    "id": 89,
+    "name": "Siksha Abhiyan Scholarship",
+    "provider": "Modi Foundation",
+    "description": "For students from Class 8 to 12.",
+    "income_limit": "No Limit",
+    "amount": "Variable",
+    "link": "https://www.buddy4study.com/"
+  },
+  {
+    "id": 90,
+    "name": "Sterling and Wilson Solar Scholarship",
+    "provider": "Sterling and Wilson",
+    "description": "For students pursuing full-time B.E/B.Tech degrees.",
+    "income_limit": "₹4,00,000",
+    "amount": "₹10,000",
+    "link": "https://www.vidyasaarathi.co.in/"
+  },
+  {
+    "id": 91,
+    "name": "DXC Progressing Minds Scholarship",
+    "provider": "DXC Technology",
+    "description": "For students pursuing graduation in STEM fields.",
+    "income_limit": "₹4,00,000",
+    "amount": "₹50,000",
+    "link": "https://www.buddy4study.com/"
+  },
+  {
+    "id": 92,
+    "name": "Alstom India Scholarship",
+    "provider": "Alstom",
+    "description": "For students admitted to diploma/engineering courses.",
+    "income_limit": "₹6,00,000",
+    "amount": "Up to ₹24,000/year",
+    "link": "https://www.buddy4study.com/"
+  },
+  {
+    "id": 93,
+    "name": "Cummins Scholarship Program",
+    "provider": "Cummins India",
+    "description": "For disadvantaged students pursuing engineering/diploma degrees.",
+    "income_limit": "₹3,00,000",
+    "amount": "Tuition Fee + Laptop",
+    "link": "https://www.cummins.com/in/"
+  },
+  {
+    "id": 94,
+    "name": "Schaeffler India Hope Engineering Scholarship",
+    "provider": "Schaeffler India",
+    "description": "For students from Gujarat, Maharashtra, and Tamil Nadu pursuing engineering.",
+    "income_limit": "₹5,00,000",
+    "amount": "Up to ₹50,000",
+    "link": "https://www.buddy4study.com/"
+  },
+  {
+    "id": 95,
+    "name": "Saarthi Education Scholarship",
+    "provider": "Saarthi Foundation",
+    "description": "For girl children facing financial hardships.",
+    "income_limit": "₹2,00,000",
+    "amount": "Educational material & funding",
+    "link": "https://www.saarthieducation.org/"
+  },
+  {
+    "id": 96,
+    "name": "Panasonic Ratti Chhatr Scholarship",
+    "provider": "Panasonic India",
+    "description": "For undergraduates pursuing B.E./B.Tech courses from IITs.",
+    "income_limit": "BPL",
+    "amount": "₹42,500/year",
+    "link": "https://panasonic.buddy4study.com/"
+  },
+  {
+    "id": 97,
+    "name": "Santoor Women's Scholarship (Andhra Pradesh & Karnataka)",
+    "provider": "Wipro Cares",
+    "description": "Specific expansion of Santoor scholarship for AP and Karnataka girls.",
+    "income_limit": "Preference to underprivileged",
+    "amount": "₹24,000/year",
+    "link": "https://www.santoorscholarships.com/"
+  },
+  {
+    "id": 98,
+    "name": "Foundation for Excellence (FFE) Medical Scholarship",
+    "provider": "FFE",
+    "description": "For bright students with financial constraints studying MBBS.",
+    "income_limit": "₹3,00,000",
+    "amount": "₹40,000/year",
+    "link": "https://ffe.org/"
+  },
+  {
+    "id": 99,
+    "name": "Mi Scholarship for Diploma Students",
+    "provider": "Xiaomi India",
+    "description": "Specific support for students pursuing diploma courses.",
+    "income_limit": "No Limit",
+    "amount": "Up to ₹5,800",
+    "link": "https://www.buddy4study.com/"
+  },
+  {
+    "id": 100,
+    "name": "National Means-Cum-Merit Scholarship (NMMS)",
+    "provider": "Govt of India",
+    "description": "For brilliant students of economically weaker sections to arrest dropouts at class VIII.",
+    "income_limit": "₹3,50,000",
+    "amount": "₹12,000/year",
+    "link": "https://scholarships.gov.in/"
+  },
+  {
+    "id": 101,
+    "name": "Pre-Matric Scholarship for Minorities",
+    "provider": "Ministry of Minority Affairs",
+    "description": "For minority students studying in classes 1 to 10 to support basic education.",
+    "income_limit": "₹1,00,000",
+    "amount": "Admission & Tuition Fee + Maintenance Allowance",
+    "link": "https://scholarships.gov.in/"
+  },
+  {
+    "id": 102,
+    "name": "Pre-Matric Scholarship for SC Students",
+    "provider": "Ministry of Social Justice & Empowerment",
+    "description": "For SC students studying in classes 9 and 10 to reduce drop-out rates.",
+    "income_limit": "₹2,50,000",
+    "amount": "Academic allowance up to ₹3,500/year",
+    "link": "https://scholarships.gov.in/"
+  },
+  {
+    "id": 103,
+    "name": "Pre-Matric Scholarship for ST Students",
+    "provider": "Ministry of Tribal Affairs",
+    "description": "Financial assistance for ST students in classes 9 and 10.",
+    "income_limit": "₹2,00,000",
+    "amount": "Maintenance Allowance + Book grant",
+    "link": "https://scholarships.gov.in/"
+  },
+  {
+    "id": 104,
+    "name": "Pre-Matric Scholarship for OBC Students",
+    "provider": "Ministry of Social Justice & Empowerment",
+    "description": "For OBC students studying in classes 9 and 10.",
+    "income_limit": "₹2,50,000",
+    "amount": "Up to ₹4,000/year",
+    "link": "https://scholarships.gov.in/"
+  },
+  {
+    "id": 105,
+    "name": "PM YASASVI Pre-Matric Scheme",
+    "provider": "Govt of India",
+    "description": "For OBC, EBC, and DNT students studying in classes 9 and 10 in identified schools.",
+    "income_limit": "₹2,50,000",
+    "amount": "₹4,000/year",
+    "link": "https://yet.nta.ac.in/"
+  },
+  {
+    "id": 106,
+    "name": "PM YASASVI Post-Matric Scheme",
+    "provider": "Govt of India",
+    "description": "For OBC, EBC, and DNT students studying from class 11 up to Post-Graduation.",
+    "income_limit": "₹2,50,000",
+    "amount": "₹5,000 to ₹20,000/year depending on course",
+    "link": "https://scholarships.gov.in/"
+  },
+  {
+    "id": 107,
+    "name": "CBSE Merit Scholarship for Single Girl Child",
+    "provider": "CBSE",
+    "description": "For single girl children who passed Class 10 with 60% and are studying in Classes 11 and 12.",
+    "income_limit": "No Limit (Must be single girl child)",
+    "amount": "₹500/month for 2 years",
+    "link": "https://cbse.gov.in/"
+  },
+  {
+    "id": 108,
+    "name": "Post-Graduate Indira Gandhi Scholarship for Single Girl Child",
+    "provider": "UGC",
+    "description": "To support single girl children pursuing a regular full-time master's degree (PG).",
+    "income_limit": "No Limit",
+    "amount": "₹36,200/year for 2 years",
+    "link": "https://scholarships.gov.in/"
+  },
+  {
+    "id": 109,
+    "name": "PG Merit Scholarship for University Rank Holders",
+    "provider": "UGC",
+    "description": "For 1st and 2nd rank holders at UG level pursuing their Post-Graduation.",
+    "income_limit": "No Limit",
+    "amount": "₹3,100/month",
+    "link": "https://scholarships.gov.in/"
+  },
+  {
+    "id": 110,
+    "name": "PG Scholarship for SC/ST Students for Professional Courses",
+    "provider": "UGC",
+    "description": "For SC/ST students pursuing professional Post-Graduate courses (M.Tech, MBA, etc.).",
+    "income_limit": "No Limit",
+    "amount": "₹7,800/month for ME/MTech, ₹4,500/month for others",
+    "link": "https://scholarships.gov.in/"
+  },
+  {
+    "id": 111,
+    "name": "National Fellowship for SC Students",
+    "provider": "Ministry of Social Justice & Empowerment",
+    "description": "Financial assistance for SC students pursuing M.Phil and Ph.D.",
+    "income_limit": "No Limit",
+    "amount": "₹31,000 to ₹35,000/month",
+    "link": "https://scholarships.gov.in/"
+  },
+  {
+    "id": 112,
+    "name": "National Fellowship for OBC Students",
+    "provider": "Ministry of Social Justice & Empowerment",
+    "description": "Financial assistance for OBC students pursuing higher research (M.Phil/Ph.D).",
+    "income_limit": "₹6,00,000",
+    "amount": "₹31,000 to ₹35,000/month",
+    "link": "https://scholarships.gov.in/"
+  },
+  {
+    "id": 113,
+    "name": "HDFC Bank Parivartan's ECSS Programme (School)",
+    "provider": "HDFC Bank",
+    "description": "For students from Class 1 to 12 going through a financial crisis.",
+    "income_limit": "₹6,00,000",
+    "amount": "₹15,000 to ₹18,000/year",
+    "link": "https://www.buddy4study.com/"
+  },
+  {
+    "id": 114,
+    "name": "HDFC Bank Parivartan's ECSS Programme (Post-Graduation)",
+    "provider": "HDFC Bank",
+    "description": "For PG students (M.A, M.Com, M.Sc, etc.) facing financial difficulties.",
+    "income_limit": "₹6,00,000",
+    "amount": "Up to ₹35,000/year",
+    "link": "https://www.buddy4study.com/"
+  },
+  {
+    "id": 115,
+    "name": "Keep India Smiling Scholarship (Class 11)",
+    "provider": "Colgate-Palmolive",
+    "description": "For students who have passed Class 10 and are enrolled in Class 11.",
+    "income_limit": "₹5,00,000",
+    "amount": "₹20,000/year for 2 years",
+    "link": "https://www.buddy4study.com/"
+  },
+  {
+    "id": 116,
+    "name": "Tata Capital Pankh Scholarship (Classes 6 to 12)",
+    "provider": "Tata Capital",
+    "description": "To support the school education of students from low-income families.",
+    "income_limit": "₹4,00,000",
+    "amount": "Up to ₹12,000/year",
+    "link": "https://www.buddy4study.com/"
+  },
+  {
+    "id": 117,
+    "name": "Tata Trusts Means Grant for College",
+    "provider": "Tata Trusts",
+    "description": "For students studying in Class 11 up to Post-Graduation in Mumbai and suburban areas.",
+    "income_limit": "No Limit (Preference to low income)",
+    "amount": "Variable depending on college fee",
+    "link": "https://www.tatatrusts.org/"
+  },
+  {
+    "id": 118,
+    "name": "SBI Asha Scholarship for School Students",
+    "provider": "SBI Foundation",
+    "description": "For underprivileged students studying in Classes 6 to 12.",
+    "income_limit": "₹3,00,000",
+    "amount": "₹15,000",
+    "link": "https://www.buddy4study.com/"
+  },
+  {
+    "id": 119,
+    "name": "SBI Asha Scholarship for Post-Graduation",
+    "provider": "SBI Foundation",
+    "description": "For students pursuing PG courses across India.",
+    "income_limit": "₹3,00,000",
+    "amount": "Up to ₹50,000",
+    "link": "https://www.buddy4study.com/"
+  },
+  {
+    "id": 120,
+    "name": "Vidyadhan Scholarship (Class 11 & 12)",
+    "provider": "Sarojini Damodaran Foundation",
+    "description": "For students who passed 10th grade and are pursuing 11th and 12th.",
+    "income_limit": "₹2,00,000",
+    "amount": "₹10,000/year",
+    "link": "https://www.vidyadhan.org/"
+  },
+  {
+    "id": 121,
+    "name": "UP Pre-Matric Scholarship (Class 9-10)",
+    "provider": "Govt of Uttar Pradesh",
+    "description": "For SC/ST/OBC/General students of UP studying in 9th and 10th.",
+    "income_limit": "₹2,00,000",
+    "amount": "Variable",
+    "link": "https://scholarship.up.gov.in/"
+  },
+  {
+    "id": 122,
+    "name": "UP Post-Matric Scholarship for Intermediate",
+    "provider": "Govt of Uttar Pradesh",
+    "description": "For UP domicile students studying in 11th and 12th class.",
+    "income_limit": "₹2,00,000",
+    "amount": "Variable Course Fee",
+    "link": "https://scholarship.up.gov.in/"
+  },
+  {
+    "id": 123,
+    "name": "UP Post-Matric (Other than Inter) Scholarship",
+    "provider": "Govt of Uttar Pradesh",
+    "description": "For UP students pursuing UG, PG, and Ph.D. level courses.",
+    "income_limit": "₹2,50,000 (SC/ST), ₹2,00,000 (Others)",
+    "amount": "Full Tuition Fee + Maintenance",
+    "link": "https://scholarship.up.gov.in/"
+  },
+  {
+    "id": 124,
+    "name": "Bihar Pre-Matric Scholarship",
+    "provider": "Govt of Bihar",
+    "description": "For SC/ST/OBC students studying in class 9 and 10 in Bihar.",
+    "income_limit": "₹2,50,000",
+    "amount": "Variable allowance",
+    "link": "https://pmsonline.bih.nic.in/"
+  },
+  {
+    "id": 125,
+    "name": "E-Kalyan Jharkhand Pre-Matric Scholarship",
+    "provider": "Govt of Jharkhand",
+    "description": "For SC/ST/OBC school students of Jharkhand (up to Class 10).",
+    "income_limit": "₹2,50,000",
+    "amount": "Maintenance allowance",
+    "link": "https://ekalyan.cgg.gov.in/"
+  },
+  {
+    "id": 126,
+    "name": "Reliance Foundation Postgraduate Scholarships",
+    "provider": "Reliance Foundation",
+    "description": "For India's brightest 1st-year PG students in Tech, AI, and Sciences.",
+    "income_limit": "No Limit (Merit based)",
+    "amount": "Up to ₹6,00,000 over duration of degree",
+    "link": "https://scholarships.reliancefoundation.org/"
+  },
+  {
+    "id": 127,
+    "name": "JN Tata Endowment Loan Scholarship",
+    "provider": "Tata Trusts",
+    "description": "For Indian students pursuing PG/Ph.D. or Post-doctoral studies abroad.",
+    "income_limit": "No Limit",
+    "amount": "Loan up to ₹10,00,000",
+    "link": "https://www.jntataendowment.org/"
+  },
+  {
+    "id": 128,
+    "name": "KC Mahindra Scholarships for Post-Graduate Studies Abroad",
+    "provider": "KC Mahindra Education Trust",
+    "description": "Interest-free loan scholarship for post-graduate studies abroad.",
+    "income_limit": "No Limit",
+    "amount": "Up to ₹8,00,000 (Loan)",
+    "link": "https://www.kcmet.org/"
+  },
+  {
+    "id": 129,
+    "name": "Legrand Scholarship (Class 12 Pass)",
+    "provider": "Legrand",
+    "description": "For meritorious girl students, differently-abled students, and transgender students.",
+    "income_limit": "₹5,00,000",
+    "amount": "60% of tuition fees or ₹60,000/year",
+    "link": "https://www.buddy4study.com/"
+  },
+  {
+    "id": 130,
+    "name": "Rolls-Royce Unnati Scholarship (Class 11 & 12)",
+    "provider": "Rolls-Royce",
+    "description": "For girl students studying in Classes 11 and 12 in Science stream.",
+    "income_limit": "₹4,00,000",
+    "amount": "₹10,000",
+    "link": "https://www.buddy4study.com/"
+  },
+  {
+    "id": 131,
+    "name": "Dr. Ambedkar Medhavi Chhatar Yojna",
+    "provider": "Govt of Haryana",
+    "description": "For SC and BC students of Haryana from Class 11 up to Post-Graduation.",
+    "income_limit": "₹4,00,000",
+    "amount": "₹8,000 to ₹12,000/year",
+    "link": "https://haryana.gov.in/"
+  },
+  {
+    "id": 132,
+    "name": "Raman Kant Munjal Scholarship (Post-Graduation)",
+    "provider": "Hero Group",
+    "description": "For students pursuing PG degrees in management and finance.",
+    "income_limit": "₹4,00,000",
+    "amount": "Up to ₹5,00,000",
+    "link": "https://www.rkmfoundation.org/"
+  },
+  {
+    "id": 133,
+    "name": "Kotak Kanya Scholarship (Class 11 & 12)",
+    "provider": "Kotak Mahindra Group",
+    "description": "For girls from low-income families pursuing their higher secondary education.",
+    "income_limit": "₹3,20,000",
+    "amount": "Up to ₹1,50,000/year",
+    "link": "https://www.buddy4study.com/"
+  },
+  {
+    "id": 134,
+    "name": "Sujnana Nidhi Scholarship",
+    "provider": "SKDRDP",
+    "description": "For children of SKDRDP SHG members pursuing UG or PG courses.",
+    "income_limit": "Must be SHG Member",
+    "amount": "₹2,000 to ₹8,000/year",
+    "link": "https://skdrdpindia.org/"
+  },
+  {
+    "id": 135,
+    "name": "Sitaram Jindal Foundation Scholarship (School to PG)",
+    "provider": "Sitaram Jindal Foundation",
+    "description": "Merit-cum-means scholarship starting from Class 11 up to Post-Graduation.",
+    "income_limit": "₹2,50,000",
+    "amount": "₹500 to ₹2,500/month",
+    "link": "https://www.sitaramjindalfoundation.org/"
+  },
+  {
+    "id": 136,
+    "name": "Savitribai Phule Scholarship for VJNT/SBC/OBC Girls",
+    "provider": "Govt of Maharashtra",
+    "description": "For girl students of Class 5 to 10 belonging to backward classes.",
+    "income_limit": "No Limit",
+    "amount": "₹600 to ₹1,000/year",
+    "link": "https://mahadbt.maharashtra.gov.in/"
+  },
+  {
+    "id": 137,
+    "name": "Rajarshi Shahu Maharaj Merit Scholarship",
+    "provider": "Govt of Maharashtra",
+    "description": "For SC students who secured 75%+ in 10th and are studying in 11th/12th.",
+    "income_limit": "No Limit",
+    "amount": "₹3,00,00/month for 10 months",
+    "link": "https://mahadbt.maharashtra.gov.in/"
+  },
+  {
+    "id": 138,
+    "name": "Dr. APJ Abdul Kalam Ignite Awards",
+    "provider": "National Innovation Foundation",
+    "description": "For school students up to class 12 who have original, creative technological ideas.",
+    "income_limit": "No Limit",
+    "amount": "Mentorship & Financial aid for prototyping",
+    "link": "https://nif.org.in/ignite"
+  },
+  {
+    "id": 139,
+    "name": "CSIR Innovation Award for School Children",
+    "provider": "CSIR",
+    "description": "To support innovative concepts from school students up to 18 years of age.",
+    "income_limit": "No Limit",
+    "amount": "Up to ₹1,00,000",
+    "link": "https://www.csir.res.in/"
+  },
+  {
+    "id": 140,
+    "name": "Buddy4Study Class 9 to 12 Scholarship",
+    "provider": "Buddy4Study",
+    "description": "General scholarship pool for school students to prevent dropouts.",
+    "income_limit": "₹3,00,000",
+    "amount": "Up to ₹10,000",
+    "link": "https://www.buddy4study.com/"
+  },
+  {
+    "id": 141,
+    "name": "Glow & Lovely Careers Scholarship (Post-Graduation)",
+    "provider": "Hindustan Unilever",
+    "description": "For girl students pursuing Post-Graduation who have secured 60%+ in graduation.",
+    "income_limit": "₹6,00,000",
+    "amount": "₹25,000 to ₹50,000/year",
+    "link": "https://www.glowandlovelycareers.in/"
+  },
+  {
+    "id": 142,
+    "name": "LIC Golden Jubilee Scholarship (Class 11 & 12)",
+    "provider": "LIC India",
+    "description": "For economically weaker students pursuing Class 11/12 or equivalent.",
+    "income_limit": "₹2,50,000",
+    "amount": "₹10,000/year",
+    "link": "https://licindia.in/"
+  },
+  {
+    "id": 143,
+    "name": "LIC Golden Jubilee Scholarship (Post-Graduation)",
+    "provider": "LIC India",
+    "description": "Special provision for students continuing into PG courses.",
+    "income_limit": "₹2,50,000",
+    "amount": "₹20,000/year",
+    "link": "https://licindia.in/"
+  },
+  {
+    "id": 144,
+    "name": "Wipro Earthian Awards",
+    "provider": "Wipro",
+    "description": "For school and college teams working on sustainability and environment projects.",
+    "income_limit": "No Limit",
+    "amount": "Mentorship and Cash Prize",
+    "link": "https://wiproearthian.com/"
+  },
+  {
+    "id": 145,
+    "name": "Infosys Foundation Aarohan Social Innovation Awards",
     "provider": "Infosys Foundation",
-    "benefit": "Up to ₹1,00,000/year for tuition, living & books",
-    "min_percentage": 70.0,
-    "max_income_lpa": 8.0,
-    "category": "ALL",
-    "gender": "Female",
-    "course": "B.Tech",
-    "deadline": "2026-10-31",
-    "required_docs": ["Class 12 Result", "JEE / State CET Scorecard", "Fee Structure", "Income Proof"],
-    "apply_url": "https://www.infosys.com/infosys-foundation"
+    "description": "Open to adults, UG/PG students, and school students developing social innovations.",
+    "income_limit": "No Limit",
+    "amount": "Up to ₹30 Lakhs",
+    "link": "https://www.infosys.com/infosys-foundation/"
   },
   {
-    "id": "pmss_wards_14",
-    "name": "Prime Minister Scholarship Scheme (PMSS - CAPF/AR)",
-    "provider": "Welfare & Rehabilitation Board (MHA)",
-    "benefit": "₹36,000/year (Boys) and ₹43,200/year (Girls)",
-    "min_percentage": 60.0,
-    "max_income_lpa": 20.0,
-    "category": "ALL",
-    "gender": "ALL",
-    "course": "B.Tech",
-    "deadline": "2026-11-30",
-    "required_docs": ["Ex-Servicemen Discharge / Service Certificate", "12th Marksheet", "Bonafide Certificate"],
-    "apply_url": "https://ksb.gov.in"
+    "id": 146,
+    "name": "Santoor Women's Scholarship (Class 12 Pass to Degree)",
+    "provider": "Wipro Cares",
+    "description": "For young girls who have passed Class 12 and wish to pursue a 3-year Degree.",
+    "income_limit": "Preference to underprivileged",
+    "amount": "₹24,000/year",
+    "link": "https://www.santoorscholarships.com/"
   },
   {
-    "id": "aditya_birla_15",
-    "name": "Aditya Birla Capital Need-Based Scholarship",
-    "provider": "Aditya Birla Capital Foundation",
-    "benefit": "₹30,000 to ₹60,000 one-time financial grant",
-    "min_percentage": 60.0,
-    "max_income_lpa": 6.0,
-    "category": "ALL",
-    "gender": "ALL",
-    "course": "ALL",
-    "deadline": "2026-11-15",
-    "required_docs": ["Class 12 Marksheet", "Income Proof / BPL Card", "College Identity Card"],
-    "apply_url": "https://www.adityabirlacapital.com"
+    "id": 147,
+    "name": "IET India Scholarship Award",
+    "provider": "Institution of Engineering and Technology",
+    "description": "For 1st, 2nd, 3rd, and 4th-year UG engineering students.",
+    "income_limit": "No Limit",
+    "amount": "Up to ₹3,00,000",
+    "link": "https://scholarships.theietevents.com/"
+  },
+  {
+    "id": 148,
+    "name": "Swami Vivekananda Merit Cum Means (School & PG)",
+    "provider": "Govt of West Bengal",
+    "description": "For students of West Bengal studying in Class 11 up to PG level.",
+    "income_limit": "₹2,50,000",
+    "amount": "₹12,000 to ₹30,000/year depending on level",
+    "link": "https://svmcm.wbhed.gov.in/"
+  },
+  {
+    "id": 149,
+    "name": "Mukhya Mantri Medhavi Vidyarthi Yojana (PG Level)",
+    "provider": "Govt of Madhya Pradesh",
+    "description": "For MP students continuing from UG to PG courses in select institutions.",
+    "income_limit": "₹6,00,000",
+    "amount": "100% Course Fee",
+    "link": "http://scholarshipportal.mp.nic.in/"
+  },
+  {
+    "id": 150,
+    "name": "INAE Youth Conclave Scholarship",
+    "provider": "Indian National Academy of Engineering",
+    "description": "For engineering UG and PG students participating in technical competitions.",
+    "income_limit": "No Limit",
+    "amount": "Prizes & Grants",
+    "link": "https://www.inae.in/"
+  },
+  {
+    "id": 151,
+    "name": "Tata Steel Millennium Scholarship",
+    "provider": "Tata Steel",
+    "description": "For wards of Tata Steel employees and general meritorious students pursuing UG/PG degrees.",
+    "income_limit": "No Limit",
+    "amount": "Variable depending on course",
+    "link": "https://www.tatasteel.com/"
+  },
+  {
+    "id": 152,
+    "name": "Ujjivan Small Finance Bank Scholarship",
+    "provider": "Ujjivan Small Finance Bank",
+    "description": "For school (Class 9-12) and college students from low-income backgrounds.",
+    "income_limit": "₹3,00,000",
+    "amount": "₹15,000 to ₹30,000",
+    "link": "https://www.vidyasaarathi.co.in/"
+  },
+  {
+    "id": 153,
+    "name": "JM Financial Foundation Scholarship",
+    "provider": "JM Financial",
+    "description": "For students pursuing higher education in specific target states.",
+    "income_limit": "₹4,00,000",
+    "amount": "Up to ₹50,000",
+    "link": "https://www.vidyasaarathi.co.in/"
+  },
+  {
+    "id": 154,
+    "name": "Shriram Transport Finance Scholarship",
+    "provider": "Shriram Transport",
+    "description": "For children of commercial vehicle drivers to pursue ITI/Diploma/UG.",
+    "income_limit": "₹4,00,000",
+    "amount": "₹15,000 to ₹35,000/year",
+    "link": "https://www.vidyasaarathi.co.in/"
+  },
+  {
+    "id": 155,
+    "name": "IndusInd Bank Girl Child Scholarship",
+    "provider": "IndusInd Bank",
+    "description": "For meritorious girl students studying in Class 9 to 12.",
+    "income_limit": "₹3,00,000",
+    "amount": "₹10,000 to ₹15,000/year",
+    "link": "https://www.indusind.com/"
+  },
+  {
+    "id": 156,
+    "name": "Kotak Shiksha Nidhi",
+    "provider": "Kotak Education Foundation",
+    "description": "For students who lost a primary earning family member, valid from Class 1 to Diploma/UG.",
+    "income_limit": "No Limit (Crisis dependent)",
+    "amount": "Covers tuition and school/college fees",
+    "link": "https://kotakeducation.org/"
+  },
+  {
+    "id": 157,
+    "name": "Siemens Scholarship Program",
+    "provider": "Siemens India",
+    "description": "For first-year engineering students from Govt colleges.",
+    "income_limit": "₹2,00,000",
+    "amount": "Full Tuition Fee + ₹25,000/year stipend for books",
+    "link": "https://new.siemens.com/in/en/company/sustainability/scholarship.html"
+  },
+  {
+    "id": 158,
+    "name": "ACC Vidyasaarathi Scholarship",
+    "provider": "ACC Trust",
+    "description": "For undergraduate and diploma students living near ACC plant locations.",
+    "income_limit": "₹5,00,000",
+    "amount": "Up to ₹30,000",
+    "link": "https://www.vidyasaarathi.co.in/"
+  },
+  {
+    "id": 159,
+    "name": "NTPC Utkarsh Scholarship",
+    "provider": "NTPC Limited",
+    "description": "For students pursuing B.Tech/MBBS from institutes located near NTPC projects.",
+    "income_limit": "₹3,00,000",
+    "amount": "Variable",
+    "link": "https://www.ntpc.co.in/"
+  },
+  {
+    "id": 160,
+    "name": "SOF Girl Child Scholarship Scheme (GCSS)",
+    "provider": "Science Olympiad Foundation",
+    "description": "For girl children studying in Class 1 to 10 with a strong academic record.",
+    "income_limit": "₹1,80,000",
+    "amount": "₹5,000/year",
+    "link": "https://sofworld.org/gcss"
+  },
+  {
+    "id": 161,
+    "name": "SOF Defence Services Academician Scholarship",
+    "provider": "Science Olympiad Foundation",
+    "description": "For school students from defence service families.",
+    "income_limit": "No Limit",
+    "amount": "₹5,000/year + Certificate",
+    "link": "https://sofworld.org/"
+  },
+  {
+    "id": 162,
+    "name": "Clinic Plus Scholarship",
+    "provider": "Hindustan Unilever",
+    "description": "For girl students studying in Class 5 to 12.",
+    "income_limit": "No Limit",
+    "amount": "Variable",
+    "link": "https://www.buddy4study.com/"
+  },
+  {
+    "id": 163,
+    "name": "Tamil Nadu Post-Matric Scholarship",
+    "provider": "Govt of Tamil Nadu",
+    "description": "For SC/ST/SCA students of Tamil Nadu pursuing Class 11 up to Ph.D.",
+    "income_limit": "₹2,50,000",
+    "amount": "Maintenance + Full Tuition Fee",
+    "link": "https://tnadtwscholarship.tn.gov.in/"
+  },
+  {
+    "id": 164,
+    "name": "Tamil Nadu BC/MBC/DNC Scholarship",
+    "provider": "Govt of Tamil Nadu",
+    "description": "For Backward Classes and Most Backward Classes in TN pursuing UG/PG.",
+    "income_limit": "₹2,00,000",
+    "amount": "Tuition Fee Reimbursement",
+    "link": "https://bcmbcmw.tn.gov.in/"
+  },
+  {
+    "id": 165,
+    "name": "Karnataka ePASS Vidyasiri Scholarship",
+    "provider": "Govt of Karnataka",
+    "description": "Post-matric scholarship for OBC/EBC students in Karnataka.",
+    "income_limit": "₹2,50,000",
+    "amount": "Hostel/Mess Charges",
+    "link": "https://karepass.cgg.gov.in/"
+  },
+  {
+    "id": 166,
+    "name": "Jagananna Amma Vodi",
+    "provider": "Govt of Andhra Pradesh",
+    "description": "Financial assistance to mothers for sending their children to school (Class 1-12).",
+    "income_limit": "BPL",
+    "amount": "₹15,000/year",
+    "link": "https://navasakam.ap.gov.in/"
+  },
+  {
+    "id": 167,
+    "name": "Jagananna Vasathi Deevena",
+    "provider": "Govt of Andhra Pradesh",
+    "description": "Hostel and mess charges for ITI, Polytechnic, and Degree students in AP.",
+    "income_limit": "₹2,50,000",
+    "amount": "₹10,000 to ₹20,000/year",
+    "link": "https://navasakam.ap.gov.in/"
+  },
+  {
+    "id": 168,
+    "name": "Telangana Chief Minister's Overseas Scholarship",
+    "provider": "Govt of Telangana",
+    "description": "For minority and backward class students pursuing PG/Ph.D. abroad.",
+    "income_limit": "₹5,00,000",
+    "amount": "Up to ₹20 Lakhs",
+    "link": "https://telanganaepass.cgg.gov.in/"
+  },
+  {
+    "id": 169,
+    "name": "Ambedkar Overseas Vidya Nidhi",
+    "provider": "Govt of Andhra Pradesh",
+    "description": "Financial assistance for SC/ST students for higher studies abroad.",
+    "income_limit": "₹6,00,000",
+    "amount": "Up to ₹15 Lakhs",
+    "link": "https://epass.apcfss.in/"
+  },
+  {
+    "id": 170,
+    "name": "Gujarat CMSS (Chief Minister Scholarship Scheme)",
+    "provider": "Govt of Gujarat",
+    "description": "For meritorious students of Gujarat pursuing UG/PG courses.",
+    "income_limit": "₹4,50,000",
+    "amount": "50% Tuition Fee",
+    "link": "https://scholarships.gujarat.gov.in/"
+  },
+  {
+    "id": 171,
+    "name": "Rajasthan CM Higher Education Scholarship",
+    "provider": "Govt of Rajasthan",
+    "description": "For top 1 Lakh meritorious students passing 12th from RBSE.",
+    "income_limit": "₹2,50,000",
+    "amount": "₹5,000/year",
+    "link": "https://hte.rajasthan.gov.in/scholarship.php"
+  },
+  {
+    "id": 172,
+    "name": "Rajasthan Devnarayan Girl Student Scholarship",
+    "provider": "Govt of Rajasthan",
+    "description": "For girls of backward classes pursuing higher education.",
+    "income_limit": "₹2,50,000",
+    "amount": "Up to ₹20,000/year",
+    "link": "https://hte.rajasthan.gov.in/"
+  },
+  {
+    "id": 173,
+    "name": "Kali Bai Bheel Medhavi Chhatra Scooty Yojana",
+    "provider": "Govt of Rajasthan",
+    "description": "Free scooty for meritorious girl students passing class 12th.",
+    "income_limit": "₹2,50,000",
+    "amount": "Free Scooty + Registration",
+    "link": "https://hte.rajasthan.gov.in/"
+  },
+  {
+    "id": 174,
+    "name": "UP Chief Minister Abhyudaya Yojana",
+    "provider": "Govt of Uttar Pradesh",
+    "description": "Free coaching and financial aid for competitive exams (JEE/NEET/UPSC).",
+    "income_limit": "No Limit",
+    "amount": "Free Coaching + Tablet/Stipend",
+    "link": "http://abhyuday.up.gov.in/"
+  },
+  {
+    "id": 175,
+    "name": "Gaon Ki Beti Yojana",
+    "provider": "Govt of Madhya Pradesh",
+    "description": "Financial assistance for meritorious girls from rural areas passing class 12.",
+    "income_limit": "No Limit (Must be rural)",
+    "amount": "₹500/month for 10 months",
+    "link": "http://scholarshipportal.mp.nic.in/"
+  },
+  {
+    "id": 176,
+    "name": "Pratibha Kiran Yojana",
+    "provider": "Govt of Madhya Pradesh",
+    "description": "For girls from urban BPL families securing 60%+ in 12th board.",
+    "income_limit": "BPL",
+    "amount": "₹500/month for 10 months",
+    "link": "http://scholarshipportal.mp.nic.in/"
+  },
+  {
+    "id": 177,
+    "name": "Vikramaditya Scholarship Yojana",
+    "provider": "Govt of Madhya Pradesh",
+    "description": "For general category students from low-income families pursuing UG.",
+    "income_limit": "₹1,20,000",
+    "amount": "Free Education (Up to ₹2,500/year)",
+    "link": "http://scholarshipportal.mp.nic.in/"
+  },
+  {
+    "id": 178,
+    "name": "Haryana State Meritorious Scholarship",
+    "provider": "Govt of Haryana",
+    "description": "For brilliant students pursuing UG and PG classes.",
+    "income_limit": "No Limit",
+    "amount": "₹3,000/year",
+    "link": "https://harchhatravratti.highereduhry.ac.in/"
+  },
+  {
+    "id": 179,
+    "name": "Punjab Chief Minister Scholarship Scheme",
+    "provider": "Govt of Punjab",
+    "description": "Concession in tuition fee for meritorious students in Govt Polytechnics/Engineering colleges.",
+    "income_limit": "No Limit",
+    "amount": "70% to 100% Tuition Fee Waiver",
+    "link": "https://punjab.gov.in/"
+  },
+  {
+    "id": 180,
+    "name": "Kalpana Chawla Chatravriti Yojana",
+    "provider": "Govt of Himachal Pradesh",
+    "description": "For the top 2000 meritorious girl students passing 12th from HP Board.",
+    "income_limit": "No Limit",
+    "amount": "₹15,000/year",
+    "link": "https://hpepass.cgg.gov.in/"
+  },
+  {
+    "id": 181,
+    "name": "Swami Vivekananda Utkrisht Chatravriti Yojana",
+    "provider": "Govt of Himachal Pradesh",
+    "description": "For the top 2000 meritorious students of General Category passing 10th and 12th.",
+    "income_limit": "No Limit",
+    "amount": "₹10,000/year",
+    "link": "https://hpepass.cgg.gov.in/"
+  },
+  {
+    "id": 182,
+    "name": "Uttarakhand State Merit Scholarship",
+    "provider": "Govt of Uttarakhand",
+    "description": "For meritorious students of Uttarakhand from Class 11 to PG.",
+    "income_limit": "No Limit",
+    "amount": "Variable",
+    "link": "https://uk.gov.in/"
+  },
+  {
+    "id": 183,
+    "name": "Assam Chief Minister's Special Scholarship",
+    "provider": "Govt of Assam",
+    "description": "For school students passing classes 5 and 8 with top ranks.",
+    "income_limit": "No Limit",
+    "amount": "Variable Financial Aid",
+    "link": "https://assam.gov.in/"
+  },
+  {
+    "id": 184,
+    "name": "Meghalaya Umbrella Scheme for Education of ST Children",
+    "provider": "Govt of Meghalaya",
+    "description": "Post-matric scholarship for ST students of Meghalaya.",
+    "income_limit": "₹2,50,000",
+    "amount": "Maintenance + Fee",
+    "link": "https://megeducation.gov.in/"
+  },
+  {
+    "id": 185,
+    "name": "Tripura Post Matric Scholarship for SC/ST",
+    "provider": "Govt of Tripura",
+    "description": "Financial assistance for SC/ST students at post-matriculation stage.",
+    "income_limit": "₹2,50,000",
+    "amount": "Maintenance + Fee",
+    "link": "https://tripura.gov.in/"
+  },
+  {
+    "id": 186,
+    "name": "C H Muhammed Koya Scholarship",
+    "provider": "Govt of Kerala",
+    "description": "For girl students belonging to Muslim/Latin Catholic/Converted Christian communities.",
+    "income_limit": "₹8,00,000",
+    "amount": "₹5,000 to ₹7,000/year",
+    "link": "https://dcescholarship.kerala.gov.in/"
+  },
+  {
+    "id": 187,
+    "name": "Kerala Snehapoorvam Scheme",
+    "provider": "Govt of Kerala",
+    "description": "Financial support for orphans living with relatives (Class 1 to Degree).",
+    "income_limit": "BPL",
+    "amount": "₹300 to ₹1,000/month",
+    "link": "http://socialsecuritymission.gov.in/"
+  },
+  {
+    "id": 188,
+    "name": "Kerala Vidyakiranam Scheme",
+    "provider": "Govt of Kerala",
+    "description": "Educational assistance to children of differently-abled parents.",
+    "income_limit": "BPL",
+    "amount": "₹300 to ₹1,000/month",
+    "link": "http://socialsecuritymission.gov.in/"
+  },
+  {
+    "id": 189,
+    "name": "Goa Dayanand Bandodkar Scheme for Higher Education",
+    "provider": "Govt of Goa",
+    "description": "Financial assistance for orphans and BPL children pursuing higher education.",
+    "income_limit": "BPL",
+    "amount": "Full Tuition Fee",
+    "link": "https://www.goa.gov.in/"
+  },
+  {
+    "id": 190,
+    "name": "Delhi State Post Matric Scholarship",
+    "provider": "Govt of NCT of Delhi",
+    "description": "For SC/ST/OBC students of Delhi studying from Class 11 to Ph.D.",
+    "income_limit": "₹2,50,000",
+    "amount": "Maintenance + Fee",
+    "link": "https://edistrict.delhigovt.nic.in/"
+  },
+  {
+    "id": 191,
+    "name": "Delhi Merit Scholarship for College Students",
+    "provider": "Govt of NCT of Delhi",
+    "description": "For SC/ST/OBC/Minority students securing 60%+ in college.",
+    "income_limit": "₹2,00,000",
+    "amount": "₹12,000 to ₹18,000/year",
+    "link": "https://edistrict.delhigovt.nic.in/"
+  },
+  {
+    "id": 192,
+    "name": "Savitribai Jyotirao Phule Fellowship",
+    "provider": "UGC",
+    "description": "For single girl children pursuing research work leading to Ph.D.",
+    "income_limit": "No Limit",
+    "amount": "₹31,000/month",
+    "link": "https://ugc.ac.in/"
+  },
+  {
+    "id": 193,
+    "name": "Prime Minister's Research Fellowship (PMRF)",
+    "provider": "Govt of India",
+    "description": "For top students pursuing Ph.D. in IITs, IISERs, and top Central Universities.",
+    "income_limit": "No Limit",
+    "amount": "₹70,000 to ₹85,000/month",
+    "link": "https://www.pmrf.in/"
+  },
+  {
+    "id": 194,
+    "name": "UGC NET Junior Research Fellowship (JRF)",
+    "provider": "UGC",
+    "description": "For candidates qualifying the National Eligibility Test for pursuing M.Phil/Ph.D.",
+    "income_limit": "No Limit",
+    "amount": "₹31,000/month",
+    "link": "https://ugcnet.nta.nic.in/"
+  },
+  {
+    "id": 195,
+    "name": "CSIR-UGC JRF",
+    "provider": "CSIR",
+    "description": "For candidates qualifying CSIR NET for pursuing research in Science subjects.",
+    "income_limit": "No Limit",
+    "amount": "₹31,000/month",
+    "link": "https://csirnet.nta.nic.in/"
+  },
+  {
+    "id": 196,
+    "name": "SERB-SURE Scheme",
+    "provider": "Science and Engineering Research Board",
+    "description": "Research grant for state and private university faculty/researchers.",
+    "income_limit": "No Limit",
+    "amount": "Research Grant up to ₹30 Lakhs",
+    "link": "https://serbonline.in/"
+  },
+  {
+    "id": 197,
+    "name": "Avasar Scholarship",
+    "provider": "Department of Science and Technology",
+    "description": "For Ph.D. and Post-Doctoral scholars to write popular science articles.",
+    "income_limit": "No Limit",
+    "amount": "Cash Prizes up to ₹1,00,000",
+    "link": "https://www.awsar-dst.in/"
+  },
+  {
+    "id": 198,
+    "name": "EWS Certificate Based Concession",
+    "provider": "AICTE/UGC",
+    "description": "10% reservation and fee concession in educational institutes for Economically Weaker Sections.",
+    "income_limit": "₹8,00,000",
+    "amount": "Fee Concession + Seat Reservation",
+    "link": "https://www.education.gov.in/"
+  },
+  {
+    "id": 199,
+    "name": "TCS ION Scholarship",
+    "provider": "Tata Consultancy Services",
+    "description": "Free courses and skill development certifications for college students.",
+    "income_limit": "No Limit",
+    "amount": "Free Certification Courses",
+    "link": "https://learning.tcsionhub.in/"
+  },
+  {
+    "id": 200,
+    "name": "Infosys Springboard Program",
+    "provider": "Infosys",
+    "description": "Digital literacy and tech skilling for school students up to lifelong learners.",
+    "income_limit": "No Limit",
+    "amount": "Free Skilling + Certifications",
+    "link": "https://infyspringboard.onwingspan.com/"
+  },
+  {
+    "id": 201,
+    "name": "Coal India Limited (CIL) Merit Scholarship",
+    "provider": "Coal India Limited",
+    "description": "For meritorious wards of coal mine workers and local students in mining areas pursuing degree courses.",
+    "income_limit": "No Limit",
+    "amount": "Full Tuition Fee + Living Expenses",
+    "link": "https://www.coalindia.in/"
+  },
+  {
+    "id": 202,
+    "name": "GAIL Utkarsh Scholarship",
+    "provider": "GAIL (India) Limited",
+    "description": "Free coaching and financial assistance for engineering entrance exams for rural students.",
+    "income_limit": "₹2,50,000",
+    "amount": "Free Coaching + Accommodation",
+    "link": "https://gailonline.com/"
+  },
+  {
+    "id": 203,
+    "name": "Power Grid Corporation Scholarship",
+    "provider": "POWERGRID",
+    "description": "For technical students (ITI/Diploma/B.Tech) in electrical and civil streams.",
+    "income_limit": "₹3,00,000",
+    "amount": "Up to ₹30,000/year",
+    "link": "https://www.powergrid.in/"
+  },
+  {
+    "id": 204,
+    "name": "BEL Educational Scholarship",
+    "provider": "Bharat Electronics Limited",
+    "description": "For students from underprivileged backgrounds studying electronics and mechanical courses.",
+    "income_limit": "₹2,50,000",
+    "amount": "Variable Course Aid",
+    "link": "https://bel-india.in/"
+  },
+  {
+    "id": 205,
+    "name": "HAL Education Grant",
+    "provider": "Hindustan Aeronautics Limited",
+    "description": "Financial grant for technical diploma and undergraduate aviation/mechanical students.",
+    "income_limit": "₹3,00,000",
+    "amount": "₹20,000/year",
+    "link": "https://hal-india.co.in/"
+  },
+  {
+    "id": 206,
+    "name": "National Overseas Scholarship for SC Candidates",
+    "provider": "Ministry of Social Justice & Empowerment",
+    "description": "For SC, landless agricultural laborers, and traditional artisans pursuing Master/Ph.D. abroad.",
+    "income_limit": "₹8,00,000",
+    "amount": "Full Tuition + Living Allowance abroad",
+    "link": "https://nosmsje.gov.in/"
+  },
+  {
+    "id": 207,
+    "name": "National Overseas Scholarship for ST Candidates",
+    "provider": "Ministry of Tribal Affairs",
+    "description": "For ST students pursuing Post-Graduate and Ph.D. level studies in foreign universities.",
+    "income_limit": "₹6,00,000",
+    "amount": "Full Tuition + Visa Fees + Maintenance",
+    "link": "https://overseas.tribal.gov.in/"
+  },
+  {
+    "id": 208,
+    "name": "AICTE PG Scholarship for GATE/GPAT",
+    "provider": "AICTE",
+    "description": "For GATE/GPAT qualified students admitted to M.E./M.Tech/M.Pharm/M.Arch courses.",
+    "income_limit": "No Limit (Merit/Exam based)",
+    "amount": "₹12,400/month",
+    "link": "https://www.aicte-india.org/"
+  },
+  {
+    "id": 209,
+    "name": "DBT Junior Research Fellowship (BET)",
+    "provider": "Department of Biotechnology",
+    "description": "For students pursuing research/Ph.D. in Biotechnology and applied life sciences.",
+    "income_limit": "No Limit",
+    "amount": "₹31,000/month + HRA",
+    "link": "https://dbtindia.gov.in/"
+  },
+  {
+    "id": 210,
+    "name": "ICMR Junior Research Fellowship",
+    "provider": "Indian Council of Medical Research",
+    "description": "For PG students in biomedical and life sciences pursuing doctoral degrees.",
+    "income_limit": "No Limit",
+    "amount": "₹31,000/month + Contingency",
+    "link": "https://main.icmr.nic.in/"
+  },
+  {
+    "id": 211,
+    "name": "ICHR Junior Research Fellowship",
+    "provider": "Indian Council of Historical Research",
+    "description": "Fellowship for Ph.D. scholars in historical studies and archaeology.",
+    "income_limit": "No Limit",
+    "amount": "₹17,600/month",
+    "link": "http://ichr.ac.in/"
+  },
+  {
+    "id": 212,
+    "name": "ICSSR Doctoral Fellowship",
+    "provider": "Indian Council of Social Science Research",
+    "description": "For Ph.D. scholars pursuing doctoral research in social science disciplines.",
+    "income_limit": "No Limit",
+    "amount": "₹20,000/month",
+    "link": "https://icssr.org/"
+  },
+  {
+    "id": 213,
+    "name": "Maulana Azad National Fellowship (Transitioned)",
+    "provider": "Ministry of Minority Affairs",
+    "description": "Fellowship support for minority candidates pursuing M.Phil/Ph.D. programs.",
+    "income_limit": "₹6,00,000",
+    "amount": "₹31,000/month",
+    "link": "https://scholarships.gov.in/"
+  },
+  {
+    "id": 214,
+    "name": "NFOBC National Fellowship for Other Backward Classes",
+    "provider": "Ministry of Social Justice & Empowerment",
+    "description": "For OBC candidates qualifying UGC-NET for M.Phil and Ph.D. degrees.",
+    "income_limit": "₹6,00,000",
+    "amount": "₹31,000/month",
+    "link": "https://ugcnet.nta.nic.in/"
+  },
+  {
+    "id": 215,
+    "name": "NFSC National Fellowship for Scheduled Castes",
+    "provider": "Ministry of Social Justice & Empowerment",
+    "description": "For SC students pursuing regular full-time Ph.D. programs in Sciences and Humanities.",
+    "income_limit": "No Limit",
+    "amount": "₹31,000/month",
+    "link": "https://scholarships.gov.in/"
+  },
+  {
+    "id": 216,
+    "name": "Dalmia Bharat Foundation Scholarship",
+    "provider": "Dalmia Bharat",
+    "description": "For school students (Class 9 to 12) and diploma holders from rural project areas.",
+    "income_limit": "₹3,00,000",
+    "amount": "₹10,000 to ₹25,000",
+    "link": "https://www.vidyasaarathi.co.in/"
+  },
+  {
+    "id": 217,
+    "name": "UltraTech Cement Scholarship",
+    "provider": "UltraTech",
+    "description": "For ITI and Diploma students in mechanical, electrical, and mining streams.",
+    "income_limit": "₹4,00,000",
+    "amount": "Up to ₹25,000",
+    "link": "https://www.vidyasaarathi.co.in/"
+  },
+  {
+    "id": 218,
+    "name": "Glenmark Foundation Scholarship",
+    "provider": "Glenmark Pharmaceuticals",
+    "description": "For female students enrolled in B.Pharm, D.Pharm, and allied healthcare courses.",
+    "income_limit": "₹4,00,000",
+    "amount": "₹30,000/year",
+    "link": "https://www.buddy4study.com/"
+  },
+  {
+    "id": 219,
+    "name": "Cipla Foundation MedTech Assistance",
+    "provider": "Cipla Foundation",
+    "description": "For economically backward students pursuing undergraduate degrees in pharmaceutical sciences.",
+    "income_limit": "₹3,00,000",
+    "amount": "Tuition Fee Grant",
+    "link": "https://www.cipla.com/"
+  },
+  {
+    "id": 220,
+    "name": "Lupin Scholarship Scheme",
+    "provider": "Lupin Human Welfare Research Foundation",
+    "description": "For rural youth pursuing vocational skills and higher secondary education.",
+    "income_limit": "₹2,00,000",
+    "amount": "₹12,000 to ₹20,000",
+    "link": "https://www.lupinfoundation.in/"
+  },
+  {
+    "id": 221,
+    "name": "Arvind Foundation Education Aid",
+    "provider": "Arvind Mills",
+    "description": "For students from textile worker families pursuing technical and higher secondary studies.",
+    "income_limit": "₹2,50,000",
+    "amount": "Variable Course Aid",
+    "link": "https://www.vidyasaarathi.co.in/"
+  },
+  {
+    "id": 222,
+    "name": "JSW Saksham Scholarship for ITI",
+    "provider": "JSW Foundation",
+    "description": "Financial support for students admitted to recognized ITI courses.",
+    "income_limit": "₹4,00,000",
+    "amount": "₹10,000",
+    "link": "https://www.vidyasaarathi.co.in/"
+  },
+  {
+    "id": 223,
+    "name": "JSW Saksham Scholarship for Undergraduates",
+    "provider": "JSW Foundation",
+    "description": "For students pursuing non-technical regular 3-year undergraduate degrees (BA, B.Sc, B.Com).",
+    "income_limit": "₹5,00,000",
+    "amount": "₹25,000/year",
+    "link": "https://www.vidyasaarathi.co.in/"
+  },
+  {
+    "id": 224,
+    "name": "JSW Saksham Scholarship for Medical",
+    "provider": "JSW Foundation",
+    "description": "Support for MBBS students from lower-income backgrounds.",
+    "income_limit": "₹5,00,000",
+    "amount": "Up to ₹75,000/year",
+    "link": "https://www.vidyasaarathi.co.in/"
+  },
+  {
+    "id": 225,
+    "name": "Adani Gyan Jyoti Scholarship",
+    "provider": "Adani Foundation",
+    "description": "For students of Gujarat pursuing B.Tech, MBBS, CA, or law degrees.",
+    "income_limit": "₹4,50,000",
+    "amount": "Up to ₹50,000",
+    "link": "https://www.adanifoundation.org/"
+  },
+  {
+    "id": 226,
+    "name": "GMR Varalakshmi Foundation Support",
+    "provider": "GMR Group",
+    "description": "Educational aid for under-resourced students living near airport project localities.",
+    "income_limit": "₹2,50,000",
+    "amount": "Tuition Fee Assistance",
+    "link": "https://www.gmrgroup.in/"
+  },
+  {
+    "id": 227,
+    "name": "Hero MotoCorp Pratibha Scholarship",
+    "provider": "Hero MotoCorp",
+    "description": "For girl students admitted to first-year engineering courses in government colleges.",
+    "income_limit": "₹5,00,000",
+    "amount": "₹30,000/year",
+    "link": "https://www.buddy4study.com/"
+  },
+  {
+    "id": 228,
+    "name": "TVS Motor Cheema Foundation Scholarship",
+    "provider": "TVS Motor",
+    "description": "For rural youth in Tamil Nadu and Karnataka pursuing technical polytechnic diplomas.",
+    "income_limit": "₹3,00,000",
+    "amount": "Course Fee Support",
+    "link": "https://www.tvsmotor.com/"
+  },
+  {
+    "id": 229,
+    "name": "Bajaj Auto Shiksha Jyoti Award",
+    "provider": "Bajaj Auto",
+    "description": "For students in engineering and polytechnic institutes from weaker economic backgrounds.",
+    "income_limit": "₹3,50,000",
+    "amount": "Up to ₹40,000",
+    "link": "https://www.bajajauto.com/"
+  },
+  {
+    "id": 230,
+    "name": "Maruti Suzuki Sambandh Scholarship",
+    "provider": "Maruti Suzuki India",
+    "description": "For students pursuing automobile and mechanical ITI/Diploma courses.",
+    "income_limit": "₹3,00,000",
+    "amount": "Course Fee + Placement Assistance",
+    "link": "https://www.marutisuzuki.com/"
+  },
+  {
+    "id": 231,
+    "name": "Godrej Seeds of Hope Scholarship",
+    "provider": "Godrej Group",
+    "description": "For children of daily wage earners and small farmers studying in classes 9 to 12.",
+    "income_limit": "₹2,50,000",
+    "amount": "₹12,000/year",
+    "link": "https://www.godrej.com/"
+  },
+  {
+    "id": 232,
+    "name": "Dabur Prerana Education Award",
+    "provider": "Dabur India",
+    "description": "For girl students in rural regions completing secondary and senior secondary education.",
+    "income_limit": "₹2,00,000",
+    "amount": "₹10,000/year",
+    "link": "https://www.dabur.com/"
+  },
+  {
+    "id": 233,
+    "name": "Britannia Nutrition & Education Scholarship",
+    "provider": "Britannia Foundation",
+    "description": "For students pursuing degrees in Food Technology, Nutrition, and Agriculture.",
+    "income_limit": "₹4,00,000",
+    "amount": "₹35,000/year",
+    "link": "https://britannia.co.in/"
+  },
+  {
+    "id": 234,
+    "name": "Amul Vidya Bhushan Award",
+    "provider": "GCMMF (Amul)",
+    "description": "For top rankers of Class 10 and 12 state board examinations across India.",
+    "income_limit": "No Limit (Merit based)",
+    "amount": "Cash Prize + Trophy",
+    "link": "https://amul.com/"
+  },
+  {
+    "id": 235,
+    "name": "ITC Mission Sunehra Kal Student Aid",
+    "provider": "ITC Limited",
+    "description": "Education support for children from farming communities enrolled in secondary school.",
+    "income_limit": "₹2,00,000",
+    "amount": "School Kits + Tuition Support",
+    "link": "https://www.itcportal.com/"
+  },
+  {
+    "id": 236,
+    "name": "Bosch Skill Development Grant",
+    "provider": "Bosch India",
+    "description": "For candidates undergoing vocational and industrial training in technical trades.",
+    "income_limit": "₹3,00,000",
+    "amount": "Full Training Fee Waiver",
+    "link": "https://www.bosch.in/"
+  },
+  {
+    "id": 237,
+    "name": "Schneider Electric India Foundation Aid",
+    "provider": "Schneider Electric",
+    "description": "For youth from economically vulnerable communities training as certified electricians.",
+    "income_limit": "₹2,50,000",
+    "amount": "Course Kit + Certification Support",
+    "link": "https://www.se.com/in/"
+  },
+  {
+    "id": 238,
+    "name": "ABB Jnanankur Scholarship",
+    "provider": "ABB India",
+    "description": "For girl students from government schools taking up STEM graduation courses.",
+    "income_limit": "₹3,00,000",
+    "amount": "₹40,000/year",
+    "link": "https://new.abb.com/indian-subcontinent"
+  },
+  {
+    "id": 239,
+    "name": "Alkem Foundation Vidya Scheme",
+    "provider": "Alkem Laboratories",
+    "description": "For meritorious underprivileged students pursuing pharmacy and allied health science.",
+    "income_limit": "₹3,50,000",
+    "amount": "₹25,000/year",
+    "link": "https://www.alkemlabs.com/"
+  },
+  {
+    "id": 240,
+    "name": "Sun Pharma Community Education Support",
+    "provider": "Sun Pharma",
+    "description": "Support for rural students in plant vicinity pursuing Classes 9 through 12.",
+    "income_limit": "₹2,50,000",
+    "amount": "Educational Supplies + ₹8,000/year",
+    "link": "https://sunpharma.com/"
+  },
+  {
+    "id": 241,
+    "name": "Dr. Reddy's Foundation Sashakt Scholarship",
+    "provider": "Dr. Reddy's Foundation",
+    "description": "Exclusively for bright young women across India to pursue higher education in pure science.",
+    "income_limit": "No Limit (Merit based)",
+    "amount": "₹2,40,000 over 3 years",
+    "link": "https://www.sashaktscholarship.org/"
+  },
+  {
+    "id": 242,
+    "name": "Biocon Scholarship Program",
+    "provider": "Biocon Academy",
+    "description": "Institutional scholarship for graduates pursuing certificate programs in applied biosciences.",
+    "income_limit": "No Limit",
+    "amount": "60% to 75% Tuition Fee Waiver",
+    "link": "https://www.bioconacademy.com/"
+  },
+  {
+    "id": 243,
+    "name": "Thermax Foundation Educational Aid",
+    "provider": "Thermax Limited",
+    "description": "Assistance for municipal school graduates continuing into junior college and polytechnics.",
+    "income_limit": "₹2,00,000",
+    "amount": "Tuition Fee + Uniforms/Books",
+    "link": "https://www.thermaxglobal.com/"
+  },
+  {
+    "id": 244,
+    "name": "Forbes Marshall Educational Support",
+    "provider": "Forbes Marshall",
+    "description": "For engineering and diploma students in steam engineering and instrumentation.",
+    "income_limit": "₹3,00,000",
+    "amount": "₹25,000/year",
+    "link": "https://www.forbesmarshall.com/"
+  },
+  {
+    "id": 245,
+    "name": "Theruvath Raman Nair Memorial Scholarship",
+    "provider": "TRN Trust",
+    "description": "For students from Kerala pursuing journalism, literature, and media courses.",
+    "income_limit": "₹3,00,000",
+    "amount": "₹15,000",
+    "link": "https://www.buddy4study.com/"
+  },
+  {
+    "id": 246,
+    "name": "National Scholarship for Persons with Disabilities",
+    "provider": "Department of Empowerment of Persons with Disabilities",
+    "description": "Post-Matric scheme for students with >40% disability pursuing higher technical degrees.",
+    "income_limit": "₹2,50,000",
+    "amount": "Maintenance + Disability Allowance + Full Fee",
+    "link": "https://scholarships.gov.in/"
+  },
+  {
+    "id": 247,
+    "name": "Pre-Matric Scholarship for Students with Disabilities",
+    "provider": "Department of Empowerment of Persons with Disabilities",
+    "description": "For disabled students studying in classes 9 and 10.",
+    "income_limit": "₹2,50,000",
+    "amount": "₹4,000/year + Aids Allowance",
+    "link": "https://scholarships.gov.in/"
+  },
+  {
+    "id": 248,
+    "name": "Free Coaching Scheme for SC and OBC Students",
+    "provider": "Ministry of Social Justice & Empowerment",
+    "description": "Coaching fees paid by Government for UPSC, SSC, Banking, and JEE/NEET exams.",
+    "income_limit": "₹8,00,000",
+    "amount": "100% Coaching Fee + ₹4,000/month stipend",
+    "link": "https://coaching.dosje.gov.in/"
+  },
+  {
+    "id": 249,
+    "name": "NSP Top Class Education Scheme for SC Students",
+    "provider": "Ministry of Social Justice & Empowerment",
+    "description": "For SC students gaining admission into notified premier institutes (IITs, IIMs, NITs, NLUs).",
+    "income_limit": "₹8,00,000",
+    "amount": "Full Tuition Fee + Living Expenses + Laptop grant",
+    "link": "https://scholarships.gov.in/"
+  },
+  {
+    "id": 250,
+    "name": "National Fellowship for Persons with Disabilities (NFPwD)",
+    "provider": "UGC",
+    "description": "For differently-abled scholars pursuing M.Phil/Ph.D. programs.",
+    "income_limit": "No Limit",
+    "amount": "₹31,000 to ₹35,000/month",
+    "link": "https://ugc.ac.in/"
+  },
+  {
+    "id": 251,
+    "name": "CCRT Cultural Talent Search Scholarship",
+    "provider": "Centre for Cultural Resources and Training",
+    "description": "For children aged 10-14 skilled in classical music, dance, theatre, painting, and craft.",
+    "income_limit": "₹1,00,000 (Preference)",
+    "amount": "₹3,600/year + Tuition fee reimbursement",
+    "link": "http://ccrtindia.gov.in/"
+  },
+  {
+    "id": 252,
+    "name": "SAI Sports Scholarship Scheme",
+    "provider": "Sports Authority of India",
+    "description": "Financial stipend for national and state medal-winning student athletes.",
+    "income_limit": "No Limit (Merit/Performance based)",
+    "amount": "₹6,000 to ₹10,000/month",
+    "link": "https://sportsauthorityofindia.nic.in/"
+  },
+  {
+    "id": 253,
+    "name": "Khelo India Talent Development Scholarship",
+    "provider": "Ministry of Youth Affairs and Sports",
+    "description": "Out-of-pocket allowance and training for identified young athletes in schools and colleges.",
+    "income_limit": "No Limit",
+    "amount": "₹6,25,000/year per athlete",
+    "link": "https://kheloindia.gov.in/"
+  },
+  {
+    "id": 254,
+    "name": "National Bravery Award Scholarship",
+    "provider": "Indian Council for Child Welfare",
+    "description": "Financial aid until graduation for children recognized with national bravery awards.",
+    "income_limit": "No Limit",
+    "amount": "Full Course and Boarding Expense",
+    "link": "https://www.iccw.co.in/"
+  },
+  {
+    "id": 255,
+    "name": "Welfare of Children of Beedi/Cine/Mine Workers",
+    "provider": "Ministry of Labour and Employment",
+    "description": "For wards of beedi, cine, and non-coal mine workers studying from class 1 up to degree level.",
+    "income_limit": "₹10,000/month wage ceiling",
+    "amount": "₹1,000 to ₹25,000/year",
+    "link": "https://scholarships.gov.in/"
+  },
+  {
+    "id": 256,
+    "name": "Assam Ishan Uday Pre-Matric Extension",
+    "provider": "Govt of Assam",
+    "description": "Special pre-matric grant for students in secondary school from vulnerable tea garden communities.",
+    "income_limit": "₹1,50,000",
+    "amount": "₹6,000/year",
+    "link": "https://assam.gov.in/"
+  },
+  {
+    "id": 257,
+    "name": "Anundoram Borooah Award Scheme",
+    "provider": "Govt of Assam",
+    "description": "Laptop and cash grant for students securing Star Marks in HSLC (Class 10).",
+    "income_limit": "No Limit",
+    "amount": "Free Laptop or Cash Equivalent",
+    "link": "https://arbas.assam.gov.in/"
+  },
+  {
+    "id": 258,
+    "name": "Pragati Combined Scheme for Technical Diploma",
+    "provider": "AICTE",
+    "description": "Dedicated quota for girls taking admission into AICTE-approved polytechnic diploma courses.",
+    "income_limit": "₹8,00,000",
+    "amount": "₹50,000/year",
+    "link": "https://scholarships.gov.in/"
+  },
+  {
+    "id": 259,
+    "name": "West Bengal Kanyashree Prakalpa (K1)",
+    "provider": "Govt of West Bengal",
+    "description": "Annual scholarship for unmarried schoolgirls aged 13-18 enrolled in classes 8 to 12.",
+    "income_limit": "₹1,20,000 (Waived for disabled)",
+    "amount": "₹1,000/year",
+    "link": "https://wbkanyashree.gov.in/"
+  },
+  {
+    "id": 260,
+    "name": "West Bengal Kanyashree Prakalpa (K2)",
+    "provider": "Govt of West Bengal",
+    "description": "One-time financial grant for girls attaining 18 years pursuing education without marriage.",
+    "income_limit": "₹1,20,000",
+    "amount": "One-time ₹25,000",
+    "link": "https://wbkanyashree.gov.in/"
+  },
+  {
+    "id": 261,
+    "name": "West Bengal Aikyashree Scholarship",
+    "provider": "WB Minorities Development and Finance Corp",
+    "description": "Pre-Matric, Post-Matric, and Merit-cum-Means assistance for minority students of WB.",
+    "income_limit": "₹2,00,000",
+    "amount": "₹1,500 to ₹33,000/year",
+    "link": "http://wbmdfcscholarship.in/"
+  },
+  {
+    "id": 262,
+    "name": "Medhashree Scholarship West Bengal",
+    "provider": "Govt of West Bengal",
+    "description": "For OBC students studying in secondary classes (Class 5 to 8).",
+    "income_limit": "₹2,50,000",
+    "amount": "₹800/year",
+    "link": "https://wbmdfc.org/"
+  },
+  {
+    "id": 263,
+    "name": "Sikshashree Scheme West Bengal",
+    "provider": "Govt of West Bengal",
+    "description": "Day-scholar assistance for SC/ST students studying in classes 5 through 8.",
+    "income_limit": "₹2,50,000",
+    "amount": "₹800/year",
+    "link": "https://anagrasarkalyan.gov.in/"
+  },
+  {
+    "id": 264,
+    "name": "Bihar Post Matric BC-EBC Scholarship",
+    "provider": "Govt of Bihar",
+    "description": "Fee reimbursement and maintenance for BC and EBC students in post-matric studies.",
+    "income_limit": "₹3,00,000",
+    "amount": "Full Tuition Fee Component",
+    "link": "https://pmsonline.bih.nic.in/"
+  },
+  {
+    "id": 265,
+    "name": "Bihar Mukhyamantri Balak/Balika Protsahan Yojana",
+    "provider": "Govt of Bihar",
+    "description": "Direct benefit incentive for 1st division scorers in Class 10 Bihar Board exam.",
+    "income_limit": "No Limit",
+    "amount": "One-time ₹10,000",
+    "link": "http://medhasoft.bih.nic.in/"
+  },
+  {
+    "id": 266,
+    "name": "Bihar Mukhyamantri Kanya Utthan Yojana (Intermediate)",
+    "provider": "Govt of Bihar",
+    "description": "Financial incentive for unmarried girls passing Class 12 board examination in Bihar.",
+    "income_limit": "No Limit",
+    "amount": "One-time ₹25,000",
+    "link": "http://medhasoft.bih.nic.in/"
+  },
+  {
+    "id": 267,
+    "name": "Bihar Mukhyamantri Kanya Utthan Yojana (Graduation)",
+    "provider": "Govt of Bihar",
+    "description": "Direct financial incentive to every girl completing graduation from recognized colleges in Bihar.",
+    "income_limit": "No Limit",
+    "amount": "One-time ₹50,000",
+    "link": "http://medhasoft.bih.nic.in/"
+  },
+  {
+    "id": 268,
+    "name": "Mukhyamantri Nishchay Swayam Sahayata Bhatta Yojana",
+    "provider": "Govt of Bihar",
+    "description": "Self-help allowance for unemployed 12th-pass youth aged 20-25 looking for employment.",
+    "income_limit": "No Limit",
+    "amount": "₹1,000/month for 2 years",
+    "link": "https://www.7nishchay-yuvaupmission.bihar.gov.in/"
+  },
+  {
+    "id": 269,
+    "name": "UP Dashmottar Scholarship for General Category",
+    "provider": "Govt of Uttar Pradesh",
+    "description": "Post-matric and undergraduate tuition refund for eligible general category poor students.",
+    "income_limit": "₹2,00,000",
+    "amount": "Tuition Fee Reimbursement",
+    "link": "https://scholarship.up.gov.in/"
+  },
+  {
+    "id": 270,
+    "name": "UP Kanya Vidya Dhan Yojana",
+    "provider": "Govt of Uttar Pradesh",
+    "description": "Incentive to girl students passing Class 12 for continuing into higher education.",
+    "income_limit": "₹35,000/year (Rural) / ₹46,000 (Urban)",
+    "amount": "One-time ₹30,000",
+    "link": "http://up.gov.in/"
+  },
+  {
+    "id": 271,
+    "name": "Haryana Post-Matric SC/ST Fee Waiver",
+    "provider": "Govt of Haryana",
+    "description": "Complete tuition and development fee zero-billing at source in govt institutions.",
+    "income_limit": "₹2,50,000",
+    "amount": "100% Tuition Fee Exemption",
+    "link": "https://harchhatravratti.highereduhry.ac.in/"
+  },
+  {
+    "id": 272,
+    "name": "Haryana Consolidated Stipend Scheme for SC",
+    "provider": "Govt of Haryana",
+    "description": "Monthly stipend for SC students studying in general degree and PG colleges.",
+    "income_limit": "No Limit",
+    "amount": "₹2,000/month + ₹2,000/year for books",
+    "link": "https://harchhatravratti.highereduhry.ac.in/"
+  },
+  {
+    "id": 273,
+    "name": "Haryana Rajiv Gandhi Scholarship for Excellence",
+    "provider": "Govt of Haryana",
+    "description": "For school students topping middle and matric exams in government schools.",
+    "income_limit": "No Limit",
+    "amount": "₹750 to ₹1,000/month",
+    "link": "https://schooleducationharyana.gov.in/"
+  },
+  {
+    "id": 274,
+    "name": "Punjab Ashirwad Post-Matric OBC Extension",
+    "provider": "Govt of Punjab",
+    "description": "State subsidy on tuition and exam fees for Other Backward Class students in colleges.",
+    "income_limit": "₹2,50,000",
+    "amount": "Tuition Reimbursement",
+    "link": "https://scholarships.punjab.gov.in/"
+  },
+  {
+    "id": 275,
+    "name": "Punjab Bhai Jaita Ji Scheme",
+    "provider": "Govt of Punjab",
+    "description": "Free coaching and financial aid for SC candidates preparing for IAS/PCS exams.",
+    "income_limit": "₹2,50,000",
+    "amount": "100% Free Coaching + Boarding",
+    "link": "https://punjab.gov.in/"
+  },
+  {
+    "id": 276,
+    "name": "Odisha Sudakshya Scheme for Girls in ITI",
+    "provider": "Govt of Odisha",
+    "description": "Financial assistance, uniform, and hostel grant for girls enrolling in ITI courses.",
+    "income_limit": "No Limit",
+    "amount": "Free Education + ₹1,000/month maintenance",
+    "link": "https://scholarship.odisha.gov.in/"
+  },
+  {
+    "id": 277,
+    "name": "Odisha Nirman Shramik Kalyan Yojana (Education)",
+    "provider": "Odisha Building & Other Construction Workers Board",
+    "description": "For children of registered construction workers studying from Class 6 up to PG/B.Tech.",
+    "income_limit": "Registered Worker Dependent",
+    "amount": "₹2,000 to ₹40,000/year",
+    "link": "https://bocboard.labdirodisha.gov.in/"
+  },
+  {
+    "id": 278,
+    "name": "Odisha Banishree Scholarship",
+    "provider": "Govt of Odisha",
+    "description": "For children with special needs studying in schools, colleges, and technical institutes.",
+    "income_limit": "No Limit",
+    "amount": "₹250 to ₹500/month",
+    "link": "https://scholarship.odisha.gov.in/"
+  },
+  {
+    "id": 279,
+    "name": "Gujarat Digital Gujarat Post Matric SC",
+    "provider": "Govt of Gujarat",
+    "description": "Comprehensive scholarship scheme covering college admission fees and books for SC students.",
+    "income_limit": "₹2,50,000",
+    "amount": "Full Tuition + ₹5,000/year book allowance",
+    "link": "https://www.digitalgujarat.gov.in/"
+  },
+  {
+    "id": 280,
+    "name": "Gujarat Digital Gujarat Post Matric SEBC",
+    "provider": "Govt of Gujarat",
+    "description": "Post-matric educational assistance for Socially and Educationally Backward Classes.",
+    "income_limit": "₹2,50,000",
+    "amount": "Tuition Fee + Hostel Grant",
+    "link": "https://www.digitalgujarat.gov.in/"
+  },
+  {
+    "id": 281,
+    "name": "Gujarat Swami Sachidanand Shishyavrutti",
+    "provider": "Govt of Gujarat",
+    "description": "For meritorious secondary school students in residential ashram schools.",
+    "income_limit": "No Limit",
+    "amount": "Course and Boarding Expenses",
+    "link": "https://www.digitalgujarat.gov.in/"
+  },
+  {
+    "id": 282,
+    "name": "Rajasthan Uttar Matric Scholarship (SJE)",
+    "provider": "Govt of Rajasthan",
+    "description": "Reimbursement of non-refundable fees for SC/ST/SBC students studying in degree colleges.",
+    "income_limit": "₹2,50,000",
+    "amount": "100% Non-refundable Tuition Fee",
+    "link": "https://sje.rajasthan.gov.in/"
+  },
+  {
+    "id": 283,
+    "name": "Rajasthan Anuprati Coaching Scheme",
+    "provider": "Govt of Rajasthan",
+    "description": "Government-sponsored coaching for IIT-JEE, NEET, Civil Services, and CLAT.",
+    "income_limit": "₹8,00,000",
+    "amount": "Free Coaching + ₹40,000/year living allowance",
+    "link": "https://sje.rajasthan.gov.in/"
+  },
+  {
+    "id": 284,
+    "name": "Rajasthan Gargi Award",
+    "provider": "Balika Shiksha Foundation Rajasthan",
+    "description": "Award for girls scoring 75%+ in Class 10 board exam continuing into Class 11-12.",
+    "income_limit": "No Limit",
+    "amount": "₹3,000/year for 2 years",
+    "link": "https://rajshaladarpan.nic.in/"
+  },
+  {
+    "id": 285,
+    "name": "Rajasthan Balika Protsahan Puraskar",
+    "provider": "Balika Shiksha Foundation Rajasthan",
+    "description": "For girls scoring 75%+ marks in Class 12 board examinations.",
+    "income_limit": "No Limit",
+    "amount": "One-time ₹5,000 + Certificate",
+    "link": "https://rajshaladarpan.nic.in/"
+  },
+  {
+    "id": 286,
+    "name": "Telangana Overseas Vidya Nidhi for Minorities",
+    "provider": "Govt of Telangana",
+    "description": "Financial grant for minority students pursuing postgraduate courses in foreign universities.",
+    "income_limit": "₹5,00,000",
+    "amount": "Up to ₹20,00,000 + One-way Flight",
+    "link": "https://telanganaepass.cgg.gov.in/"
+  },
+  {
+    "id": 287,
+    "name": "Telangana Overseas Vidya Nidhi for SC/ST",
+    "provider": "Govt of Telangana",
+    "description": "Assistance for SC/ST students studying Masters/PhD in USA, UK, Canada, Australia.",
+    "income_limit": "₹5,00,000",
+    "amount": "Up to ₹20,00,000",
+    "link": "https://telanganaepass.cgg.gov.in/"
+  },
+  {
+    "id": 288,
+    "name": "Andhra Pradesh Videshi Vidya Deevena",
+    "provider": "Govt of Andhra Pradesh",
+    "description": "Overseas education aid for eligible students ranked in top 200 QS World Universities.",
+    "income_limit": "₹8,00,000",
+    "amount": "Up to ₹1.25 Crore (Tier-based fee)",
+    "link": "https://jnanabhumi.ap.gov.in/"
+  },
+  {
+    "id": 289,
+    "name": "AP Jnanabhumi Post-Matric Scholarship",
+    "provider": "Govt of Andhra Pradesh",
+    "description": "Post-matric maintenance and fee processing portal for state university admissions.",
+    "income_limit": "₹2,50,000",
+    "amount": "Full Tuition + Semester Maintenance",
+    "link": "https://jnanabhumi.ap.gov.in/"
+  },
+  {
+    "id": 290,
+    "name": "Tamil Nadu Moovalur Ramamirtham Ammaiyar Scheme",
+    "provider": "Govt of Tamil Nadu",
+    "description": "Pudhumai Penn Scheme providing monthly assistance to girls from govt schools pursuing UG.",
+    "income_limit": "No Limit (Govt school background)",
+    "amount": "₹1,000/month directly to bank",
+    "link": "https://pudhumaipenn.tn.gov.in/"
+  },
+  {
+    "id": 291,
+    "name": "Tamil Nadu Chief Minister's Fellowship Programme (CMFP)",
+    "provider": "Govt of Tamil Nadu",
+    "description": "For post-graduate scholars to work on governance improvement projects.",
+    "income_limit": "No Limit",
+    "amount": "₹65,000/month + ₹10,000 travel allowance",
+    "link": "https://cmfp.tn.gov.in/"
+  },
+  {
+    "id": 292,
+    "name": "Karnataka Prabuddha Overseas Scheme",
+    "provider": "Govt of Karnataka",
+    "description": "Financial assistance for SC/ST students to pursue higher studies abroad.",
+    "income_limit": "₹8,00,000",
+    "amount": "100% Course Fee & Living Expenses",
+    "link": "https://sw.kar.nic.in/"
+  },
+  {
+    "id": 293,
+    "name": "Karnataka Devaraj Urs Foreign Fellowship",
+    "provider": "Govt of Karnataka",
+    "description": "For Backward Classes students pursuing Masters and PhD courses in top foreign universities.",
+    "income_limit": "₹10,00,000",
+    "amount": "Up to ₹20,00,000/year",
+    "link": "https://bcwd.karnataka.gov.in/"
+  },
+  {
+    "id": 294,
+    "name": "Kerala Aspire Scholarship",
+    "provider": "Govt of Kerala",
+    "description": "For post-graduate and M.Phil/Ph.D. students to pursue short-term research outside Kerala.",
+    "income_limit": "No Limit",
+    "amount": "₹8,000 to ₹10,000/month",
+    "link": "https://dcescholarship.kerala.gov.in/"
+  },
+  {
+    "id": 295,
+    "name": "Kerala Prof. Joseph Mundassery Scholarship",
+    "provider": "Govt of Kerala",
+    "description": "Merit award for minority students securing full A+ in SSLC, Plus Two, and VHSE.",
+    "income_limit": "₹8,00,000",
+    "amount": "₹10,000 to ₹15,000",
+    "link": "http://minoritywelfare.kerala.gov.in/"
+  },
+  {
+    "id": 296,
+    "name": "Jharkhand Marang Gomke Jaipal Singh Munda Fellowship",
+    "provider": "Govt of Jharkhand",
+    "description": "Full funding for tribal and marginalized students to pursue Masters in UK universities.",
+    "income_limit": "₹12,00,000",
+    "amount": "100% Tuition Fee + Living Expenses in UK",
+    "link": "https://maranggomke.jharkhand.gov.in/"
+  },
+  {
+    "id": 297,
+    "name": "Jharkhand Guruji Student Credit Card Scheme",
+    "provider": "Govt of Jharkhand",
+    "description": "Collateral-free education loan at 4% simple interest for higher education.",
+    "income_limit": "No Limit",
+    "amount": "Loan up to ₹15,00,000",
+    "link": "https://gscc.jharkhand.gov.in/"
+  },
+  {
+    "id": 298,
+    "name": "Uttarakhand Post-Matric SC/ST/OBC Scholarship",
+    "provider": "Govt of Uttarakhand",
+    "description": "Full maintenance and admission fee support for college education.",
+    "income_limit": "₹2,50,000",
+    "amount": "Full Tuition + Exam Fee",
+    "link": "https://scholarships.gov.in/"
+  },
+  {
+    "id": 299,
+    "name": "Himachal Pradesh Dr. Ambedkar Medhavi Chatravriti",
+    "provider": "Govt of Himachal Pradesh",
+    "description": "For meritorious SC and OBC students securing top ranks in 10th and 12th board exams.",
+    "income_limit": "No Limit",
+    "amount": "₹12,000/year",
+    "link": "https://hpepass.cgg.gov.in/"
+  },
+  {
+    "id": 300,
+    "name": "Jammu & Kashmir Special Scholarship Scheme (PMSSS)",
+    "provider": "AICTE / Ministry of Education",
+    "description": "For 12th pass students of J&K and Ladakh to study degree courses in colleges outside the UT.",
+    "income_limit": "₹8,00,000",
+    "amount": "Full Academic Fee (Up to ₹3 Lakhs) + ₹1 Lakh Maintenance/year",
+    "link": "https://www.aicte-india.org/bureaus/jk"
   }
 ]
