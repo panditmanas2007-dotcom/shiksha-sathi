@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shiksha Sathi • Your Financial Aid Portal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #0b0f19; color: white; overflow-x: hidden; }
+  </style>
+</head>
+<body class="relative min-h-screen flex flex-col justify-center">
+
+  <!-- Ambient Glows -->
+  <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[500px] bg-indigo-600/20 blur-[120px] rounded-full pointer-events-none -z-10"></div>
+  
+  <div class="max-w-6xl mx-auto px-4 py-16 w-full z-10">
+    
+    <!-- Hero Header -->
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-indigo-950/80 border border-indigo-700/50 text-indigo-300 text-xs font-bold uppercase tracking-widest mb-6 shadow-[0_0_15px_rgba(79,70,229,0.3)]">
+        CodeStorm 2026 Submission
+      </div>
+      <h1 class="text-5xl sm:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
+        Empowering India's <br>
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-sky-300">Future Innovators.</span>
+      </h1>
+      <p class="text-lg text-slate-400">
+        Choose a module below to discover personalized scholarships, calculate government interest subsidies on education loans, or explore top institutions.
+      </p>
+    </div>
+
+    <!-- Options Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+      
+      <!-- Card 1: Scholarships -->
+      <a href="/engine" class="group relative bg-slate-900/60 backdrop-blur-md border border-slate-800 p-8 rounded-3xl hover:border-indigo-500/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_10px_40px_-10px_rgba(79,70,229,0.4)]">
+        <div class="w-14 h-14 bg-gradient-to-br from-indigo-600 to-violet-500 rounded-2xl flex items-center justify-center text-2xl mb-6 shadow-lg shadow-indigo-500/20 group-hover:scale-110 transition-transform">
+          🎓
+        </div>
+        <h3 class="text-xl font-bold mb-3">Scholarship Engine</h3>
+        <p class="text-sm text-slate-400 mb-6 leading-relaxed">
+          Match with 300+ verified Central, State, and Corporate CSR scholarships based on your academic and socio-economic profile.
+        </p>
+        <div class="flex items-center gap-2 text-indigo-400 font-semibold text-sm group-hover:gap-3 transition-all">
+          Find Matches <span>→</span>
+        </div>
+      </a>
+
+      <!-- Card 2: Education Loans -->
+      <a href="/engine" class="group relative bg-slate-900/60 backdrop-blur-md border border-slate-800 p-8 rounded-3xl hover:border-emerald-500/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_10px_40px_-10px_rgba(16,185,129,0.4)]">
+        <div class="w-14 h-14 bg-gradient-to-br from-emerald-600 to-teal-500 rounded-2xl flex items-center justify-center text-2xl mb-6 shadow-lg shadow-emerald-500/20 group-hover:scale-110 transition-transform">
+          🏦
+        </div>
+        <h3 class="text-xl font-bold mb-3">Edu-Loan & CSIS</h3>
+        <p class="text-sm text-slate-400 mb-6 leading-relaxed">
+          Interactive calculator to check your eligibility for 100% government interest subsidy and estimate post-study EMIs.
+        </p>
+        <div class="flex items-center gap-2 text-emerald-400 font-semibold text-sm group-hover:gap-3 transition-all">
+          Calculate Subsidy <span>→</span>
+        </div>
+      </a>
+
+      <!-- Card 3: College Explorer (Beta/Future Scope) -->
+      <div onclick="alert('College Predictor Module is currently in Beta and will be released in V2.0!')" class="cursor-pointer group relative bg-slate-900/60 backdrop-blur-md border border-slate-800 p-8 rounded-3xl hover:border-sky-500/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_10px_40px_-10px_rgba(14,165,233,0.4)]">
+        <!-- Beta Badge -->
+        <span class="absolute top-6 right-6 bg-slate-800 text-slate-300 text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full border border-slate-700">Beta</span>
+        
+        <div class="w-14 h-14 bg-gradient-to-br from-sky-600 to-blue-500 rounded-2xl flex items-center justify-center text-2xl mb-6 shadow-lg shadow-sky-500/20 group-hover:scale-110 transition-transform">
+          🏛️
+        </div>
+        <h3 class="text-xl font-bold mb-3">College Predictor</h3>
+        <p class="text-sm text-slate-400 mb-6 leading-relaxed">
+          Predict your admission chances in top Tier-1 and Tier-2 institutions based on entrance exam cutoffs and seat matrices.
+        </p>
+        <div class="flex items-center gap-2 text-sky-400 font-semibold text-sm group-hover:gap-3 transition-all">
+          Explore Colleges <span>→</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>

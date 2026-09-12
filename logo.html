@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shiksha Sathi Logo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #0b0f19; /* Nayi website ka dark background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: white;
+        }
+        .logo-container {
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(79,70,229,0.15) 0%, rgba(11,15,25,0) 70%);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 40px;
+            border: 1px solid rgba(79, 70, 229, 0.2);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="logo-container">
+        <!-- SVG Icon -->
+        <svg width="120" height="120" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#818cf8" />
+                    <stop offset="100%" stop-color="#4338ca" />
+                </linearGradient>
+                <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+                    <feGaussianBlur stdDeviation="2" result="blur" />
+                    <feComposite in="SourceGraphic" in2="blur" operator="over" />
+                </filter>
+            </defs>
+            <!-- Graduation Cap Top -->
+            <path d="M12 4L1 10L12 16L23 10L12 4Z" fill="url(#grad1)" filter="url(#glow)"/>
+            <!-- Cap Bottom/Shield -->
+            <path d="M4 12.2V17C4 19 8 21 12 21C16 21 20 19 20 17V12.2L12 16.5L4 12.2Z" fill="#312e81" opacity="0.8"/>
+            <!-- Tassel -->
+            <path d="M21 10.5V17M21 17C21.5 17 22 17.5 22 18C22 18.5 21.5 19 21 19C20.5 19 20 18.5 20 18C20 17.5 20.5 17 21 17Z" stroke="#38bdf8" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+
+        <!-- Brand Text -->
+        <h1 style="font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 32px; margin-top: 15px; margin-bottom: 0px; letter-spacing: -0.5px;">
+            Shiksha <span style="color: #818cf8;">Sathi</span>
+        </h1>
+        <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 11px; color: #94a3b8; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; margin-top: 5px;">
+            Financial Aid Engine
+        </p>
+    </div>
+
+</body>
+</html>
