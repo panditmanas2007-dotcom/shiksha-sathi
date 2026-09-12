@@ -1,97 +1,19 @@
-import json
-from datetime import datetime
-from flask import Flask, render_template, request
-
-app = Flask(__name__)
-
-def load_scholarships():
-    try:
-        with open("scholarships.json", "r", encoding="utf-8") as f:
-            content = f.read().strip()
-            if not content:
-                return []
-            return json.loads(content)
-    except Exception as e:
-        print(f"Error reading JSON: {e}")
-        return []
-
-@app.route("/", methods=["GET", "POST"])
-def index():
-    scholarships = load_scholarships()
-    eligible_scholarships = None
-    searched = False
-    current_date = datetime.now().strftime("%Y-%m-%d")
-
-    # TFWS check flag based on input
-    tfws_eligible = False
-
-    if request.method == "POST":
-        searched = True
-        percentage = float(request.form.get("percentage", 0))
-        income = float(request.form.get("income", 0))
-        gender = request.form.get("gender", "ALL")
-        category = request.form.get("category", "General")
-        course = request.form.get("course", "ALL")
-
-        # TFWS Rule: AICTE rule says Family Income < 8 LPA for 100% Tuition Fee Waiver in Engineering
-        if income <= 8.0 and (course == "B.Tech" or course == "ALL"):
-            tfws_eligible = True
-
-        matched = []
-        for item in scholarships:
-            # 1. Deadline verification
-            if item.get("deadline") and item["deadline"] < current_date:
-                continue
-
-            # 2. Percentage verification
-            if percentage < item.get("min_percentage", 0):
-                continue
-
-            # 3. Family income limit
-            if income > item.get("max_income_lpa", 999):
-                continue
-
-            # 4. Gender match
-            if item.get("gender") != "ALL" and item.get("gender") != gender:
-                continue
-
-            # 5. Category match
-            if item.get("category") != "ALL":
-                if item.get("category") == "SC/ST" and category not in ["SC", "ST"]:
-                    continue
-                if item.get("category") == "OBC" and category != "OBC":
-                    continue
-                if item.get("category") == "General/OBC" and category not in ["General", "OBC", "EWS"]:
-                    continue
-
-            # 6. Course match
-            if item.get("course") != "ALL" and course != "ALL" and item.get("course") != course:
-                continue
-
-            matched.append(item)
-
-        matched.sort(key=lambda x: x.get("deadline", "9999-12-31"))
-        eligible_scholarships = matched
-
-    return render_template(
-        "index.html", 
-        scholarships=eligible_scholarships, 
-        searched=searched,<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Education Loan & CSIS Guide - Shiksha Sathi</title>
+  <title>Education Loan & CSIS Calculator - Shiksha Sathi</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-slate-50 text-slate-800 min-h-screen">
+<body class="bg-slate-100 text-slate-800 min-h-screen">
 
   <!-- Header -->
-  <header class="bg-indigo-700 text-white py-5 shadow">
-    <div class="max-w-6xl mx-auto px-4 flex justify-between items-center">
+  <header class="bg-indigo-700 text-white py-4 shadow">
+    <div class="max-w-5xl mx-auto px-4 flex justify-between items-center">
       <div>
         <h1 class="text-2xl font-black tracking-tight">शिक्षा साथी (Shiksha Sathi)</h1>
-        <p class="text-indigo-200 text-xs mt-0.5">Education Loans & Interest Subsidy Schemes</p>
+        <p class="text-indigo-200 text-xs mt-0.5">Education Loans & CSIS 0% Interest Subsidy Tool</p>
       </div>
       <a href="/" class="text-xs bg-indigo-800 hover:bg-indigo-900 border border-indigo-400/30 text-white px-3 py-1.5 rounded-lg font-medium transition">
         &larr; Back to Scholarships
@@ -99,46 +21,81 @@ def index():
     </div>
   </header>
 
-  <main class="max-w-4xl mx-auto px-4 py-8 space-y-6">
+  <main class="max-w-5xl mx-auto px-4 py-8 space-y-6">
     
     <!-- Hero Box -->
     <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
       <h2 class="text-xl font-bold text-slate-900">Education Loan Simplified for Indian Students</h2>
       <p class="text-sm text-slate-600 mt-1">
-        Bache aksar high interest aur bank ke rounds se darte hain. Government of India ne students ke liye bohot safeguards banaye hain jo har student ko pata hone chahiye:
+        Bache aksar interest rate aur bank rules se darte hain. Government of India ki <strong>CSIS (Central Sector Interest Subsidy)</strong> scheme ke tahat agar aapki family income ₹4.5L se kam hai, toh padhai ke dauran pura byaaj sarkaar deti hai!
       </p>
     </div>
 
-    <!-- 3 Key Pillars -->
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-      
-      <!-- CSIS Card -->
-      <div class="bg-white p-5 rounded-2xl border-2 border-emerald-500 shadow-sm">
-        <span class="bg-emerald-100 text-emerald-800 text-[11px] font-bold px-2 py-0.5 rounded-full">0% Interest Scheme</span>
-        <h3 class="font-bold text-slate-900 text-base mt-2">CSIS (Interest Subsidy)</h3>
-        <p class="text-xs text-slate-600 mt-1.5 leading-relaxed">
-          Agar family income <strong>₹4.5 Lakhs</strong> se kam hai, toh padhai ke dauran (Course Period + 1 year) lagne wala interest <strong>Government of India</strong> bhati hai! Student ko 1 rupya interest nahi dena hota.
-        </p>
+    <!-- Interactive CSIS & EMI Calculator -->
+    <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
+      <div class="flex items-center gap-2 mb-4 pb-2 border-b">
+        <span class="text-xl">🧮</span>
+        <div>
+          <h3 class="font-bold text-slate-900 text-base">Interactive Education Loan & Subsidy Calculator</h3>
+          <p class="text-xs text-slate-500">Calculate your approximate monthly EMI and total interest waived under CSIS</p>
+        </div>
       </div>
 
-      <!-- No Collateral Card -->
-      <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm">
-        <span class="bg-blue-100 text-blue-800 text-[11px] font-bold px-2 py-0.5 rounded-full">Government Rule</span>
-        <h3 class="font-bold text-slate-900 text-base mt-2">Upto ₹7.5 Lakhs: No Collateral</h3>
-        <p class="text-xs text-slate-600 mt-1.5 leading-relaxed">
-          Under CGFSEL (Credit Guarantee Fund), bank <strong>₹7.5 Lakh tak</strong> ke loan ke liye koi ghar ke kagaz, zameen ya third-party guarantor nahi maang sakti.
-        </p>
-      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <!-- Input Form -->
+        <div class="space-y-4">
+          <div>
+            <div class="flex justify-between text-xs font-bold text-slate-600 mb-1">
+              <span>Required Loan Amount:</span>
+              <span id="loanAmountText" class="text-indigo-600 text-sm font-extrabold">₹4,00,000</span>
+            </div>
+            <input type="range" id="loanAmount" min="50000" max="1500000" step="25000" value="400000" class="w-full accent-indigo-600 cursor-pointer" oninput="calculateLoan()" />
+            <div class="flex justify-between text-[10px] text-slate-400">
+              <span>₹50K</span>
+              <span>₹7.5 Lakh (No Collateral)</span>
+              <span>₹15 Lakh</span>
+            </div>
+          </div>
 
-      <!-- Vidya Lakshmi Portal -->
-      <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm">
-        <span class="bg-indigo-100 text-indigo-800 text-[11px] font-bold px-2 py-0.5 rounded-full">Single Window Portal</span>
-        <h3 class="font-bold text-slate-900 text-base mt-2">Vidya Lakshmi Portal</h3>
-        <p class="text-xs text-slate-600 mt-1.5 leading-relaxed">
-          Bank ke chakkar kaatne ki zaroorat nahi. Central Govt ke ek common single form se 40+ banks mein directly loan request bheji ja sakti hai.
-        </p>
-      </div>
+          <div class="grid grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-bold text-slate-600 mb-1">Interest Rate (% p.a.)</label>
+              <input type="number" id="interestRate" value="9.5" step="0.1" class="w-full px-3 py-2 border border-slate-300 rounded-lg text-sm outline-none focus:ring-2 focus:ring-indigo-500" oninput="calculateLoan()" />
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-600 mb-1">Course Duration (Years)</label>
+              <input type="number" id="courseYears" value="4" min="1" max="5" class="w-full px-3 py-2 border border-slate-300 rounded-lg text-sm outline-none focus:ring-2 focus:ring-indigo-500" oninput="calculateLoan()" />
+            </div>
+          </div>
 
+          <div>
+            <label class="block text-xs font-bold text-slate-600 mb-1">Repayment Tenure After Graduation (Years)</label>
+            <input type="number" id="repayYears" value="7" min="1" max="15" class="w-full px-3 py-2 border border-slate-300 rounded-lg text-sm outline-none focus:ring-2 focus:ring-indigo-500" oninput="calculateLoan()" />
+          </div>
+        </div>
+
+        <!-- Output Display Cards -->
+        <div class="space-y-3">
+          <!-- Green Subsidy Card -->
+          <div class="bg-gradient-to-br from-emerald-500 to-teal-600 text-white p-5 rounded-xl shadow-sm">
+            <div class="flex justify-between items-start">
+              <span class="text-xs font-bold uppercase tracking-wider text-emerald-100">CSIS Scheme Benefit</span>
+              <span class="bg-white/20 text-white text-[10px] px-2 py-0.5 rounded font-semibold">Income &lt; 4.5 LPA</span>
+            </div>
+            <p class="text-2xl font-black mt-2" id="subsidySavings">₹1,90,000</p>
+            <p class="text-xs text-emerald-100 mt-1 leading-relaxed">
+              Padhai ke dauran (Course + 1 saal) itna byaaj <strong>Govt of India</strong> pay karegi. Aapki pocket se ₹0 interest lagega!
+            </p>
+          </div>
+
+          <!-- Monthly EMI Card -->
+          <div class="bg-slate-50 border border-slate-200 p-4 rounded-xl">
+            <span class="text-xs font-bold text-slate-500 uppercase tracking-wider">Estimated Monthly EMI (Post Moratorium)</span>
+            <p class="text-xl font-extrabold text-slate-900 mt-1" id="monthlyEmi">₹6,540 / month</p>
+            <p class="text-[11px] text-slate-500 mt-0.5">Job lagne ke 1 saal baad chalu hogi repayment.</p>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Official Portals Section -->
@@ -148,7 +105,7 @@ def index():
       <div class="p-4 bg-slate-50 rounded-xl border border-slate-100 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
         <div>
           <h4 class="font-bold text-slate-900 text-sm">Vidya Lakshmi Official Portal</h4>
-          <p class="text-xs text-slate-500">Ministry of Finance & Department of Higher Education</p>
+          <p class="text-xs text-slate-500">Department of Higher Education & IBA single-window application portal for 40+ banks</p>
         </div>
         <a href="https://www.vidyalakshmi.co.in" target="_blank" class="text-xs font-semibold bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg transition">
           Apply on Vidya Lakshmi &rarr;
@@ -157,26 +114,51 @@ def index():
 
       <div class="p-4 bg-slate-50 rounded-xl border border-slate-100 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
         <div>
-          <h4 class="font-bold text-slate-900 text-sm">Jan Samarth Portal (Govt Credit Schemes)</h4>
-          <p class="text-xs text-slate-500">Check eligibility for Central Sector Interest Subsidy (CSIS)</p>
+          <h4 class="font-bold text-slate-900 text-sm">Jan Samarth Portal</h4>
+          <p class="text-xs text-slate-500">Verify government interest subsidy (CSIS) eligibility directly</p>
         </div>
         <a href="https://www.jansamarth.in" target="_blank" class="text-xs font-semibold bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg transition">
           Check on Jan Samarth &rarr;
         </a>
       </div>
-
     </div>
 
   </main>
+
+  <!-- Calculator Logic Script -->
+  <script>
+    function calculateLoan() {
+      const P = parseFloat(document.getElementById('loanAmount').value);
+      const annualRate = parseFloat(document.getElementById('interestRate').value);
+      const courseYears = parseFloat(document.getElementById('courseYears').value);
+      const repayYears = parseFloat(document.getElementById('repayYears').value);
+
+      document.getElementById('loanAmountText').innerText = "₹" + P.toLocaleString('en-IN');
+
+      // 1. Calculate CSIS Moratorium Savings (Course Period + 1 Year Grace Period)
+      const moratoriumYears = courseYears + 1.0;
+      const simpleInterestMoratorium = Math.round((P * annualRate * moratoriumYears) / 100);
+      document.getElementById('subsidySavings').innerText = "₹" + simpleInterestMoratorium.toLocaleString('en-IN');
+
+      // 2. Standard EMI Calculation: E = P * r * (1+r)^n / ((1+r)^n - 1)
+      const monthlyRate = (annualRate / 12) / 100;
+      const totalMonths = repayYears * 12;
+
+      let emi = 0;
+      if (monthlyRate > 0) {
+        emi = Math.round(
+          (P * monthlyRate * Math.pow(1 + monthlyRate, totalMonths)) /
+          (Math.pow(1 + monthlyRate, totalMonths) - 1)
+        );
+      } else {
+        emi = Math.round(P / totalMonths);
+      }
+
+      document.getElementById('monthlyEmi').innerText = "₹" + emi.toLocaleString('en-IN') + " / month";
+    }
+
+    // Run once on initial load
+    calculateLoan();
+  </script>
 </body>
 </html>
-        tfws_eligible=tfws_eligible
-    )
-
-@app.route("/loans")
-def loans():
-    # Dedicated page for Education Loan Schemes & Interest Subsidy (CSIS)
-    return render_template("loans.html")
-
-if __name__ == "__main__":
-    app.run(debug=True)
