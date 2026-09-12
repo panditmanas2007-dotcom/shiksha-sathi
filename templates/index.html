@@ -1,166 +1,342 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Shiksha Sathi - Scholarship & Financial Aid Navigator</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shiksha Sathi - Har Vidyarthi Tak, Har Sahi Avsar</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-slate-100 text-slate-800 min-h-screen">
+<body class="bg-gray-50 text-gray-800 antialiased min-h-screen flex flex-col">
 
-  <!-- Header -->
-  <header class="bg-indigo-700 text-white py-4 shadow">
-    <div class="max-w-6xl mx-auto px-4 flex justify-between items-center">
+  <!-- Navigation Bar -->
+  <header class="bg-blue-600 text-white shadow-md">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center gap-2">
       <div>
-        <h1 class="text-2xl font-black tracking-tight">शिक्षा साथी (Shiksha Sathi)</h1>
-        <p class="text-indigo-200 text-xs mt-0.5">Automated Financial Aid, TFWS & Scholarship Matching Engine</p>
+        <h1 class="text-2xl font-black tracking-tight">🎓 Shiksha Sathi</h1>
+        <p class="text-xs text-blue-100">National Financial Aid & Scholarship Matchmaker</p>
       </div>
-      <div class="flex items-center gap-2">
-        <a href="/loans" class="text-xs bg-indigo-600 hover:bg-indigo-800 border border-indigo-300/40 text-white px-3 py-1.5 rounded-lg font-medium transition">
-          Education Loan & CSIS Guide &rarr;
-        </a>
-        <span class="bg-indigo-900/60 border border-indigo-400/30 text-indigo-100 text-xs px-2.5 py-1.5 rounded-lg font-medium hidden sm:inline-block">
-          CodeStorm 2026
-        </span>
+      <div class="text-xs bg-blue-700 px-3 py-1.5 rounded-full font-medium">
+        Database: {{ total_count }} Verified Schemes
       </div>
     </div>
   </header>
 
-  <main class="max-w-6xl mx-auto px-4 py-6 grid grid-cols-1 md:grid-cols-3 gap-6">
-    
-    <!-- Profile Form (Left Column) -->
-    <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 h-fit">
-      <h2 class="text-base font-bold text-slate-900 mb-4 pb-2 border-b">Student Profile</h2>
-      <form action="/" method="POST" class="space-y-4 text-sm">
+  <main class="max-w-6xl mx-auto px-4 py-8 flex-grow w-full">
+
+    <!-- Input Form Section -->
+    <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 md:p-8 mb-8">
+      <h2 class="text-xl font-bold text-gray-900 mb-2">Find Eligible Schemes & Aid</h2>
+      <p class="text-sm text-gray-500 mb-6">Enter academic details, stream, and family income to run the matching engine.</p>
+
+      <form method="POST" action="/" class="space-y-6">
         
-        <div>
-          <label class="block text-xs font-bold text-slate-600 mb-1">12th Marks / Percentage (%)</label>
-          <input type="number" step="0.1" name="percentage" required placeholder="e.g. 78.5" class="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none text-sm" />
+        <!-- Row 1: Marks Calculation -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div>
+            <label class="block text-sm font-semibold text-gray-700 mb-1">Marks Obtained *</label>
+            <input 
+              type="number" 
+              id="marks_obtained" 
+              name="marks_obtained" 
+              placeholder="e.g. 425" 
+              value="{{ form.marks_obtained }}"
+              class="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none transition"
+              required
+            >
+          </div>
+
+          <div>
+            <label class="block text-sm font-semibold text-gray-700 mb-1">Total Marks *</label>
+            <input 
+              type="number" 
+              id="total_marks" 
+              name="total_marks" 
+              placeholder="e.g. 500" 
+              value="{{ form.total_marks }}"
+              class="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none transition"
+              required
+            >
+          </div>
+
+          <div>
+            <label class="block text-sm font-semibold text-gray-700 mb-1">Calculated Percentage</label>
+            <input 
+              type="text" 
+              id="percentage" 
+              name="percentage" 
+              value="{{ form.percentage }}"
+              readonly 
+              placeholder="Auto calculated" 
+              class="w-full px-4 py-2.5 bg-gray-100 border border-gray-300 rounded-lg font-bold text-blue-600 outline-none cursor-not-allowed"
+            >
+          </div>
         </div>
 
+        <!-- Row 2: Course / Branch Selection -->
         <div>
-          <label class="block text-xs font-bold text-slate-600 mb-1">Family Annual Income (LPA)</label>
-          <input type="number" step="0.1" name="income" required placeholder="e.g. 3.5" class="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none text-sm" />
-          <span class="text-[11px] text-slate-400">Put in Lakhs (e.g. 2.5 for ₹2,50,000)</span>
-        </div>
+          <label class="block text-sm font-semibold text-gray-700 mb-1">Select Current Class / Target Branch *</label>
+          <select 
+            name="course" 
+            id="course" 
+            class="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none transition bg-white"
+            required
+          >
+            <option value="">-- Choose your current level or engineering branch --</option>
+            
+            <optgroup label="School Education">
+              <option value="Class 9th - 10th (Secondary)">Class 9th - 10th (Secondary)</option>
+              <option value="Class 11th - 12th (Science - PCM/PCB)">Class 11th - 12th (Science - PCM/PCB)</option>
+              <option value="Class 11th - 12th (Commerce/Arts)">Class 11th - 12th (Commerce/Arts)</option>
+            </optgroup>
 
-        <div>
-          <label class="block text-xs font-bold text-slate-600 mb-1">Target / Current Course</label>
-          <select name="course" class="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none text-sm">
-            <option value="B.Tech">B.Tech / Engineering</option>
-            <option value="ALL">Degree / Diploma / Other</option>
+            <optgroup label="Engineering & Technology (B.Tech / B.E / Diploma)">
+              <option value="Computer Science & Engineering">Computer Science & Engineering (CSE)</option>
+              <option value="AI & Machine Learning / Data Science">AI & Machine Learning / Data Science</option>
+              <option value="Information Technology">Information Technology (IT)</option>
+              <option value="Electronics & Communication (ECE)">Electronics & Communication (ECE)</option>
+              <option value="Electrical Engineering (EE)">Electrical Engineering (EE)</option>
+              <option value="Mechanical Engineering (ME)">Mechanical Engineering (ME)</option>
+              <option value="Civil Engineering (CE)">Civil Engineering (CE)</option>
+              <option value="Chemical / Biotech Engineering">Chemical / Biotech Engineering</option>
+              <option value="Polytechnic Diploma (Technical)">Polytechnic Diploma (Technical)</option>
+            </optgroup>
+
+            <optgroup label="Medical, Pharma & Healthcare">
+              <option value="MBBS / BDS">MBBS / BDS</option>
+              <option value="B.Pharm / D.Pharm">Pharmacy (B.Pharm / D.Pharm)</option>
+              <option value="B.Sc Nursing / Paramedical">B.Sc Nursing / Paramedical</option>
+            </optgroup>
+
+            <optgroup label="Undergraduate Degrees (General)">
+              <option value="BCA / IT Graduation">BCA / Computer Applications</option>
+              <option value="B.Sc (Pure Sciences)">B.Sc (Physics, Chemistry, Maths, Bio)</option>
+              <option value="B.Com / BBA (Commerce / Management)">B.Com / BBA (Commerce / Management)</option>
+              <option value="BA / Humanities / Law">B.A / Humanities / Law</option>
+            </optgroup>
+
+            <optgroup label="Post-Graduation & Research">
+              <option value="M.Tech / M.E">M.Tech / M.E</option>
+              <option value="MBA / PGDM">MBA / PGDM</option>
+              <option value="M.Sc / M.Com / M.A">M.Sc / M.Com / M.A</option>
+              <option value="Ph.D / Doctoral Research">Ph.D / Doctoral Research</option>
+            </optgroup>
           </select>
         </div>
 
-        <div class="grid grid-cols-2 gap-3">
+        <!-- Row 3: Income, Category, Gender -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
           <div>
-            <label class="block text-xs font-bold text-slate-600 mb-1">Category</label>
-            <select name="category" class="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none text-sm">
-              <option value="General">General</option>
-              <option value="OBC">OBC</option>
-              <option value="SC">SC</option>
-              <option value="ST">ST</option>
-              <option value="EWS">EWS</option>
+            <label class="block text-sm font-semibold text-gray-700 mb-1">Annual Family Income (₹) *</label>
+            <input 
+              type="number" 
+              name="income" 
+              placeholder="e.g. 250000" 
+              value="{{ form.income }}"
+              class="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none transition"
+              required
+            >
+          </div>
+
+          <div>
+            <label class="block text-sm font-semibold text-gray-700 mb-1">Social Category *</label>
+            <select name="category" class="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none transition bg-white">
+              <option value="General" {% if form.category == 'General' %}selected{% endif %}>General</option>
+              <option value="OBC" {% if form.category == 'OBC' %}selected{% endif %}>OBC</option>
+              <option value="SC" {% if form.category == 'SC' %}selected{% endif %}>SC</option>
+              <option value="ST" {% if form.category == 'ST' %}selected{% endif %}>ST</option>
+              <option value="EWS" {% if form.category == 'EWS' %}selected{% endif %}>EWS</option>
             </select>
           </div>
 
           <div>
-            <label class="block text-xs font-bold text-slate-600 mb-1">Gender</label>
-            <select name="gender" class="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none text-sm">
-              <option value="Male">Male</option>
-              <option value="Female">Female</option>
+            <label class="block text-sm font-semibold text-gray-700 mb-1">Gender *</label>
+            <select name="gender" class="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none transition bg-white">
+              <option value="Male" {% if form.gender == 'Male' %}selected{% endif %}>Male</option>
+              <option value="Female" {% if form.gender == 'Female' %}selected{% endif %}>Female</option>
+              <option value="Other" {% if form.gender == 'Other' %}selected{% endif %}>Other</option>
             </select>
           </div>
         </div>
 
-        <button type="submit" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2.5 rounded-lg transition duration-150 shadow-sm mt-2">
-          Find My Scholarships &rarr;
+        <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-200 shadow-sm">
+          Run Matching Engine 🚀
         </button>
       </form>
     </div>
 
-    <!-- Match Results (Right Columns) -->
-    <div class="md:col-span-2 space-y-4">
-      
-      {% if searched and tfws_eligible %}
-        <!-- TFWS Alert Banner -->
-        <div class="bg-gradient-to-r from-emerald-500 to-teal-600 text-white p-5 rounded-2xl shadow-sm">
-          <div class="flex items-start gap-3">
-            <div class="text-2xl">🎓</div>
-            <div>
-              <h3 class="font-extrabold text-base">You are Eligible for AICTE TFWS (Tuition Fee Waiver Scheme)!</h3>
-              <p class="text-xs text-emerald-100 mt-1 leading-relaxed">
-                Aapki family income <strong>₹8 Lakhs/year se kam hai</strong>. Counseling ke waqt college mein <strong>TFW seat</strong> opt karne par aapki <strong>100% Tuition Fee</strong> maaf ho jaati hai! Har engineering college mein 5% extra seats TFWS ke liye reserved hoti hain.
-              </p>
-            </div>
+    <!-- TFWS Alert Banner -->
+    {% if tfws_eligible %}
+    <div class="bg-emerald-50 border-l-4 border-emerald-500 p-5 rounded-r-xl mb-8 shadow-sm">
+      <div class="flex items-start">
+        <span class="text-2xl mr-3">🎉</span>
+        <div>
+          <h3 class="text-emerald-800 font-bold text-lg">AICTE TFWS Scheme Alert!</h3>
+          <p class="text-emerald-700 text-sm mt-1">
+            Your family income is below ₹8 Lakh and you are opting for a technical/engineering course. 
+            You are eligible for the <strong>Tuition Fee Waiver Scheme (TFWS)</strong>, which waives 100% of the tuition fee during state counseling seats!
+          </p>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+
+    <!-- Interactive CSIS Loan & Subsidy Calculator -->
+    <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 md:p-8 mb-8">
+      <div class="flex items-center gap-2 mb-2">
+        <span class="text-xl">🧮</span>
+        <h2 class="text-xl font-bold text-gray-900">CSIS Education Loan & Subsidy Calculator</h2>
+      </div>
+      <p class="text-sm text-gray-500 mb-6">
+        Under the Central Sector Interest Subsidy (CSIS) scheme, families earning under ₹4.5 LPA get a <strong>100% interest subsidy</strong> from the Government during course duration + 1 year moratorium.
+      </p>
+
+      <div class="space-y-4">
+        <div>
+          <div class="flex justify-between items-center mb-2">
+            <span class="text-sm font-semibold text-gray-700">Select Education Loan Amount:</span>
+            <span id="loan_display" class="text-lg font-black text-blue-600">₹4,00,000</span>
+          </div>
+          <input 
+            type="range" 
+            id="loan_slider" 
+            min="100000" 
+            max="1000000" 
+            step="25000" 
+            value="400000" 
+            class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-blue-600"
+          >
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4">
+          <div class="p-4 bg-emerald-50 border border-emerald-200 rounded-lg">
+            <span class="text-xs text-emerald-600 font-semibold uppercase tracking-wider block">Estimated CSIS Interest Saved</span>
+            <span id="interest_saved" class="text-2xl font-black text-emerald-700">₹1,44,000</span>
+            <p class="text-xs text-emerald-600 mt-1">Paid directly by Government of India (0% interest during study).</p>
+          </div>
+
+          <div class="p-4 bg-blue-50 border border-blue-200 rounded-lg">
+            <span class="text-xs text-blue-600 font-semibold uppercase tracking-wider block">Estimated Post-Study Monthly EMI</span>
+            <span id="monthly_emi" class="text-2xl font-black text-blue-700">₹4,950 / mo</span>
+            <p class="text-xs text-blue-600 mt-1">Calculated over a standard 10-year repayment tenure @ 8.5% interest.</p>
           </div>
         </div>
-      {% endif %}
+      </div>
+    </div>
 
+    <!-- Matched Scholarships Display Section -->
+    {% if submitted %}
+    <div class="space-y-4">
       <div class="flex justify-between items-center">
-        <h2 class="text-base font-bold text-slate-900">Scholarship Matches</h2>
-        {% if searched %}
-          <span class="text-xs bg-emerald-100 text-emerald-800 font-semibold px-2.5 py-1 rounded-full">
-            {{ scholarships|length }} Schemes Matched
-          </span>
-        {% endif %}
+        <h2 class="text-xl font-bold text-gray-900">Matched Schemes ({{ scholarships|length }})</h2>
+        <span class="text-xs text-gray-500">Showing 100% criteria matches</span>
       </div>
 
-      {% if searched %}
-        {% if scholarships %}
-          <div class="space-y-4">
-            {% for item in scholarships %}
-              <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm hover:border-indigo-400 transition">
-                <div class="flex justify-between items-start gap-3">
-                  <div>
-                    <h3 class="font-bold text-slate-900 text-base leading-snug">{{ item.name }}</h3>
-                    <p class="text-xs text-slate-500 mt-0.5">{{ item.provider }}</p>
-                  </div>
-                  <span class="bg-emerald-50 text-emerald-700 border border-emerald-200 text-xs px-2.5 py-0.5 rounded-full font-bold whitespace-nowrap">
-                    100% Match
-                  </span>
-                </div>
-
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-4 text-xs bg-slate-50 p-3 rounded-xl border border-slate-100">
-                  <div><span class="font-semibold text-slate-700">Financial Aid:</span> {{ item.benefit }}</div>
-                  <div><span class="font-semibold text-slate-700">Application Deadline:</span> {{ item.deadline }}</div>
-                </div>
-
-                <!-- Documents List -->
-                <div class="mt-3">
-                  <p class="text-[11px] font-bold text-slate-500 uppercase tracking-wider mb-1">Mandatory Documents Required:</p>
-                  <div class="flex flex-wrap gap-1.5">
-                    {% for doc in item.required_docs %}
-                      <span class="text-[11px] bg-slate-100 text-slate-700 px-2 py-0.5 rounded-md border border-slate-200">
-                        ✓ {{ doc }}
-                      </span>
-                    {% endfor %}
-                  </div>
-                </div>
-
-                <div class="mt-4 pt-3 border-t border-slate-100 flex justify-end">
-                  <a href="{{ item.apply_url }}" target="_blank" class="inline-flex items-center gap-1 text-xs font-semibold bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg transition">
-                    Apply on Official Portal &rarr;
-                  </a>
-                </div>
-              </div>
-            {% endfor %}
+      {% if scholarships %}
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {% for sch in scholarships %}
+        <div class="bg-white border border-gray-200 rounded-xl p-5 hover:shadow-md transition flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-start gap-2">
+              <h3 class="font-bold text-gray-900 text-base leading-snug">{{ sch.name }}</h3>
+              <span class="text-[10px] uppercase font-bold bg-blue-100 text-blue-800 px-2 py-0.5 rounded shrink-0">Verified</span>
+            </div>
+            <p class="text-xs font-semibold text-blue-600 mt-1">{{ sch.provider }}</p>
+            <p class="text-xs text-gray-600 mt-2 leading-relaxed">{{ sch.description }}</p>
           </div>
-        {% else %}
-          <div class="bg-white p-10 rounded-2xl border border-dashed border-slate-300 text-center">
-            <p class="font-bold text-slate-700">No matching scholarships found for this criteria.</p>
-            <p class="text-xs text-slate-500 mt-1">Try tweaking the income limit or percentage to see wider national options.</p>
+
+          <div class="mt-4 pt-3 border-t border-gray-100 flex items-center justify-between">
+            <div>
+              <span class="text-[11px] text-gray-500 block">Benefit / Amount:</span>
+              <span class="text-xs font-bold text-emerald-600">{{ sch.amount }}</span>
+            </div>
+            <a 
+              href="{{ sch.link }}" 
+              target="_blank" 
+              class="text-xs bg-gray-900 hover:bg-black text-white px-3 py-1.5 rounded-md font-medium transition"
+            >
+              Official Portal ↗
+            </a>
           </div>
-        {% endif %}
-      {% else %}
-        <div class="bg-white p-12 rounded-2xl border border-slate-200 text-center text-slate-500 shadow-sm">
-          <svg class="w-12 h-12 mx-auto text-indigo-300 mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
-          <p class="font-bold text-slate-800 text-base">Profile bhariye aur instant matching dekhiye</p>
-          <p class="text-xs text-slate-500 mt-1 max-w-sm mx-auto">Left side mein apni details enter karein taaki hum aapke liye sirf wahi scholarships dikhayein jinke liye aap directly eligible hain.</p>
         </div>
+        {% endfor %}
+      </div>
+      {% else %}
+      <div class="bg-white p-8 text-center rounded-xl border border-gray-200">
+        <p class="text-gray-500 text-sm">No schemes matched your exact income and category parameters. Try adjusting your search criteria.</p>
+      </div>
       {% endif %}
+    </div>
+    {% endif %}
+
+    <!-- Direct Portals Reference -->
+    <div class="mt-12 bg-white rounded-xl border border-gray-200 p-6">
+      <h3 class="font-bold text-gray-900 text-sm mb-3">Official Government Verification Portals</h3>
+      <div class="flex flex-wrap gap-4 text-xs font-medium">
+        <a href="https://scholarships.gov.in/" target="_blank" class="text-blue-600 hover:underline">National Scholarship Portal (NSP) ↗</a>
+        <a href="https://www.vidyalakshmi.co.in/" target="_blank" class="text-blue-600 hover:underline">Vidya Lakshmi Education Loan Portal ↗</a>
+        <a href="https://www.jansamarth.in/" target="_blank" class="text-blue-600 hover:underline">Jan Samarth (CSIS Subsidy Check) ↗</a>
+      </div>
     </div>
 
   </main>
+
+  <footer class="bg-white border-t border-gray-200 py-6 mt-8">
+    <div class="max-w-6xl mx-auto px-4 text-center text-xs text-gray-500">
+      Built for CodeStorm 2026 • Shiksha Sathi Open Education Initiative
+    </div>
+  </footer>
+
+  <!-- Scripts for Real-time Calculation -->
+  <script>
+    // 1. Percentage Auto Calculation
+    const obtainedInput = document.getElementById('marks_obtained');
+    const totalInput = document.getElementById('total_marks');
+    const percentInput = document.getElementById('percentage');
+
+    function updatePercentage() {
+      const obtained = parseFloat(obtainedInput.value);
+      const total = parseFloat(totalInput.value);
+
+      if (!isNaN(obtained) && !isNaN(total) && total > 0) {
+        if (obtained > total) {
+          percentInput.value = "Obtained > Total";
+        } else {
+          percentInput.value = ((obtained / total) * 100).toFixed(2) + "%";
+        }
+      } else {
+        percentInput.value = "";
+      }
+    }
+
+    obtainedInput.addEventListener('input', updatePercentage);
+    totalInput.addEventListener('input', updatePercentage);
+
+    // 2. Interactive Loan & Subsidy Slider
+    const loanSlider = document.getElementById('loan_slider');
+    const loanDisplay = document.getElementById('loan_display');
+    const interestSavedDisplay = document.getElementById('interest_saved');
+    const monthlyEmiDisplay = document.getElementById('monthly_emi');
+
+    function updateLoanMetrics() {
+      const loanAmount = parseFloat(loanSlider.value);
+      loanDisplay.textContent = '₹' + loanAmount.toLocaleString('en-IN');
+
+      // Approx 4 years moratorium interest saved at 9% p.a. simple interest
+      const interestSaved = Math.round(loanAmount * 0.09 * 4);
+      interestSavedDisplay.textContent = '₹' + interestSaved.toLocaleString('en-IN');
+
+      // Standard EMI formula for 10-year tenure (120 months) @ 8.5% annual interest
+      const r = 0.085 / 12;
+      const n = 120;
+      const emi = Math.round(loanAmount * r * Math.pow(1 + r, n) / (Math.pow(1 + r, n) - 1));
+      monthlyEmiDisplay.textContent = '₹' + emi.toLocaleString('en-IN') + ' / mo';
+    }
+
+    loanSlider.addEventListener('input', updateLoanMetrics);
+    
+    // Initial run
+    updatePercentage();
+    updateLoanMetrics();
+  </script>
 </body>
 </html>
