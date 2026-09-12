@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shiksha Sathi - Scholarship & Financial Aid Navigator</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-100 text-slate-800 min-h-screen">
+
+  <!-- Header -->
+  <header class="bg-indigo-700 text-white py-4 shadow">
+    <div class="max-w-6xl mx-auto px-4 flex justify-between items-center">
+      <div>
+        <h1 class="text-2xl font-black tracking-tight">शिक्षा साथी (Shiksha Sathi)</h1>
+        <p class="text-indigo-200 text-xs mt-0.5">Automated Financial Aid, TFWS & Scholarship Matching Engine</p>
+      </div>
+      <div class="flex items-center gap-2">
+        <a href="/loans" class="text-xs bg-indigo-600 hover:bg-indigo-800 border border-indigo-300/40 text-white px-3 py-1.5 rounded-lg font-medium transition">
+          Education Loan & CSIS Guide &rarr;
+        </a>
+        <span class="bg-indigo-900/60 border border-indigo-400/30 text-indigo-100 text-xs px-2.5 py-1.5 rounded-lg font-medium hidden sm:inline-block">
+          CodeStorm 2026
+        </span>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4 py-6 grid grid-cols-1 md:grid-cols-3 gap-6">
+    
+    <!-- Profile Form (Left Column) -->
+    <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 h-fit">
+      <h2 class="text-base font-bold text-slate-900 mb-4 pb-2 border-b">Student Profile</h2>
+      <form action="/" method="POST" class="space-y-4 text-sm">
+        
+        <div>
+          <label class="block text-xs font-bold text-slate-600 mb-1">12th Marks / Percentage (%)</label>
+          <input type="number" step="0.1" name="percentage" required placeholder="e.g. 78.5" class="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none text-sm" />
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-slate-600 mb-1">Family Annual Income (LPA)</label>
+          <input type="number" step="0.1" name="income" required placeholder="e.g. 3.5" class="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none text-sm" />
+          <span class="text-[11px] text-slate-400">Put in Lakhs (e.g. 2.5 for ₹2,50,000)</span>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-slate-600 mb-1">Target / Current Course</label>
+          <select name="course" class="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none text-sm">
+            <option value="B.Tech">B.Tech / Engineering</option>
+            <option value="ALL">Degree / Diploma / Other</option>
+          </select>
+        </div>
+
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="block text-xs font-bold text-slate-600 mb-1">Category</label>
+            <select name="category" class="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none text-sm">
+              <option value="General">General</option>
+              <option value="OBC">OBC</option>
+              <option value="SC">SC</option>
+              <option value="ST">ST</option>
+              <option value="EWS">EWS</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-600 mb-1">Gender</label>
+            <select name="gender" class="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none text-sm">
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+            </select>
+          </div>
+        </div>
+
+        <button type="submit" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2.5 rounded-lg transition duration-150 shadow-sm mt-2">
+          Find My Scholarships &rarr;
+        </button>
+      </form>
+    </div>
+
+    <!-- Match Results (Right Columns) -->
+    <div class="md:col-span-2 space-y-4">
+      
+      {% if searched and tfws_eligible %}
+        <!-- TFWS Alert Banner -->
+        <div class="bg-gradient-to-r from-emerald-500 to-teal-600 text-white p-5 rounded-2xl shadow-sm">
+          <div class="flex items-start gap-3">
+            <div class="text-2xl">🎓</div>
+            <div>
+              <h3 class="font-extrabold text-base">You are Eligible for AICTE TFWS (Tuition Fee Waiver Scheme)!</h3>
+              <p class="text-xs text-emerald-100 mt-1 leading-relaxed">
+                Aapki family income <strong>₹8 Lakhs/year se kam hai</strong>. Counseling ke waqt college mein <strong>TFW seat</strong> opt karne par aapki <strong>100% Tuition Fee</strong> maaf ho jaati hai! Har engineering college mein 5% extra seats TFWS ke liye reserved hoti hain.
+              </p>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+
+      <div class="flex justify-between items-center">
+        <h2 class="text-base font-bold text-slate-900">Scholarship Matches</h2>
+        {% if searched %}
+          <span class="text-xs bg-emerald-100 text-emerald-800 font-semibold px-2.5 py-1 rounded-full">
+            {{ scholarships|length }} Schemes Matched
+          </span>
+        {% endif %}
+      </div>
+
+      {% if searched %}
+        {% if scholarships %}
+          <div class="space-y-4">
+            {% for item in scholarships %}
+              <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm hover:border-indigo-400 transition">
+                <div class="flex justify-between items-start gap-3">
+                  <div>
+                    <h3 class="font-bold text-slate-900 text-base leading-snug">{{ item.name }}</h3>
+                    <p class="text-xs text-slate-500 mt-0.5">{{ item.provider }}</p>
+                  </div>
+                  <span class="bg-emerald-50 text-emerald-700 border border-emerald-200 text-xs px-2.5 py-0.5 rounded-full font-bold whitespace-nowrap">
+                    100% Match
+                  </span>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-4 text-xs bg-slate-50 p-3 rounded-xl border border-slate-100">
+                  <div><span class="font-semibold text-slate-700">Financial Aid:</span> {{ item.benefit }}</div>
+                  <div><span class="font-semibold text-slate-700">Application Deadline:</span> {{ item.deadline }}</div>
+                </div>
+
+                <!-- Documents List -->
+                <div class="mt-3">
+                  <p class="text-[11px] font-bold text-slate-500 uppercase tracking-wider mb-1">Mandatory Documents Required:</p>
+                  <div class="flex flex-wrap gap-1.5">
+                    {% for doc in item.required_docs %}
+                      <span class="text-[11px] bg-slate-100 text-slate-700 px-2 py-0.5 rounded-md border border-slate-200">
+                        ✓ {{ doc }}
+                      </span>
+                    {% endfor %}
+                  </div>
+                </div>
+
+                <div class="mt-4 pt-3 border-t border-slate-100 flex justify-end">
+                  <a href="{{ item.apply_url }}" target="_blank" class="inline-flex items-center gap-1 text-xs font-semibold bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg transition">
+                    Apply on Official Portal &rarr;
+                  </a>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        {% else %}
+          <div class="bg-white p-10 rounded-2xl border border-dashed border-slate-300 text-center">
+            <p class="font-bold text-slate-700">No matching scholarships found for this criteria.</p>
+            <p class="text-xs text-slate-500 mt-1">Try tweaking the income limit or percentage to see wider national options.</p>
+          </div>
+        {% endif %}
+      {% else %}
+        <div class="bg-white p-12 rounded-2xl border border-slate-200 text-center text-slate-500 shadow-sm">
+          <svg class="w-12 h-12 mx-auto text-indigo-300 mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+          <p class="font-bold text-slate-800 text-base">Profile bhariye aur instant matching dekhiye</p>
+          <p class="text-xs text-slate-500 mt-1 max-w-sm mx-auto">Left side mein apni details enter karein taaki hum aapke liye sirf wahi scholarships dikhayein jinke liye aap directly eligible hain.</p>
+        </div>
+      {% endif %}
+    </div>
+
+  </main>
+</body>
+</html>
