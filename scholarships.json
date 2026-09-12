@@ -2698,5 +2698,1805 @@
     "income_limit": "₹8,00,000",
     "amount": "Full Academic Fee (Up to ₹3 Lakhs) + ₹1 Lakh Maintenance/year",
     "link": "https://www.aicte-india.org/bureaus/jk"
+  },
+  {
+    "id": 301,
+    "name": "Inlaks Shivdasani Foundation Scholarship",
+    "provider": "Inlaks Foundation",
+    "description": "Full funding for top-tier master's and doctoral degrees abroad in humanities, sciences, and arts.",
+    "income_limit": "No Limit",
+    "amount": "Up to $100,000 (Full tuition + living expenses)",
+    "link": "https://www.inlaksfoundation.org/"
+  },
+  {
+    "id": 302,
+    "name": "Aga Khan Foundation International Scholarship",
+    "provider": "Aga Khan Development Network",
+    "description": "50% grant and 50% loan scholarship for outstanding PG students from developing countries.",
+    "income_limit": "Need-based",
+    "amount": "Tuition fees + living expenses",
+    "link": "https://www.akdn.org/our-agencies/aga-khan-foundation/international-scholarship-programme"
+  },
+  {
+    "id": 303,
+    "name": "Fulbright-Nehru Master's Fellowships",
+    "provider": "USIEF",
+    "description": "For highly motivated Indian graduates to pursue Master's degrees at select US colleges and universities.",
+    "income_limit": "No Limit",
+    "amount": "Full J-1 visa support, tuition, airfare, and living stipend",
+    "link": "https://www.usief.org.in/"
+  },
+  {
+    "id": 304,
+    "name": "Commonwealth Scholarship for Master's and Ph.D.",
+    "provider": "Commonwealth Scholarship Commission / Ministry of Education",
+    "description": "For Indian students pursuing one-year taught Master's or 3-year Ph.D. in UK universities.",
+    "income_limit": "No Limit",
+    "amount": "Approved airfare, tuition and examination fees, and monthly stipend",
+    "link": "https://cscuk.fcdo.gov.uk/"
+  },
+  {
+    "id": 305,
+    "name": "DAAD Development-Related Postgraduate Courses (EPOS)",
+    "provider": "German Academic Exchange Service (DAAD)",
+    "description": "Scholarships for postgraduate courses in Germany for young professionals and graduates.",
+    "income_limit": "No Limit",
+    "amount": "€934 to €1,300/month + health insurance and travel grant",
+    "link": "https://www.daad.de/en/"
+  },
+  {
+    "id": 306,
+    "name": "Erasmus Mundus Joint Masters Scholarship",
+    "provider": "European Union",
+    "description": "High-level integrated study programmes delivered by an international consortium of higher education institutions.",
+    "income_limit": "No Limit",
+    "amount": "Full participation costs + €1,400/month living allowance",
+    "link": "https://erasmus-plus.ec.europa.eu/"
+  },
+  {
+    "id": 307,
+    "name": "MEXT Japanese Government Research Student Scholarship",
+    "provider": "Ministry of Education Japan / Govt of India",
+    "description": "For Indian students pursuing research studies at Japanese universities.",
+    "income_limit": "No Limit",
+    "amount": "143,000 JPY/month + full tuition waiver and round-trip airfare",
+    "link": "https://www.in.emb-japan.go.jp/"
+  },
+  {
+    "id": 308,
+    "name": "Charpak Master's Scholarship Program",
+    "provider": "Embassy of France in India",
+    "description": "For Indian students pursuing one or two years of Master's degrees in France.",
+    "income_limit": "No Limit",
+    "amount": "€860/month living allowance + student visa fee waiver + social security",
+    "link": "https://www.inde.campusfrance.org/"
+  },
+  {
+    "id": 309,
+    "name": "Eiffel Excellence Scholarship Programme",
+    "provider": "Campus France",
+    "description": "For top foreign students admitted into French higher education institutions at Master's and PhD levels.",
+    "income_limit": "No Limit",
+    "amount": "€1,181/month (Master) or €1,700/month (Ph.D.) + transport and health insurance",
+    "link": "https://www.campusfrance.org/en/eiffel-scholarship-program-of-excellence"
+  },
+  {
+    "id": 310,
+    "name": "Chevening South Asia Journalism Fellowship",
+    "provider": "UK Foreign, Commonwealth & Development Office",
+    "description": "For mid-career journalists from South Asia to undertake an intensive bespoke programme in the UK.",
+    "income_limit": "No Limit",
+    "amount": "Full programme fees, living expenses, and return economy airfare",
+    "link": "https://www.chevening.org/"
+  },
+  {
+    "id": 311,
+    "name": "National Fellowship for ST Students (Ph.D.)",
+    "provider": "Ministry of Tribal Affairs",
+    "description": "To provide fellowship grants to ST students pursuing regular full-time M.Phil and Ph.D. degrees.",
+    "income_limit": "No Limit",
+    "amount": "₹31,000 to ₹35,000/month + contingency allowance",
+    "link": "https://fellowship.tribal.gov.in/"
+  },
+  {
+    "id": 312,
+    "name": "Pre-Matric Scholarship for Children of Unclean Occupations",
+    "provider": "Ministry of Social Justice & Empowerment",
+    "description": "For children of parents engaged in hazardous cleaning, manual scavenging, and tanners.",
+    "income_limit": "No Limit",
+    "amount": "₹3,500/year + annual ad-hoc grant",
+    "link": "https://scholarships.gov.in/"
+  },
+  {
+    "id": 313,
+    "name": "Central Sector Scheme for University Students (Post-Graduation)",
+    "provider": "Department of Higher Education (MoE)",
+    "description": "Continuation renewal of CSSS for undergraduate scholars continuing into Post-Graduate degrees.",
+    "income_limit": "₹4,50,000",
+    "amount": "₹20,000/year for 2 years",
+    "link": "https://scholarships.gov.in/"
+  },
+  {
+    "id": 314,
+    "name": "AICTE Post Graduate Scholarship (CEED Qualified)",
+    "provider": "AICTE",
+    "description": "Financial assistance to CEED qualified students admitted to full-time M.Des programmes.",
+    "income_limit": "No Limit (CEED exam score based)",
+    "amount": "₹12,400/month for 24 months",
+    "link": "https://www.aicte-india.org/"
+  },
+  {
+    "id": 315,
+    "name": "AICTE National Doctoral Fellowship (NDF)",
+    "provider": "AICTE",
+    "description": "To promote research culture in AICTE-approved institutions in thrust technical areas.",
+    "income_limit": "No Limit",
+    "amount": "₹31,000 to ₹35,000/month + ₹15,000/year contingency",
+    "link": "https://www.aicte-india.org/"
+  },
+  {
+    "id": 316,
+    "name": "SERB Ramanujan Fellowship",
+    "provider": "Science and Engineering Research Board / DST",
+    "description": "For brilliant Indian scientists and engineers from all over the world to take up scientific research in India.",
+    "income_limit": "No Limit",
+    "amount": "₹1,35,000/month consolidated + ₹7,00,000/year research grant",
+    "link": "https://serbonline.in/"
+  },
+  {
+    "id": 317,
+    "name": "SERB National Post Doctoral Fellowship (N-PDF)",
+    "provider": "Science and Engineering Research Board",
+    "description": "For young researchers with Ph.D. in Science and Engineering to work under a mentor in Indian labs.",
+    "income_limit": "No Limit",
+    "amount": "₹55,000/month + ₹2,00,000/year research grant",
+    "link": "https://serbonline.in/"
+  },
+  {
+    "id": 318,
+    "name": "DST Women Scientists Scheme (WOS-A)",
+    "provider": "Department of Science & Technology",
+    "description": "For women scientists and technologists who had a break in their career to re-enter mainstream science.",
+    "income_limit": "No Limit",
+    "amount": "₹31,000 to ₹55,000/month based on qualification",
+    "link": "https://online-wosa.gov.in/"
+  },
+  {
+    "id": 319,
+    "name": "DST Women Scientists Scheme (WOS-B)",
+    "provider": "Department of Science & Technology",
+    "description": "Interventions directly addressing societal challenges through science and technology solutions by women researchers.",
+    "income_limit": "No Limit",
+    "amount": "₹31,000 to ₹55,000/month + project grant",
+    "link": "https://dst.gov.in/"
+  },
+  {
+    "id": 320,
+    "name": "DST KIRAN IPR Internship (WOS-C)",
+    "provider": "TIFAC / Department of Science & Technology",
+    "description": "One-year training on Intellectual Property Rights (IPR) and patent search for women with science backgrounds.",
+    "income_limit": "No Limit",
+    "amount": "₹25,000 to ₹35,000/month stipend",
+    "link": "https://www.tifac.org.in/"
+  },
+  {
+    "id": 321,
+    "name": "Vigyan Jyoti Scheme for Girl Students",
+    "provider": "Department of Science & Technology",
+    "description": "Encouraging meritorious girl students of Class 9 to 12 towards pursuing careers in STEM fields.",
+    "income_limit": "No Limit",
+    "amount": "₹1,000/month scholarship + free counselling & study kits",
+    "link": "https://dst.gov.in/"
+  },
+  {
+    "id": 322,
+    "name": "CSIR Senior Research Fellowship (SRF)",
+    "provider": "Council of Scientific and Industrial Research",
+    "description": "For researchers with MSc/BTech/MBBS with at least 2 years research experience pursuing doctorate.",
+    "income_limit": "No Limit",
+    "amount": "₹35,000/month + HRA + contingency",
+    "link": "https://csirhrdg.res.in/"
+  },
+  {
+    "id": 323,
+    "name": "CSIR Research Associateship (RA)",
+    "provider": "CSIR HRDG",
+    "description": "Postdoctoral research fellowship in all fields of science and technology in Indian research institutions.",
+    "income_limit": "No Limit",
+    "amount": "₹47,000 to ₹54,000/month + HRA",
+    "link": "https://csirhrdg.res.in/"
+  },
+  {
+    "id": 324,
+    "name": "ICSSR Post-Doctoral Fellowship",
+    "provider": "Indian Council of Social Science Research",
+    "description": "For scholars holding a Ph.D. in social sciences to conduct full-time advanced research.",
+    "income_limit": "No Limit",
+    "amount": "₹31,000/month + ₹25,000/year contingency",
+    "link": "https://icssr.org/"
+  },
+  {
+    "id": 325,
+    "name": "ICHR Senior Academic Fellowship",
+    "provider": "Indian Council of Historical Research",
+    "description": "For established historians and researchers holding Ph.D. to publish original monographs.",
+    "income_limit": "No Limit",
+    "amount": "₹44,000/month + ₹44,000/year contingency",
+    "link": "http://ichr.ac.in/"
+  },
+  {
+    "id": 326,
+    "name": "ICAR National Talent Scholarship (UG)",
+    "provider": "Indian Council of Agricultural Research",
+    "description": "For students admitted to undergraduate agricultural courses outside their home state through AIEEA.",
+    "income_limit": "No Limit (Entrance rank based)",
+    "amount": "₹3,000/month for UG students",
+    "link": "https://icar.org.in/"
+  },
+  {
+    "id": 327,
+    "name": "ICAR Junior Research Fellowship (PG)",
+    "provider": "Indian Council of Agricultural Research",
+    "description": "For candidates qualifying ICAR AIEEA-PG for Master's degree in agriculture and allied sciences.",
+    "income_limit": "No Limit",
+    "amount": "₹12,640/month + ₹6,000/year contingency",
+    "link": "https://icar.org.in/"
+  },
+  {
+    "id": 328,
+    "name": "ICAR Senior Research Fellowship (Ph.D.)",
+    "provider": "Indian Council of Agricultural Research",
+    "description": "For scholars admitted to Ph.D. courses in agricultural universities through ICAR AICE-JRF/SRF.",
+    "income_limit": "No Limit",
+    "amount": "₹31,000/month + ₹10,000/year contingency",
+    "link": "https://icar.org.in/"
+  },
+  {
+    "id": 329,
+    "name": "Ministry of AYUSH Ph.D. Fellowship",
+    "provider": "Ministry of AYUSH / Central Council for Research",
+    "description": "For scholars undertaking doctoral research in Ayurveda, Yoga, Unani, Siddha, and Homoeopathy.",
+    "income_limit": "No Limit",
+    "amount": "₹31,000/month + contingency grant",
+    "link": "https://ayush.gov.in/"
+  },
+  {
+    "id": 330,
+    "name": "Ministry of Culture Scholarship to Young Artists",
+    "provider": "Ministry of Culture",
+    "description": "For young artists aged 18 to 25 showing exceptional talent in classical performing arts, painting, and folk.",
+    "income_limit": "No Limit",
+    "amount": "₹5,000/month for 2 years",
+    "link": "https://indiaculture.gov.in/"
+  },
+  {
+    "id": 331,
+    "name": "Junior Research Fellowship in Classical Music & Theatre",
+    "provider": "Sangeet Natak Akademi",
+    "description": "Financial support to promising young scholars conducting documentation and practice in Indian arts.",
+    "income_limit": "No Limit",
+    "amount": "₹10,000/month for 2 years",
+    "link": "https://sangeetnatak.gov.in/"
+  },
+  {
+    "id": 332,
+    "name": "Dr. K.S. Krishnan Research Associateship (KSKRA)",
+    "provider": "Board of Research in Nuclear Sciences (BRNS / DAE)",
+    "description": "Prestigious research associateship for Ph.D. engineers and scientists to work across DAE units.",
+    "income_limit": "No Limit",
+    "amount": "₹67,000/month + educational allowances",
+    "link": "https://barc.gov.in/"
+  },
+  {
+    "id": 333,
+    "name": "DAE Graduate Fellowship Scheme (DGFS)",
+    "provider": "Bhabha Atomic Research Centre",
+    "description": "For engineering graduates joining M.Tech in IITs/NITs with guaranteed absorption as Scientific Officer in BARC.",
+    "income_limit": "No Limit (GATE based)",
+    "amount": "₹55,000/month stipend + full M.Tech fees reimbursed",
+    "link": "https://barcocesexam.in/"
+  },
+  {
+    "id": 334,
+    "name": "BARC Training Schools OCES Orientation Scheme",
+    "provider": "Department of Atomic Energy",
+    "description": "One-year orientation course for engineering graduates and science postgraduates joining atomic energy program.",
+    "income_limit": "No Limit",
+    "amount": "₹55,000/month stipend + book allowance of ₹18,000",
+    "link": "https://barc.gov.in/"
+  },
+  {
+    "id": 335,
+    "name": "ISRO RESPOND Fellowship Programme",
+    "provider": "Indian Space Research Organisation",
+    "description": "Grant-in-aid to academic institutions for sponsored research fellowships in space sciences and satellite systems.",
+    "income_limit": "No Limit",
+    "amount": "₹31,000 to ₹35,000/month as JRF/SRF",
+    "link": "https://www.isro.gov.in/respond.html"
+  },
+  {
+    "id": 336,
+    "name": "DRDO Junior Research Fellowship (Lab-specific)",
+    "provider": "Defence Research & Development Organisation",
+    "description": "Fellowship for GATE/NET qualified candidates pursuing advanced defence tech research across DRDO labs.",
+    "income_limit": "No Limit",
+    "amount": "₹37,000/month + HRA and medical facilities",
+    "link": "https://drdo.gov.in/"
+  },
+  {
+    "id": 337,
+    "name": "Kendriya Vidyalaya Single Girl Child Scheme",
+    "provider": "Kendriya Vidyalaya Sangathan (KVS)",
+    "description": "100% exemption of tuition fee and development funds for single girl children studying in Classes 6 to 12.",
+    "income_limit": "No Limit",
+    "amount": "Full School Fee Exemption",
+    "link": "https://kvsangathan.nic.in/"
+  },
+  {
+    "id": 338,
+    "name": "Navodaya Vidyalaya Free Residential Education",
+    "provider": "Navodaya Vidyalaya Samiti (NVS)",
+    "description": "Free boarding, lodging, uniforms, textbooks, and CBSE schooling for rural talented students from Class 6 to 12.",
+    "income_limit": "Free for SC/ST/Girls/BPL (₹600/month for others)",
+    "amount": "100% Free Residential Education",
+    "link": "https://navodaya.gov.in/"
+  },
+  {
+    "id": 339,
+    "name": "Sainik School Merit-cum-Means Scholarship",
+    "provider": "Ministry of Defence / State Governments",
+    "description": "Tuition fee concessions for cadets studying in Sainik Schools across India based on parental income.",
+    "income_limit": "₹3,00,000 (Sliding scale up to ₹10 Lakhs)",
+    "amount": "₹20,000 to ₹75,000/year tuition fee waiver",
+    "link": "https://sainikschooladmission.in/"
+  },
+  {
+    "id": 340,
+    "name": "Rashtriya Military School Financial Concession",
+    "provider": "Ministry of Defence",
+    "description": "Subsidized fee structure and scholarships for wards of JCOs/OR and service personnel in RMS schools.",
+    "income_limit": "Service Rank Linked",
+    "amount": "Up to 80% School Fee Waiver",
+    "link": "https://rashtriyamilitaryschools.edu.in/"
+  },
+  {
+    "id": 341,
+    "name": "Border Security Force (BSF) Education Grant",
+    "provider": "BSF Welfare Directorate",
+    "description": "Financial assistance for school and college education of children of serving, retired, and martyred BSF personnel.",
+    "income_limit": "BSF Personnel Wards",
+    "amount": "₹18,000 to ₹30,000/year",
+    "link": "https://bsf.gov.in/"
+  },
+  {
+    "id": 342,
+    "name": "CRPF Education Scholarship for Wards",
+    "provider": "CRPF Central Welfare Fund",
+    "description": "Merit scholarships for wards of CRPF personnel pursuing higher professional and general degrees.",
+    "income_limit": "CRPF Personnel Wards",
+    "amount": "₹20,000 to ₹36,000/year",
+    "link": "https://crpf.gov.in/"
+  },
+  {
+    "id": 343,
+    "name": "ITBP Merit Scholarship for Wards",
+    "provider": "Indo-Tibetan Border Police",
+    "description": "Educational cash awards for children of ITBP personnel scoring high percentiles in 10th, 12th, and college.",
+    "income_limit": "ITBP Wards Only",
+    "amount": "₹15,000 to ₹25,000/year",
+    "link": "https://itbpolice.nic.in/"
+  },
+  {
+    "id": 344,
+    "name": "CISF Personnel Wards Scholarship",
+    "provider": "CISF Central Welfare Fund",
+    "description": "Scholarships for pursuing technical, medical, and general undergraduate courses for children of CISF force members.",
+    "income_limit": "CISF Wards Only",
+    "amount": "₹12,000 to ₹24,000/year",
+    "link": "https://cisf.gov.in/"
+  },
+  {
+    "id": 345,
+    "name": "Assam Pragyan Bharati Dr. Banikanta Kakati Award",
+    "provider": "Govt of Assam",
+    "description": "Free scooty awarded to meritorious girls scoring 60%+ and boys scoring 75%+ in Assam HS examination.",
+    "income_limit": "No Limit (Merit based)",
+    "amount": "Free Scooty + Insurance & Registration",
+    "link": "https://assam.gov.in/"
+  },
+  {
+    "id": 346,
+    "name": "Assam Fee Waiver Scheme for Higher Education",
+    "provider": "Govt of Assam",
+    "description": "100% admission, tuition, and examination fee waiver for students taking admission in state colleges/universities.",
+    "income_limit": "₹2,00,000",
+    "amount": "100% Free College Education",
+    "link": "https://directorateofhighereducation.assam.gov.in/"
+  },
+  {
+    "id": 347,
+    "name": "Assam Anundoram Borooah Cash Award",
+    "provider": "Govt of Assam",
+    "description": "Direct financial assistance in lieu of laptops to students securing 75%+ in HSLC (Class 10) examinations.",
+    "income_limit": "No Limit",
+    "amount": "One-time ₹16,000 direct bank transfer",
+    "link": "https://arbas.assam.gov.in/"
+  },
+  {
+    "id": 348,
+    "name": "Bihar Post-Matric PMS Portal (General EWS)",
+    "provider": "Govt of Bihar",
+    "description": "State scholarship portal reimbursement for students belonging to general category Economically Weaker Section.",
+    "income_limit": "₹2,50,000",
+    "amount": "Course Fee Reimbursement",
+    "link": "https://pmsonline.bih.nic.in/"
+  },
+  {
+    "id": 349,
+    "name": "Bihar Mukhyamantri Medhavriti Yojana (SC/ST Girls)",
+    "provider": "Govt of Bihar",
+    "description": "Special financial incentive for SC and ST girls passing Intermediate (Class 12) in first/second division.",
+    "income_limit": "No Limit",
+    "amount": "₹10,000 to ₹15,000 one-time",
+    "link": "http://medhasoft.bih.nic.in/"
+  },
+  {
+    "id": 350,
+    "name": "Bihar Student Credit Card Scheme",
+    "provider": "Govt of Bihar",
+    "description": "Education loan guaranteed by State Govt at 1% interest for girls/transgender and 4% for boys for higher studies.",
+    "income_limit": "No Limit",
+    "amount": "Loan up to ₹4,00,000 (State Guaranteed)",
+    "link": "https://www.7nishchay-yuvaupmission.bihar.gov.in/"
+  },
+  {
+    "id": 351,
+    "name": "MP Gaon Ki Beti Scheme (Technical & Medical)",
+    "provider": "Govt of Madhya Pradesh",
+    "description": "Higher financial assistance for rural girls who passed 12th with 1st division and entered engineering/medical.",
+    "income_limit": "Rural Girls Only",
+    "amount": "₹7,500/year for professional courses",
+    "link": "http://scholarshipportal.mp.nic.in/"
+  },
+  {
+    "id": 352,
+    "name": "MP Post-Matric Scholarship for SC/ST (Portal 2.0)",
+    "provider": "Govt of Madhya Pradesh",
+    "description": "Automated DBT scholarship covering complete college tuition, exam fees, and hostel maintenance in MP.",
+    "income_limit": "₹2,50,000 (Full), Up to ₹6L (Partial)",
+    "amount": "100% Tuition Fee + ₹5,500/year maintenance",
+    "link": "http://scholarshipportal.mp.nic.in/"
+  },
+  {
+    "id": 353,
+    "name": "MP Post-Matric Scholarship for OBC Students",
+    "provider": "Govt of Madhya Pradesh",
+    "description": "For OBC students enrolled in recognized polytechnics, undergraduate, and post-graduate colleges in MP.",
+    "income_limit": "₹3,00,000",
+    "amount": "Tuition Fee Reimbursement + Monthly Allowance",
+    "link": "http://scholarshipportal.mp.nic.in/"
+  },
+  {
+    "id": 354,
+    "name": "MP Awas Sahayata Yojana for SC/ST Students",
+    "provider": "Tribal Affairs Department Govt of MP",
+    "description": "Room rent and accommodation assistance for tribal students studying in colleges away from their home village.",
+    "income_limit": "SC/ST college students",
+    "amount": "₹1,000 to ₹2,000/month room rent",
+    "link": "https://www.tribal.mp.gov.in/"
+  },
+  {
+    "id": 355,
+    "name": "MP Pratibha Protsahan Yojana",
+    "provider": "Govt of Madhya Pradesh",
+    "description": "One-time cash incentive for students clearing national competitive exams like JEE Advanced, NEET, and AIIMS.",
+    "income_limit": "ST/SC Students of MP",
+    "amount": "One-time ₹50,000 cash grant",
+    "link": "http://scholarshipportal.mp.nic.in/"
+  },
+  {
+    "id": 356,
+    "name": "UP Free Tablet & Smartphone Scheme (Digi Shakti)",
+    "provider": "Govt of Uttar Pradesh",
+    "description": "Distribution of free Android tablets and smartphones to final year students of BA, BSc, BTech, MA, and ITI in UP.",
+    "income_limit": "₹2,00,000",
+    "amount": "Free Samsung/Acer Tablet or Smartphone",
+    "link": "https://digishakti.up.gov.in/"
+  },
+  {
+    "id": 357,
+    "name": "UP Post-Matric Scholarship for Minorities",
+    "provider": "Minority Welfare Dept Govt of UP",
+    "description": "Covers tuition fees and maintenance for minority students studying in polytechnics, universities, and medical colleges.",
+    "income_limit": "₹2,00,000",
+    "amount": "Full Reimbursement of Non-refundable Fee",
+    "link": "https://scholarship.up.gov.in/"
+  },
+  {
+    "id": 358,
+    "name": "UP Pre-Matric Scholarship for Minorities",
+    "provider": "Minority Welfare Dept Govt of UP",
+    "description": "To prevent drop-out among students of Class 9 and 10 from minority communities in Uttar Pradesh.",
+    "income_limit": "₹1,00,000",
+    "amount": "₹3,000/year allowance",
+    "link": "https://scholarship.up.gov.in/"
+  },
+  {
+    "id": 359,
+    "name": "UP Sanskrit Sansthan Scholarship",
+    "provider": "Uttar Pradesh Sanskrit Sansthan",
+    "description": "Scholarships for students studying Sanskrit from Class 6 up to Acharya (Post-Graduation) level in UP.",
+    "income_limit": "No Limit",
+    "amount": "₹5,000 to ₹12,000/year",
+    "link": "https://upsanskritsansthanam.in/"
+  },
+  {
+    "id": 360,
+    "name": "Rajasthan Devnarayan Scooty Vitran Yojana",
+    "provider": "Govt of Rajasthan",
+    "description": "Free motor-scooty with 2 litres petrol for MBC (Gurjar, Raika, Banjara) girls pursuing degree education.",
+    "income_limit": "₹2,50,000",
+    "amount": "Free Scooty + Insurance",
+    "link": "https://hte.rajasthan.gov.in/"
+  },
+  {
+    "id": 361,
+    "name": "Rajasthan Kali Bai Bheel Scooty (Minority Quota)",
+    "provider": "Minority Affairs Dept Rajasthan",
+    "description": "Reserved free scooty distribution for meritorious girls of minority communities scoring 65%+ in 12th.",
+    "income_limit": "₹2,50,000",
+    "amount": "Free Scooty + ₹40,000 cash option for disabled",
+    "link": "https://hte.rajasthan.gov.in/"
+  },
+  {
+    "id": 362,
+    "name": "Rajasthan Post-Matric Scholarship for DNT Students",
+    "provider": "Social Justice & Empowerment Dept Rajasthan",
+    "description": "Fee reimbursement and monthly allowance for De-Notified, Nomadic, and Semi-Nomadic Tribes in higher education.",
+    "income_limit": "₹2,50,000",
+    "amount": "100% Non-refundable Tuition Fee",
+    "link": "https://sje.rajasthan.gov.in/"
+  },
+  {
+    "id": 363,
+    "name": "Rajasthan Mukhyamantri Andhjan Chatravriti",
+    "provider": "Govt of Rajasthan",
+    "description": "Higher monthly assistance for visually impaired students pursuing education from school to post-graduation.",
+    "income_limit": "Visually Impaired Students",
+    "amount": "₹1,000 to ₹1,500/month reader allowance",
+    "link": "https://sje.rajasthan.gov.in/"
+  },
+  {
+    "id": 364,
+    "name": "Dr. Panjabrao Deshmukh Hostel Maintenance Allowance",
+    "provider": "Govt of Maharashtra",
+    "description": "Hostel allowance for children of registered marginal farmers and registered agricultural laborers taking technical degrees.",
+    "income_limit": "₹8,00,000",
+    "amount": "₹20,000 to ₹30,000/year hostel maintenance",
+    "link": "https://mahadbt.maharashtra.gov.in/"
+  },
+  {
+    "id": 365,
+    "name": "Maharashtra Rajarshi Shahu Maharaj (VJNT/SBC)",
+    "provider": "Govt of Maharashtra",
+    "description": "100% tuition and examination fee concession for VJNT and Special Backward Classes in professional courses.",
+    "income_limit": "₹8,00,000",
+    "amount": "100% Tuition & Exam Fee Exemption",
+    "link": "https://mahadbt.maharashtra.gov.in/"
+  },
+  {
+    "id": 366,
+    "name": "Maharashtra Swadhar Yojana for SC Students",
+    "provider": "Social Welfare Dept Maharashtra",
+    "description": "Direct cash support for lodging, boarding, and transport for SC students who could not get government hostel seats.",
+    "income_limit": "₹2,50,000",
+    "amount": "Up to ₹60,000/year direct cash allowance",
+    "link": "https://sjsa.maharashtra.gov.in/"
+  },
+  {
+    "id": 367,
+    "name": "Maharashtra Eklavya Scholarship for PG Students",
+    "provider": "Higher Education Dept Maharashtra",
+    "description": "For students who secured 60%+ in Arts/Commerce or 70%+ in Science graduation pursuing Master's degrees.",
+    "income_limit": "₹75,000",
+    "amount": "₹5,000/year",
+    "link": "https://mahadbt.maharashtra.gov.in/"
+  },
+  {
+    "id": 368,
+    "name": "Maharashtra State Minority Scholarship (Professional)",
+    "provider": "Minority Development Dept Maharashtra",
+    "description": "For Muslim, Christian, Buddhist, Sikh, Parsi, Jain, and Jewish students pursuing professional technical courses.",
+    "income_limit": "₹8,00,000",
+    "amount": "Up to ₹50,000/year course fee",
+    "link": "https://mahadbt.maharashtra.gov.in/"
+  },
+  {
+    "id": 369,
+    "name": "Gujarat Vidya Lakshmi Bond Scheme",
+    "provider": "Govt of Gujarat",
+    "description": "Bond given to girl children admitted to Class 1 in villages with female literacy below 35%, encashable after Class 8.",
+    "income_limit": "No Limit (Rural Girl Child)",
+    "amount": "₹2,000 maturity bond",
+    "link": "https://scholarships.gujarat.gov.in/"
+  },
+  {
+    "id": 370,
+    "name": "Gujarat Post-Matric Scholarship for ST Girls",
+    "provider": "Tribal Development Dept Gujarat",
+    "description": "Special scheme with no income ceiling for tribal girls continuing college and university education.",
+    "income_limit": "No Limit (ST Girls)",
+    "amount": "Full Tuition + ₹6,000/year maintenance",
+    "link": "https://www.digitalgujarat.gov.in/"
+  },
+  {
+    "id": 371,
+    "name": "Gujarat SHODH Ph.D. Fellowship Scheme",
+    "provider": "Knowledge Consortium of Gujarat (KCG)",
+    "description": "Scheme for Developing High Quality Research providing monthly stipends to full-time Ph.D. students in Gujarat.",
+    "income_limit": "No Limit",
+    "amount": "₹20,000/month for 2 years + ₹20,000 contingency",
+    "link": "https://mysy.guj.nic.in/shodh/"
+  },
+  {
+    "id": 372,
+    "name": "Gujarat Swami Vivekananda PG Fellowship",
+    "provider": "Govt of Gujarat",
+    "description": "Financial scholarship for post-graduate students in universities of Gujarat in pure science and arts disciplines.",
+    "income_limit": "₹2,50,000",
+    "amount": "₹25,000/year",
+    "link": "https://www.digitalgujarat.gov.in/"
+  },
+  {
+    "id": 373,
+    "name": "Karnataka SSP Post-Matric SC/ST Fee Reimbursement",
+    "provider": "Social Welfare Dept Karnataka",
+    "description": "Automated State Scholarship Portal fee credit for SC/ST students studying in degree, engineering, and medical colleges.",
+    "income_limit": "₹2,50,000",
+    "amount": "100% Course Fee + Monthly Hostel Allowance",
+    "link": "https://ssp.postmatric.karnataka.gov.in/"
+  },
+  {
+    "id": 374,
+    "name": "Karnataka SSP Post-Matric for Minorities",
+    "provider": "Minority Welfare Dept Karnataka",
+    "description": "State incentive scholarship for minority community students enrolled in post-matric studies in Karnataka.",
+    "income_limit": "₹2,00,000",
+    "amount": "Tuition Fee + ₹10,000 maintenance",
+    "link": "https://ssp.postmatric.karnataka.gov.in/"
+  },
+  {
+    "id": 375,
+    "name": "Karnataka SSP Post-Matric for Backward Classes (Cat-1/2A/3A)",
+    "provider": "Backward Classes Welfare Karnataka",
+    "description": "Fee concession and reimbursement of non-refundable charges for OBC categories in higher education.",
+    "income_limit": "₹2,50,000 (Cat-1) / ₹1,00,000 (Others)",
+    "amount": "Full Tuition Fee Concession",
+    "link": "https://ssp.postmatric.karnataka.gov.in/"
+  },
+  {
+    "id": 376,
+    "name": "Karnataka Vidyasiri Free Hostel Scheme",
+    "provider": "Backward Classes Welfare Karnataka",
+    "description": "Alternative monthly food and accommodation stipend for rural students who couldn't be accommodated in BCM Hostels.",
+    "income_limit": "₹2,50,000",
+    "amount": "₹1,500/month for 10 months",
+    "link": "https://bcwd.karnataka.gov.in/"
+  },
+  {
+    "id": 377,
+    "name": "Karnataka Kittur Rani Chennamma Award",
+    "provider": "Govt of Karnataka",
+    "description": "Merit award for girls scoring highest marks in SSLC (Class 10) in each educational district of Karnataka.",
+    "income_limit": "No Limit",
+    "amount": "Cash Prize + Commendation",
+    "link": "https://schooleducation.kar.nic.in/"
+  },
+  {
+    "id": 378,
+    "name": "Kerala Sthree Sakthi Higher Education Scholarship",
+    "provider": "Directorate of Collegiate Education Kerala",
+    "description": "Financial assistance for meritorious female undergraduate students from economically challenged backgrounds.",
+    "income_limit": "₹1,00,000",
+    "amount": "₹6,000/year",
+    "link": "https://dcescholarship.kerala.gov.in/"
+  },
+  {
+    "id": 379,
+    "name": "Kerala Post-Matric Minority Scholarship (State Scheme)",
+    "provider": "Directorate of Minority Welfare Kerala",
+    "description": "Maintenance grant for minority students pursuing degree and diploma education in govt/aided colleges in Kerala.",
+    "income_limit": "₹8,00,000",
+    "amount": "₹4,000 to ₹10,000/year",
+    "link": "http://minoritywelfare.kerala.gov.in/"
+  },
+  {
+    "id": 380,
+    "name": "Kerala Merit-cum-Means Professional Students Scheme",
+    "provider": "DCE Kerala",
+    "description": "For first-year students of engineering, medical, veterinary, and agriculture with 70%+ in Plus Two.",
+    "income_limit": "₹1,00,000",
+    "amount": "₹10,000/year for 4 years",
+    "link": "https://dcescholarship.kerala.gov.in/"
+  },
+  {
+    "id": 381,
+    "name": "Kerala Blind / PH Reader Allowance Scholarship",
+    "provider": "DCE Kerala",
+    "description": "Reader allowance and tuition exemption for blind, deaf, and physically challenged students pursuing higher studies.",
+    "income_limit": "₹2,50,000",
+    "amount": "Hostel allowance + ₹1,200/month reader charges",
+    "link": "https://dcescholarship.kerala.gov.in/"
+  },
+  {
+    "id": 382,
+    "name": "Kerala District Merit Scholarship (DMS)",
+    "provider": "Directorate of General Education Kerala",
+    "description": "Awarded to high scorers of SSLC examination continuing higher secondary education in the same district.",
+    "income_limit": "No Limit",
+    "amount": "₹1,250/year for Plus One & Plus Two",
+    "link": "https://dcescholarship.kerala.gov.in/"
+  },
+  {
+    "id": 383,
+    "name": "Tamil Nadu First Graduate Tuition Fee Concession",
+    "provider": "Govt of Tamil Nadu",
+    "description": "100% tuition fee waiver for students who are the first in their family to pursue graduation via TNEA counselling.",
+    "income_limit": "No Limit (First graduate in family)",
+    "amount": "₹20,000 to ₹25,000/year (Full Tuition Fee)",
+    "link": "https://www.tneaonline.org/"
+  },
+  {
+    "id": 384,
+    "name": "Tamil Nadu Annal Ambedkar Overseas Fellowship",
+    "provider": "Adi Dravidar and Tribal Welfare Dept TN",
+    "description": "Full financial scholarship for SC/ST students of Tamil Nadu to pursue postgraduate degrees in foreign universities.",
+    "income_limit": "₹8,00,000",
+    "amount": "Full Tuition + Living Expenses up to ₹36 Lakhs",
+    "link": "https://tnadtwscholarship.tn.gov.in/"
+  },
+  {
+    "id": 385,
+    "name": "Tamil Nadu Thanthai Periyar Memorial Award",
+    "provider": "Backward Classes and Minorities Welfare TN",
+    "description": "Cash award given to the top-scoring boy and girl student in each district in Class 10 and 12 board exams.",
+    "income_limit": "No Limit",
+    "amount": "₹10,000 to ₹15,000 one-time cash award",
+    "link": "https://bcmbcmw.tn.gov.in/"
+  },
+  {
+    "id": 386,
+    "name": "Tamil Nadu Chief Minister's Talent Search Exam (CMSTSE)",
+    "provider": "Directorate of Govt Examinations Tamil Nadu",
+    "description": "Special examination for Class 11 students in government and aided schools, selecting 1,000 students for monthly stipend.",
+    "income_limit": "No Limit",
+    "amount": "₹1,000/month for 10 months",
+    "link": "https://dge.tn.gov.in/"
+  },
+  {
+    "id": 387,
+    "name": "Andhra Pradesh Videshi Vidya Deevena (BC Component)",
+    "provider": "Backward Classes Welfare Dept Andhra Pradesh",
+    "description": "Financial assistance for BC students seeking admission in world top-ranked foreign universities.",
+    "income_limit": "₹8,00,000",
+    "amount": "Up to ₹50 Lakhs tuition reimbursement",
+    "link": "https://jnanabhumi.ap.gov.in/"
+  },
+  {
+    "id": 388,
+    "name": "Andhra Pradesh Post-Matric RTF & MTF",
+    "provider": "Social Welfare Dept Andhra Pradesh",
+    "description": "Reimbursement of Tuition Fee (RTF) and Maintenance Charges (MTF) credited quarterly directly to mothers' bank accounts.",
+    "income_limit": "₹2,50,000",
+    "amount": "100% Tuition Fee + ₹20,000/year hostel assistance",
+    "link": "https://jnanabhumi.ap.gov.in/"
+  },
+  {
+    "id": 389,
+    "name": "Telangana Mahatma Jyotiba Phule Overseas Vidya Nidhi",
+    "provider": "BC Welfare Dept Telangana",
+    "description": "Scholarship grant for Backward Classes and EBC students of Telangana to pursue Master's and Ph.D. overseas.",
+    "income_limit": "₹5,00,000",
+    "amount": "Up to ₹20,00,000 in two instalments + one-way flight",
+    "link": "https://telanganaepass.cgg.gov.in/"
+  },
+  {
+    "id": 390,
+    "name": "Telangana Ambedkar Overseas Vidya Nidhi (SC/ST)",
+    "provider": "Scheduled Castes Development Dept Telangana",
+    "description": "Financial assistance to SC/ST graduates to undertake postgraduate and doctoral studies in international universities.",
+    "income_limit": "₹5,00,000",
+    "amount": "Up to ₹20,00,000 + Visa fees and passage grant",
+    "link": "https://telanganaepass.cgg.gov.in/"
+  },
+  {
+    "id": 391,
+    "name": "West Bengal Kanyashree Prakalpa (K3 - Post Graduate)",
+    "provider": "Govt of West Bengal",
+    "description": "Direct monthly scholarship for girl students who were registered under K2 and pursue full-time regular PG courses.",
+    "income_limit": "No Limit (Merit based)",
+    "amount": "₹2,000/month (Arts/Commerce) / ₹2,500/month (Science)",
+    "link": "https://svmcm.wbhed.gov.in/"
+  },
+  {
+    "id": 392,
+    "name": "West Bengal Oasis Pre-Matric Scholarship",
+    "provider": "Backward Classes Welfare Dept WB",
+    "description": "For SC and ST students of Class 9 and 10 to cover books, uniforms, and incidental school expenses.",
+    "income_limit": "₹2,00,000",
+    "amount": "₹150 to ₹750/month maintenance allowance",
+    "link": "https://oasis.gov.in/"
+  },
+  {
+    "id": 393,
+    "name": "West Bengal Oasis Post-Matric Scholarship",
+    "provider": "Backward Classes Welfare Dept WB",
+    "description": "Post-matric maintenance allowance and compulsory fee refund for SC/ST students in regular colleges in WB.",
+    "income_limit": "₹2,50,000",
+    "amount": "Up to ₹1,200/month maintenance + tuition fee",
+    "link": "https://oasis.gov.in/"
+  },
+  {
+    "id": 394,
+    "name": "West Bengal Nabanna (Chief Minister Relief Fund) Scholarship",
+    "provider": "Govt of West Bengal",
+    "description": "Financial aid from the Chief Minister's Relief Fund for meritorious students who scored 50%+ in 10th/12th/UG.",
+    "income_limit": "₹1,20,000",
+    "amount": "₹10,000/year one-time grant",
+    "link": "https://cmrf.wb.gov.in/"
+  },
+  {
+    "id": 395,
+    "name": "Odisha Sudakshya Girls Polytechnic Scheme",
+    "provider": "Skill Development & Technical Education Odisha",
+    "description": "100% financial assistance including hostel, maintenance, and exam fees for girls admitted to govt engineering polytechnics.",
+    "income_limit": "No Limit",
+    "amount": "Full Tuition + ₹3,000/year uniform & books grant",
+    "link": "https://scholarship.odisha.gov.in/"
+  },
+  {
+    "id": 396,
+    "name": "Odisha e-Medhabruti Junior Merit Scholarship",
+    "provider": "Higher Education Dept Govt of Odisha",
+    "description": "For students who secured high ranks in Class 10 board exams and enrolled in Plus Two (+2) junior colleges.",
+    "income_limit": "₹6,00,000",
+    "amount": "₹3,000/year for 2 years",
+    "link": "https://scholarship.odisha.gov.in/"
+  },
+  {
+    "id": 397,
+    "name": "Odisha e-Medhabruti Senior Merit Scholarship",
+    "provider": "Higher Education Dept Govt of Odisha",
+    "description": "Merit scholarship for students entering general 3-year undergraduate degree courses (BA, BSc, BCom) in Odisha.",
+    "income_limit": "₹6,00,000",
+    "amount": "₹5,000/year for 3 years",
+    "link": "https://scholarship.odisha.gov.in/"
+  },
+  {
+    "id": 398,
+    "name": "Odisha e-Medhabruti PG Merit Scholarship",
+    "provider": "Higher Education Dept Govt of Odisha",
+    "description": "For meritorious students admitted to post-graduate Master's degree programmes in universities of Odisha.",
+    "income_limit": "₹6,00,000",
+    "amount": "₹10,000/year for 2 years",
+    "link": "https://scholarship.odisha.gov.in/"
+  },
+  {
+    "id": 399,
+    "name": "Marang Gomke Jaipal Singh Munda Overseas Fellowship (SC Wing)",
+    "provider": "Govt of Jharkhand",
+    "description": "Expanded overseas fellowship fully funding tuition and living costs for SC students of Jharkhand in top UK universities.",
+    "income_limit": "₹12,00,000",
+    "amount": "100% Tuition + Living Stipend in UK",
+    "link": "https://maranggomke.jharkhand.gov.in/"
+  },
+  {
+    "id": 400,
+    "name": "Jharkhand E-Kalyan Post-Matric (Outside State)",
+    "provider": "Scheduled Tribe, SC, Minority and BC Welfare Dept Jharkhand",
+    "description": "Fee reimbursement for Jharkhand domicile students studying in recognized institutions outside Jharkhand state.",
+    "income_limit": "₹2,50,000 (SC/ST) / ₹1,50,000 (BC)",
+    "amount": "Tuition Fee + Maintenance Allowance",
+    "link": "https://ekalyan.cgg.gov.in/"
+  },
+  {
+    "id": 401,
+    "name": "PM YASASVI Top Class School Education Scheme",
+    "provider": "Ministry of Social Justice & Empowerment",
+    "description": "Full school fee, hostel charges, and books for OBC, EBC, and DNT students studying in Class 9 to 12 in top shortlisted schools.",
+    "income_limit": "₹2,50,000",
+    "amount": "Up to ₹1,25,000/year",
+    "link": "https://yet.nta.ac.in/"
+  },
+  {
+    "id": 402,
+    "name": "PM YASASVI Top Class College Education Scheme",
+    "provider": "Ministry of Social Justice & Empowerment",
+    "description": "Financial assistance for OBC, EBC, and DNT students pursuing degrees in notified premier institutes (IITs, IIMs, AIIMS, NITs).",
+    "income_limit": "₹2,50,000",
+    "amount": "Full Tuition Fee + Living Expenses + ₹45,000 one-time computer grant",
+    "link": "https://scholarships.gov.in/"
+  },
+  {
+    "id": 403,
+    "name": "Ministry of Railways Staff Benefit Fund Scholarship",
+    "provider": "Ministry of Railways",
+    "description": "For higher technical and professional education of girl and boy children of non-gazetted railway employees.",
+    "income_limit": "Railway Non-Gazetted Wards",
+    "amount": "₹18,000/year (Girls) & ₹15,000/year (Boys)",
+    "link": "https://indianrailways.gov.in/"
+  },
+  {
+    "id": 404,
+    "name": "RPF / RPSF Prime Minister's Scholarship Scheme",
+    "provider": "Ministry of Railways (RPF Directorate)",
+    "description": "For dependent wards and widows of ex-RPF/RPSF personnel pursuing professional degree courses.",
+    "income_limit": "No Limit",
+    "amount": "₹3,000/month (Girls) & ₹2,500/month (Boys)",
+    "link": "https://scholarships.gov.in/"
+  },
+  {
+    "id": 405,
+    "name": "Central Sanskrit University Ashtadhyayi Scholarship",
+    "provider": "Central Sanskrit University / MoE",
+    "description": "For regular students studying Sanskrit as a subject from Class 9 to Ph.D. level in recognized institutions.",
+    "income_limit": "No Limit (Merit based)",
+    "amount": "₹5,000 to ₹30,000/year based on class level",
+    "link": "http://www.sanskrit.nic.in/"
+  },
+  {
+    "id": 406,
+    "name": "Rashtriya Sanskrit Sansthan Merit Scholarship",
+    "provider": "Ministry of Education",
+    "description": "Financial aid for students enrolled in Shastri, Acharya, and Vidyavaridhi (Ph.D.) courses in traditional Sanskrit pathshalas.",
+    "income_limit": "No Limit",
+    "amount": "₹800 to ₹2,500/month",
+    "link": "http://www.sanskrit.nic.in/"
+  },
+  {
+    "id": 407,
+    "name": "Kendriya Hindi Sansthan Hindi Shikshan Fellowship",
+    "provider": "Kendriya Hindi Sansthan, Agra",
+    "description": "Stipend for students from non-Hindi speaking states pursuing Hindi teacher training and linguistic diplomas.",
+    "income_limit": "No Limit",
+    "amount": "₹4,000 to ₹6,000/month stipend",
+    "link": "http://khsindia.org/"
+  },
+  {
+    "id": 408,
+    "name": "Ministry of Culture Senior Fellowship in Performing Arts",
+    "provider": "Ministry of Culture",
+    "description": "For senior practicing artists aged 40+ to conduct in-depth research and documentation in rare Indian cultural traditions.",
+    "income_limit": "No Limit",
+    "amount": "₹20,000/month for 2 years",
+    "link": "https://indiaculture.gov.in/"
+  },
+  {
+    "id": 409,
+    "name": "Ministry of Culture Junior Fellowship in Visual & Literary Arts",
+    "provider": "Ministry of Culture",
+    "description": "For young cultural innovators aged 25-40 pursuing projects in theatre, sculpture, graphics, and folk literature.",
+    "income_limit": "No Limit",
+    "amount": "₹10,000/month for 2 years",
+    "link": "https://indiaculture.gov.in/"
+  },
+  {
+    "id": 410,
+    "name": "Tagore National Fellowship for Cultural Research",
+    "provider": "Ministry of Culture",
+    "description": "Premier fellowship for distinguished scholars and academics to work in designated nodal cultural institutions across India.",
+    "income_limit": "No Limit",
+    "amount": "₹80,000/month + ₹2,50,000/year contingency",
+    "link": "http://indiaculture.nic.in/"
+  },
+  {
+    "id": 411,
+    "name": "Ministry of Earth Sciences Junior Research Fellowship",
+    "provider": "Ministry of Earth Sciences (MoES)",
+    "description": "For NET/GATE qualified candidates pursuing doctoral research in oceanography, atmospheric sciences, and seismology.",
+    "income_limit": "No Limit",
+    "amount": "₹31,000 to ₹35,000/month + HRA",
+    "link": "https://www.moes.gov.in/"
+  },
+  {
+    "id": 412,
+    "name": "MNRE National Renewable Energy Fellowship (NREF)",
+    "provider": "Ministry of New and Renewable Energy",
+    "description": "For M.Tech, M.Sc., and Ph.D. scholars carrying out research in solar, wind, bioenergy, and green hydrogen systems.",
+    "income_limit": "No Limit",
+    "amount": "₹31,000 to ₹47,000/month based on stage",
+    "link": "https://mnre.gov.in/"
+  },
+  {
+    "id": 413,
+    "name": "Deen Dayal SPARSH Yojana (Philately Scholarship)",
+    "provider": "Department of Posts (India Post)",
+    "description": "For school students of Class 6 to 9 with a hobby of collecting and studying postage stamps (philately).",
+    "income_limit": "No Limit (Evaluation of collection & quiz)",
+    "amount": "₹6,000/year (₹500/month)",
+    "link": "https://www.indiapost.gov.in/"
+  },
+  {
+    "id": 414,
+    "name": "DoT Telecommunication Research Fellowship",
+    "provider": "Department of Telecommunications (Telecom COE)",
+    "description": "Fellowship grants for postgraduate and doctoral students researching 5G/6G protocols and wireless transmission.",
+    "income_limit": "No Limit",
+    "amount": "₹35,000 to ₹50,000/month stipend",
+    "link": "https://dot.gov.in/"
+  },
+  {
+    "id": 415,
+    "name": "NHPC Educational Scholarship Scheme",
+    "provider": "NHPC Limited",
+    "description": "For meritorious SC, ST, and disabled students studying in degree and diploma engineering courses in hydro-power project states.",
+    "income_limit": "₹4,00,000",
+    "amount": "₹4,000/month for degree & ₹3,000/month for diploma",
+    "link": "http://www.nhpcindia.com/"
+  },
+  {
+    "id": 416,
+    "name": "NMDC Shiksha Sahayog Yojana",
+    "provider": "National Mineral Development Corporation",
+    "description": "For students of Bastar and Dantewada tribal districts pursuing secondary school, ITI, and polytechnic education.",
+    "income_limit": "₹2,00,000",
+    "amount": "₹3,000 to ₹15,000/year",
+    "link": "https://www.nmdc.co.in/"
+  },
+  {
+    "id": 417,
+    "name": "SAIL Merit-cum-Means Scholarship",
+    "provider": "Steel Authority of India Limited",
+    "description": "For children of peripheral mining areas and non-executive employees studying engineering, medicine, and polytechnics.",
+    "income_limit": "₹3,00,000",
+    "amount": "₹2,000 to ₹4,000/month",
+    "link": "https://www.sail.co.in/"
+  },
+  {
+    "id": 418,
+    "name": "RINL Dronacharya Educational Assistance",
+    "provider": "Rashtriya Ispat Nigam Limited (Vizag Steel)",
+    "description": "Educational aid for BPL and marginalized children living in surrounding rehabilitation colonies of Visakhapatnam.",
+    "income_limit": "BPL Families",
+    "amount": "Annual fee reimbursement + text book kits",
+    "link": "https://www.vizagsteel.com/"
+  },
+  {
+    "id": 419,
+    "name": "MOIL Limited Educational Scholarship",
+    "provider": "MOIL Limited",
+    "description": "Scholarships for wards of manganese mine workers and local rural students studying in Classes 9 to 12 and ITI.",
+    "income_limit": "₹2,50,000",
+    "amount": "₹5,000 to ₹12,000/year",
+    "link": "https://moil.nic.in/"
+  },
+  {
+    "id": 420,
+    "name": "NALCO Alind Utkarsh Scholarship",
+    "provider": "National Aluminium Company Limited",
+    "description": "Support for tribal students of Koraput and Angul districts of Odisha admitted to residential engineering and medical seats.",
+    "income_limit": "₹3,00,000",
+    "amount": "Complete Course Fee + Messing Charges",
+    "link": "https://nalcoindia.com/"
+  },
+  {
+    "id": 421,
+    "name": "Oil India Limited Shikshya Ratna Puraskar",
+    "provider": "Oil India Limited",
+    "description": "Honoring outstanding teachers and supporting merit scholarships for meritorious students from Assam and Arunachal operational areas.",
+    "income_limit": "No Limit",
+    "amount": "Merit cash award up to ₹20,000 + citation",
+    "link": "https://www.oil-india.com/"
+  },
+  {
+    "id": 422,
+    "name": "OIL Super 30 Free Engineering Coaching Support",
+    "provider": "Oil India Limited CSR",
+    "description": "Free 11-month residential coaching, lodging, and books for underprivileged youth clearing screening test for IIT-JEE.",
+    "income_limit": "₹2,50,000",
+    "amount": "100% Free Coaching, Food & Boarding",
+    "link": "https://www.oil-india.com/"
+  },
+  {
+    "id": 423,
+    "name": "BPCL Medhavi Chhatravriti Scheme",
+    "provider": "Bharat Petroleum Corporation Limited",
+    "description": "For SC and ST students enrolled in engineering and management colleges near refinery locations in Kochi and Mumbai.",
+    "income_limit": "₹3,00,000",
+    "amount": "₹30,000 to ₹50,000/year",
+    "link": "https://www.bharatpetroleum.in/"
+  },
+  {
+    "id": 424,
+    "name": "HPCL Swavalamban Technical Training Grant",
+    "provider": "Hindustan Petroleum Corporation Limited",
+    "description": "Full fee waiver and training toolkit for underprivileged candidates undertaking welder, fitter, and CNC trades in ITI.",
+    "income_limit": "₹2,50,000",
+    "amount": "Full ITI Fee + ₹2,000/month stipend",
+    "link": "https://www.hindustanpetroleum.com/"
+  },
+  {
+    "id": 425,
+    "name": "REC Foundation Fellowship for Engineering Students",
+    "provider": "REC Limited",
+    "description": "For students from aspirational districts pursuing undergraduate engineering programs in state technical universities.",
+    "income_limit": "₹3,50,000",
+    "amount": "₹40,000/year",
+    "link": "https://recindia.nic.in/"
+  },
+  {
+    "id": 426,
+    "name": "PFC Educational Grant for SC/ST Differently-Abled",
+    "provider": "Power Finance Corporation",
+    "description": "Grant for differently-abled SC/ST youth undergoing technical diploma and vocational certifications.",
+    "income_limit": "₹3,00,000",
+    "amount": "Up to ₹35,000/year + assistive kits",
+    "link": "https://pfcindia.com/"
+  },
+  {
+    "id": 427,
+    "name": "SJVN Silver Jubilee Merit Scholarship",
+    "provider": "SJVN Foundation",
+    "description": "For 12th-pass students of Himachal Pradesh, Uttarakhand, and Bihar pursuing engineering, medical, and agriculture.",
+    "income_limit": "No Limit (Merit rank based)",
+    "amount": "₹2,000/month for the whole course duration",
+    "link": "https://sjvn.nic.in/"
+  },
+  {
+    "id": 428,
+    "name": "NHAI Highway Engineers Educational Grant",
+    "provider": "National Highways Authority of India",
+    "description": "Sponsorship for selected civil engineering postgraduates pursuing M.Tech in Transportation and Highway Engineering.",
+    "income_limit": "No Limit (GATE based)",
+    "amount": "Full M.Tech tuition fee + monthly research stipend",
+    "link": "https://www.nhai.gov.in/"
+  },
+  {
+    "id": 429,
+    "name": "Konkan Railway Educational Merit Award",
+    "provider": "Konkan Railway Corporation Limited",
+    "description": "Cash awards and educational assistance for students residing in the Konkan railway corridor passing SSC and HSC.",
+    "income_limit": "No Limit",
+    "amount": "₹10,000 to ₹25,000 one-time",
+    "link": "https://konkanrailway.com/"
+  },
+  {
+    "id": 430,
+    "name": "State Bank of India Youth for India Fellowship",
+    "provider": "SBI Foundation",
+    "description": "13-month fellowship for brilliant Indian graduates and young professionals to work on rural development projects.",
+    "income_limit": "No Limit (Graduates aged 21-32)",
+    "amount": "₹16,000/month living allowance + ₹60,000 readjustment grant",
+    "link": "https://youthforindia.org/"
+  },
+  {
+    "id": 431,
+    "name": "Bank of Baroda Achievers Scholarship",
+    "provider": "Bank of Baroda",
+    "description": "For meritorious undergraduate students studying in premier management, technology, and commerce institutes.",
+    "income_limit": "₹5,00,000",
+    "amount": "Up to ₹1,00,000/year",
+    "link": "https://www.bankofbaroda.in/"
+  },
+  {
+    "id": 432,
+    "name": "Canara Bank Vidya Jyothi Scheme",
+    "provider": "Canara Bank Golden Jubilee Trust",
+    "description": "Financial assistance to meritorious SC and ST school children studying in Classes 5 through 10.",
+    "income_limit": "₹1,50,000",
+    "amount": "₹2,500 to ₹5,000/year",
+    "link": "https://canarabank.com/"
+  },
+  {
+    "id": 433,
+    "name": "PNB Pratibha Vikas Scholarship",
+    "provider": "Punjab National Bank",
+    "description": "Educational aid for girl children from farming families pursuing secondary and higher secondary education.",
+    "income_limit": "₹2,00,000",
+    "amount": "₹10,000/year",
+    "link": "https://www.pnbindia.in/"
+  },
+  {
+    "id": 434,
+    "name": "NABARD Student Internship Scheme (SIS)",
+    "provider": "National Bank for Agriculture and Rural Development",
+    "description": "Paid 2-month summer internship grant for postgraduate students in agriculture, economics, and rural management.",
+    "income_limit": "No Limit",
+    "amount": "₹18,000/month stipend + travel allowance",
+    "link": "https://www.nabard.org/"
+  },
+  {
+    "id": 435,
+    "name": "Reserve Bank of India Summer Placement Fellowship",
+    "provider": "Reserve Bank of India",
+    "description": "Domestic internship fellowship for students enrolled in law, economics, finance, data analytics, and management.",
+    "income_limit": "No Limit (Selection interview based)",
+    "amount": "₹45,000/month stipend",
+    "link": "https://opportunities.rbi.org.in/"
+  },
+  {
+    "id": 436,
+    "name": "SEBI Young Professional Program",
+    "provider": "Securities and Exchange Board of India",
+    "description": "For postgraduates in law, business administration, and computer science to work on financial regulatory technology.",
+    "income_limit": "No Limit",
+    "amount": "₹70,000/month consolidated",
+    "link": "https://www.sebi.gov.in/"
+  },
+  {
+    "id": 437,
+    "name": "NITI Aayog Internship Scheme",
+    "provider": "NITI Aayog",
+    "description": "Unpaid/Paid research opportunities for undergraduate and postgraduate students to contribute to national policy making.",
+    "income_limit": "No Limit (Min 85% in UG)",
+    "amount": "Certificate of experience & policy mentorship",
+    "link": "https://www.niti.gov.in/internship"
+  },
+  {
+    "id": 438,
+    "name": "CCI Internship Scheme",
+    "provider": "Competition Commission of India",
+    "description": "Monthly stipend-based research internship for students pursuing economics, corporate law, and management.",
+    "income_limit": "No Limit",
+    "amount": "₹15,000/month stipend",
+    "link": "https://www.cci.gov.in/"
+  },
+  {
+    "id": 439,
+    "name": "Lok Sabha Research Internship Scheme",
+    "provider": "Parliament of India (Lok Sabha Secretariat)",
+    "description": "For Indian youth with high academic qualifications to study parliamentary systems and democratic governance.",
+    "income_limit": "No Limit",
+    "amount": "₹25,000/month stipend + ₹10,000 book grant",
+    "link": "http://loksabhaph.nic.in/"
+  },
+  {
+    "id": 440,
+    "name": "Rajya Sabha Student Research Fellowship",
+    "provider": "Parliament of India (Rajya Sabha)",
+    "description": "Financial grant for scholars conducting research on the functioning of the second chamber in India.",
+    "income_limit": "No Limit",
+    "amount": "₹50,000/month + contingency grant",
+    "link": "https://rajyasabha.nic.in/"
+  },
+  {
+    "id": 441,
+    "name": "MEA Internship Programme",
+    "provider": "Ministry of External Affairs",
+    "description": "For graduate and postgraduate students studying international relations, political science, and foreign languages.",
+    "income_limit": "No Limit",
+    "amount": "₹10,000/month stipend + airfare within India",
+    "link": "https://www.internship.mea.gov.in/"
+  },
+  {
+    "id": 442,
+    "name": "NHRC Winter / Summer Student Internship",
+    "provider": "National Human Rights Commission",
+    "description": "Month-long training on human rights, civil liberties, and fundamental freedoms for college and university students.",
+    "income_limit": "No Limit",
+    "amount": "₹12,000 one-time stipend + travel concession",
+    "link": "https://nhrc.nic.in/"
+  },
+  {
+    "id": 443,
+    "name": "NCW Research Internship Scheme",
+    "provider": "National Commission for Women",
+    "description": "For law and social work students to conduct field assessments and legal audits on gender justice.",
+    "income_limit": "No Limit",
+    "amount": "₹10,000/month stipend",
+    "link": "http://ncw.nic.in/"
+  },
+  {
+    "id": 444,
+    "name": "Delhi Mukhyamantri Vidyarthi Pratibha Yojana",
+    "provider": "Govt of NCT of Delhi",
+    "description": "Scholarship for SC/ST/OBC/Minority students of Class 9 to 12 who scored 75%+ in the previous academic year.",
+    "income_limit": "No Limit (for 75%+ scorers)",
+    "amount": "₹5,000/year (Class 9-10) & ₹10,000/year (Class 11-12)",
+    "link": "https://edistrict.delhigovt.nic.in/"
+  },
+  {
+    "id": 445,
+    "name": "Delhi Ladli Scheme (Educational Milestone Grants)",
+    "provider": "Department of Social Welfare Delhi",
+    "description": "Fixed deposit assistance for institutional birth and completion of Classes 6, 9, 10, and 12 in Delhi schools.",
+    "income_limit": "₹1,00,000",
+    "amount": "Maturity benefit up to ₹1,00,000 upon turning 18",
+    "link": "https://wcd.delhi.gov.in/"
+  },
+  {
+    "id": 446,
+    "name": "Delhi Higher Education and Skill Development Guarantee Scheme",
+    "provider": "Govt of NCT of Delhi",
+    "description": "Collateral-free, third-party guarantor-free education loan guaranteed by the Delhi Govt for courses in Delhi.",
+    "income_limit": "No Limit",
+    "amount": "Loan up to ₹10,00,000 (Govt Guaranteed)",
+    "link": "https://delhi.gov.in/"
+  },
+  {
+    "id": 447,
+    "name": "Delhi State University Fee Waiver Scheme for EWS",
+    "provider": "Directorate of Higher Education Delhi",
+    "description": "100% fee waiver for students having BPL/NFSA ration cards studying in state universities (DTU, NSUT, IPU, DSEU).",
+    "income_limit": "₹2,50,000 (100%), ₹2.5L to ₹6L (50%)",
+    "amount": "50% to 100% Tuition Fee Exemption",
+    "link": "https://dhe.delhigovt.nic.in/"
+  },
+  {
+    "id": 448,
+    "name": "Haryana Medhavi Chhatra Yojna (Labour Welfare)",
+    "provider": "Haryana Labour Welfare Board",
+    "description": "Scholarship for children of registered industrial workers scoring 60%+ in 10th, 12th, or college exams.",
+    "income_limit": "Monthly salary limit ₹25,000",
+    "amount": "₹10,000 to ₹21,000/year",
+    "link": "https://hrylabour.gov.in/"
+  },
+  {
+    "id": 449,
+    "name": "Haryana Kanyadan & Shiksha Sahayata for Construction Workers",
+    "provider": "BOCW Board Haryana",
+    "description": "Annual educational financial assistance for children of registered construction workers from Class 1 to Ph.D.",
+    "income_limit": "Registered Worker Dependent",
+    "amount": "₹8,000 to ₹20,000/year",
+    "link": "https://hrylabour.gov.in/"
+  },
+  {
+    "id": 450,
+    "name": "Haryana Saksham Yuva Monthly Allowance",
+    "provider": "Department of Employment Haryana",
+    "description": "Monthly unemployment allowance and 100 hours honorarium work for 12th pass, graduates, and postgraduates.",
+    "income_limit": "₹3,00,000",
+    "amount": "₹900 to ₹3,000/month allowance + ₹6,000 honorarium",
+    "link": "https://hrex.gov.in/"
+  },
+  {
+    "id": 451,
+    "name": "Punjab Mai Bhago Vidya Scheme",
+    "provider": "Govt of Punjab",
+    "description": "Free high-quality bicycles distributed to girl students of Class 9 to 12 in government schools to stop dropouts.",
+    "income_limit": "No Limit (Govt school girls)",
+    "amount": "Free Bicycle + Safety Kit",
+    "link": "https://punjab.gov.in/"
+  },
+  {
+    "id": 452,
+    "name": "Punjab SC Land Development Education Aid",
+    "provider": "Punjab Scheduled Castes Land Development & Finance Corp",
+    "description": "Educational grant and soft loans for children of small SC landholders taking up polytechnic and ITI seats.",
+    "income_limit": "₹1,50,000",
+    "amount": "Course Fee Assistance + Soft Loan",
+    "link": "https://pscldfc.punjab.gov.in/"
+  },
+  {
+    "id": 453,
+    "name": "Himachal Pradesh Thakur Sen Negi Utkrisht Chatravriti",
+    "provider": "Directorate of Higher Education HP",
+    "description": "For the top 100 boy and top 100 girl students of the Scheduled Tribe community passing 10th standard.",
+    "income_limit": "No Limit (Top 100 merit)",
+    "amount": "₹11,000/year for 2 years",
+    "link": "https://hpepass.cgg.gov.in/"
+  },
+  {
+    "id": 454,
+    "name": "Himachal Pradesh Maharishi Balmiki Chatravriti",
+    "provider": "Govt of Himachal Pradesh",
+    "description": "For girl students belonging to Balmiki families whose parents are engaged in unclean occupations pursuing college degrees.",
+    "income_limit": "No Limit",
+    "amount": "₹9,000/year",
+    "link": "https://hpepass.cgg.gov.in/"
+  },
+  {
+    "id": 455,
+    "name": "Himachal Pradesh Indira Gandhi Utkrisht Chatravriti",
+    "provider": "Govt of Himachal Pradesh",
+    "description": "Awarded to the top 10 male and female students in 10+2 science, commerce, and arts joining degree courses.",
+    "income_limit": "No Limit",
+    "amount": "₹10,000/year for 3 years",
+    "link": "https://hpepass.cgg.gov.in/"
+  },
+  {
+    "id": 456,
+    "name": "Uttarakhand Gaura Devi Kanya Dhan Yojna",
+    "provider": "Govt of Uttarakhand",
+    "description": "Direct DBT incentive for girls belonging to SC/ST and BPL families who pass Class 12 and enter higher studies.",
+    "income_limit": "BPL / ₹2,00,000",
+    "amount": "One-time ₹50,000 direct bank transfer",
+    "link": "https://socialwelfare.uk.gov.in/"
+  },
+  {
+    "id": 457,
+    "name": "Uttarakhand Mukhyamantri Medhavi Chhatra Protsahan",
+    "provider": "School Education Dept Uttarakhand",
+    "description": "Monthly scholarship for meritorious students of Class 6 to 12 in government schools qualifying state screening exam.",
+    "income_limit": "No Limit",
+    "amount": "₹600 to ₹1,200/month",
+    "link": "https://education.uk.gov.in/"
+  },
+  {
+    "id": 458,
+    "name": "UP Rani Laxmi Bai Kanya Scooty Scheme",
+    "provider": "Govt of Uttar Pradesh",
+    "description": "Free scooty incentive for meritorious college and university girl students scoring high grades in graduation.",
+    "income_limit": "₹2,50,000",
+    "amount": "Free Scooty + Helmet & Registration",
+    "link": "https://up.gov.in/"
+  },
+  {
+    "id": 459,
+    "name": "UP Gopal Das Neeraj Smriti Puraskar",
+    "provider": "Uttar Pradesh Bhasha Sansthan",
+    "description": "Annual cash award and publication grant to five young budding Hindi poets and writers below 30 years.",
+    "income_limit": "No Limit",
+    "amount": "₹1,00,000 cash award + citation",
+    "link": "http://upbhashasansthan.in/"
+  },
+  {
+    "id": 460,
+    "name": "MP Mukhya Mantri Jan Kalyan (Sambal 2.0) Shiksha Protsahan",
+    "provider": "Labour Dept Govt of MP",
+    "description": "100% course fee waiver for children of registered unorganized workers admitted to IIT, NIT, MBBS, and NLU seats.",
+    "income_limit": "Sambal Card Holder Dependent",
+    "amount": "100% Complete Course Fee paid by Govt",
+    "link": "https://sambal.mp.gov.in/"
+  },
+  {
+    "id": 461,
+    "name": "MP Sudama Shishyavrutti Yojna",
+    "provider": "Govt of Madhya Pradesh",
+    "description": "For poor students of general category studying in government colleges whose families hold BPL cards.",
+    "income_limit": "BPL Families",
+    "amount": "₹2,500/year (Boys) & ₹3,000/year (Girls)",
+    "link": "http://scholarshipportal.mp.nic.in/"
+  },
+  {
+    "id": 462,
+    "name": "MP Swami Vivekananda Post Graduate Scholarship",
+    "provider": "Higher Education Dept Govt of MP",
+    "description": "For students securing first division in undergraduate examinations and pursuing regular MA, MSc, or MCom degrees.",
+    "income_limit": "No Limit",
+    "amount": "₹2,000/month for 10 months",
+    "link": "http://scholarshipportal.mp.nic.in/"
+  },
+  {
+    "id": 463,
+    "name": "MP Dr. Bhimrao Ambedkar Medhavi Chhatra Puraskar",
+    "provider": "Social Justice Dept MP",
+    "description": "Awarded to boy and girl SC students securing the highest marks in 10th and 12th board exams in each district of MP.",
+    "income_limit": "No Limit",
+    "amount": "₹10,000 to ₹15,000 one-time",
+    "link": "http://scholarshipportal.mp.nic.in/"
+  },
+  {
+    "id": 464,
+    "name": "Chhattisgarh Saraswati Cycle Yojna",
+    "provider": "Govt of Chhattisgarh",
+    "description": "Free bicycles provided to SC, ST, and BPL girl students entering Class 9 in government secondary schools.",
+    "income_limit": "No Limit for SC/ST, BPL for others",
+    "amount": "Free Lady Bicycle",
+    "link": "https://school-education.cg.gov.in/"
+  },
+  {
+    "id": 465,
+    "name": "Chhattisgarh Mukhyamantri Gyan Protsahan Yojna",
+    "provider": "Tribal Welfare Dept Chhattisgarh",
+    "description": "One-time incentive for top-ranking SC and ST students of Class 10 and 12 board examinations in Chhattisgarh.",
+    "income_limit": "No Limit (Merit based)",
+    "amount": "One-time ₹15,000 cash award",
+    "link": "https://tribal.cg.gov.in/"
+  },
+  {
+    "id": 466,
+    "name": "Chhattisgarh Prayas Residential School Scheme",
+    "provider": "Tribal Welfare Dept Chhattisgarh",
+    "description": "Free residential schooling, food, and coaching for Class 11 and 12 students from Naxal-affected districts for JEE/NEET/CLAT.",
+    "income_limit": "Naxal-Affected District Students",
+    "amount": "100% Free Schooling, Hostel & Entrance Coaching",
+    "link": "https://tribal.cg.gov.in/"
+  },
+  {
+    "id": 467,
+    "name": "Chhattisgarh Post-Matric Scholarship for Minorities",
+    "provider": "Govt of Chhattisgarh",
+    "description": "Tuition fee waiver and maintenance allowance for Christian, Muslim, Sikh, Buddhist, and Jain college students in CG.",
+    "income_limit": "₹2,00,000",
+    "amount": "Full Tuition + ₹6,000/year maintenance",
+    "link": "https://postmatric-scholarship.cg.nic.in/"
+  },
+  {
+    "id": 468,
+    "name": "Rajasthan Mukhyamantri Hunar Vikas Yojna",
+    "provider": "Social Justice & Empowerment Rajasthan",
+    "description": "Skill development, vocational training, and monthly stipend for specially-abled youth aged 18 to 35 in Rajasthan.",
+    "income_limit": "₹2,50,000",
+    "amount": "Free Skill Training + ₹2,500/month stipend",
+    "link": "https://sje.rajasthan.gov.in/"
+  },
+  {
+    "id": 469,
+    "name": "Rajasthan Savitribai Phule B.Ed Girl Trainee Incentive",
+    "provider": "Higher Education Dept Rajasthan",
+    "description": "Financial assistance for girls of disadvantaged communities undergoing 2-year B.Ed or 4-year integrated teacher courses.",
+    "income_limit": "₹2,50,000",
+    "amount": "₹10,000/year",
+    "link": "https://hte.rajasthan.gov.in/"
+  },
+  {
+    "id": 470,
+    "name": "Rajasthan Dr. Ambedkar Post-Matric for EBC",
+    "provider": "SJE Rajasthan",
+    "description": "Fee concession and annual book allowances for Economically Backward Class college students in Rajasthan.",
+    "income_limit": "₹1,00,000",
+    "amount": "Tuition Fee + ₹3,000/year maintenance",
+    "link": "https://sje.rajasthan.gov.in/"
+  },
+  {
+    "id": 471,
+    "name": "Gujarat Food Bill Assistance for College Hostellers",
+    "provider": "Social Justice & Empowerment Gujarat",
+    "description": "Direct food bill allowance credited to bank accounts of SC/ST/OBC students residing in recognized non-govt hostels.",
+    "income_limit": "₹4,50,000",
+    "amount": "₹1,500/month for 10 months (₹15,000/year)",
+    "link": "https://www.digitalgujarat.gov.in/"
+  },
+  {
+    "id": 472,
+    "name": "Gujarat Equipment and Book Grant for Engineering & Medical",
+    "provider": "Developing Castes Welfare Gujarat",
+    "description": "One-time allowance for SEBC and EWS students taking admission in first year of engineering and medical courses.",
+    "income_limit": "₹4,50,000",
+    "amount": "₹5,000 to ₹10,000 one-time grant",
+    "link": "https://www.digitalgujarat.gov.in/"
+  },
+  {
+    "id": 473,
+    "name": "Maharashtra Savitribai Phule Dattak Palak Yojana",
+    "provider": "School Education Dept Maharashtra",
+    "description": "Monthly foster-parent assistance to prevent girls from dropping out of secondary school due to acute poverty.",
+    "income_limit": "BPL Families",
+    "amount": "₹500/month for 10 months",
+    "link": "https://education.maharashtra.gov.in/"
+  },
+  {
+    "id": 474,
+    "name": "Maharashtra Pandit Deendayal Upadhyay Swayam Yojana",
+    "provider": "Tribal Development Dept Maharashtra",
+    "description": "Direct financial aid for tribal students pursuing higher education who could not get admission to govt tribal hostels.",
+    "income_limit": "₹2,50,000",
+    "amount": "₹48,000 to ₹60,000/year for food & room rent",
+    "link": "https://swayam.mahaonline.gov.in/"
+  },
+  {
+    "id": 475,
+    "name": "Maharashtra Babasaheb Ambedkar Swadhar for Professional Degree",
+    "provider": "Social Welfare Dept Maharashtra",
+    "description": "Substantial lodging, food, and transport support for SC and Nav-Buddhist students in professional colleges.",
+    "income_limit": "₹2,50,000",
+    "amount": "Up to ₹60,000/year direct cash transfer",
+    "link": "https://sjsa.maharashtra.gov.in/"
+  },
+  {
+    "id": 476,
+    "name": "Goa Manohar Parrikar Goa Scholars Scheme",
+    "provider": "Directorate of Higher Education Goa",
+    "description": "Prestigious scholarship for meritorious Goan students pursuing postgraduate studies in premier institutions in India and abroad.",
+    "income_limit": "No Limit (Merit based)",
+    "amount": "Up to $25,000 (Abroad) / ₹8,00,000 (India)",
+    "link": "https://www.dhe.goa.gov.in/"
+  },
+  {
+    "id": 477,
+    "name": "Goa Fee Waiver Scheme for SC/ST Students in Higher Education",
+    "provider": "DHE Govt of Goa",
+    "description": "100% exemption of tuition, laboratory, and library fees in all government and aided colleges in Goa.",
+    "income_limit": "No Limit (SC/ST students)",
+    "amount": "100% Complete Fee Waiver at source",
+    "link": "https://www.dhe.goa.gov.in/"
+  },
+  {
+    "id": 478,
+    "name": "Karnataka Dr. B.R. Ambedkar Fellowship for Ph.D.",
+    "provider": "Social Welfare Dept Karnataka",
+    "description": "Fellowship for SC/ST scholars pursuing regular full-time Ph.D. programs in humanities, science, and engineering in Karnataka.",
+    "income_limit": "No Limit",
+    "amount": "₹25,000/month + ₹10,000/year contingency",
+    "link": "https://sw.kar.nic.in/"
+  },
+  {
+    "id": 479,
+    "name": "Karnataka Shrama Shakthi Scheme for Construction Workers",
+    "provider": "Karnataka Building & Other Construction Workers Board",
+    "description": "Direct educational financial assistance for children of registered construction workers from primary school to postgraduate levels.",
+    "income_limit": "Registered Worker Dependent",
+    "amount": "₹5,000 to ₹35,000/year",
+    "link": "https://karbocwwb.karnataka.gov.in/"
+  },
+  {
+    "id": 480,
+    "name": "Karnataka D. Devaraj Urs Overseas Fellowship (Ph.D. Track)",
+    "provider": "Backward Classes Welfare Karnataka",
+    "description": "Direct funding of university tuition and living costs for OBC scholars securing doctoral admissions in top global universities.",
+    "income_limit": "₹10,00,000",
+    "amount": "Up to ₹20,00,000/year for 3 years",
+    "link": "https://bcwd.karnataka.gov.in/"
+  },
+  {
+    "id": 481,
+    "name": "Andhra Pradesh Vidya Kanuka Scheme",
+    "provider": "Department of School Education AP",
+    "description": "Student kit consisting of 3 pairs of uniforms, textbooks, notebooks, school bag, shoes, and socks for government school students.",
+    "income_limit": "Govt School Students",
+    "amount": "Free Complete Schooling Kit (Worth ₹2,500)",
+    "link": "https://cse.ap.gov.in/"
+  },
+  {
+    "id": 482,
+    "name": "Andhra Pradesh Jagananna Gorumudda Scheme",
+    "provider": "School Education Dept AP",
+    "description": "Nutritious fortified mid-day meal scheme with daily eggs and chikki for school children to reduce malnutrition.",
+    "income_limit": "Govt School Students",
+    "amount": "100% Free Nutritious Diet Every School Day",
+    "link": "https://jaganannagorumudda.ap.gov.in/"
+  },
+  {
+    "id": 483,
+    "name": "Telangana Mahatma Jyotiba Phule Overseas for BC Girls",
+    "provider": "BC Welfare Dept Telangana",
+    "description": "Special 33% quota allocation of overseas scholarships exclusively for backward class female graduates.",
+    "income_limit": "₹5,00,000",
+    "amount": "Up to ₹20,00,000 + flight ticket",
+    "link": "https://telanganaepass.cgg.gov.in/"
+  },
+  {
+    "id": 484,
+    "name": "Telangana TS-bPASS Skill Development Sponsorship",
+    "provider": "Dept of Municipal Administration & Urban Dev Telangana",
+    "description": "Full sponsorship for youth from urban poor areas for certified courses in surveying, GIS, and architectural drafting.",
+    "income_limit": "₹2,50,000",
+    "amount": "Free Skill Certification + ₹3,000/month stipend",
+    "link": "https://tsbpass.telangana.gov.in/"
+  },
+  {
+    "id": 485,
+    "name": "Tamil Nadu Moovalur Ramamirtham Ammaiyar (Polytechnic Quota)",
+    "provider": "Social Welfare & Women Empowerment TN",
+    "description": "Extension of Pudhumai Penn monthly financial aid for girl students joining technical polytechnic diplomas from government schools.",
+    "income_limit": "Govt School Girls",
+    "amount": "₹1,000/month directly to bank",
+    "link": "https://pudhumaipenn.tn.gov.in/"
+  },
+  {
+    "id": 486,
+    "name": "Tamil Nadu Chief Minister's Breakfast Scheme",
+    "provider": "Govt of Tamil Nadu",
+    "description": "Free hot cooked nutritious breakfast served to primary school children (Classes 1 to 5) across all government schools.",
+    "income_limit": "Govt School Students",
+    "amount": "Free Daily Hot Breakfast on School Days",
+    "link": "https://www.tn.gov.in/"
+  },
+  {
+    "id": 487,
+    "name": "Kerala Mother Theresa Scholarship for Nursing",
+    "provider": "Directorate of Minority Welfare Kerala",
+    "description": "Scholarship for Christian and Muslim students pursuing B.Sc Nursing and GNM diploma courses in approved nursing colleges in Kerala.",
+    "income_limit": "₹8,00,000",
+    "amount": "₹15,000/year",
+    "link": "http://minoritywelfare.kerala.gov.in/"
+  },
+  {
+    "id": 488,
+    "name": "Kerala CH Muhammed Koya PG Scholarship for Girls",
+    "provider": "Directorate of Minority Welfare Kerala",
+    "description": "Financial incentive for Muslim, Latin Catholic, and Converted Christian female postgraduates studying in Kerala.",
+    "income_limit": "₹8,00,000",
+    "amount": "₹6,000 to ₹7,000/year",
+    "link": "http://minoritywelfare.kerala.gov.in/"
+  },
+  {
+    "id": 489,
+    "name": "West Bengal JBNSTS Junior Talent Search Test",
+    "provider": "Jagadis Bose National Science Talent Search",
+    "description": "Prestigious talent search for Class 10 passed students of West Bengal entering Class 11 in science stream.",
+    "income_limit": "No Limit (Competitive Exam)",
+    "amount": "₹1,250/month for 2 years + ₹2,500 annual book grant",
+    "link": "https://jbnsts.ac.in/"
+  },
+  {
+    "id": 490,
+    "name": "West Bengal JBNSTS Senior Talent Search Test",
+    "provider": "Jagadis Bose National Science Talent Search",
+    "description": "For first-year undergraduate students of basic sciences, engineering, and medicine in West Bengal.",
+    "income_limit": "No Limit (Competitive Exam)",
+    "amount": "₹4,000/month + ₹5,000/year book grant",
+    "link": "https://jbnsts.ac.in/"
+  },
+  {
+    "id": 491,
+    "name": "Sikkim Chief Minister's Merit Scholarship Scheme (CMMSS)",
+    "provider": "Education Department Govt of Sikkim",
+    "description": "Fully sponsors education of top-ranking Class 5 students of Sikkim in elite public schools across India until Class 12.",
+    "income_limit": "No Limit (Merit based)",
+    "amount": "100% Boarding School Fees + Travel & Books",
+    "link": "http://sikkim.nic.in/education"
+  },
+  {
+    "id": 492,
+    "name": "Prime Minister's Special Scholarship Scheme for UT of Ladakh",
+    "provider": "AICTE / Ministry of Education",
+    "description": "Full academic fee and maintenance support for 12th-pass students of Ladakh pursuing undergraduate degree colleges outside Ladakh.",
+    "income_limit": "₹8,00,000",
+    "amount": "Up to ₹3,00,000 tuition + ₹1,00,000 maintenance/year",
+    "link": "https://www.aicte-india.org/bureaus/jk"
+  },
+  {
+    "id": 493,
+    "name": "Manipur Post-Matric Scholarship for ST Students",
+    "provider": "Tribal Affairs & Hills Manipur",
+    "description": "Complete tuition fee and maintenance allowance for tribal students of Manipur studying in colleges and universities.",
+    "income_limit": "₹2,50,000",
+    "amount": "Tuition Fee + ₹1,200/month maintenance",
+    "link": "https://scholarships.gov.in/"
+  },
+  {
+    "id": 494,
+    "name": "Mizoram Post-Matric Scholarship for Tribal Students",
+    "provider": "Higher & Technical Education Dept Mizoram",
+    "description": "Financial assistance for Mizo ST students pursuing post-matriculation higher technical and general studies.",
+    "income_limit": "₹2,50,000",
+    "amount": "Course Fee + Maintenance Allowance",
+    "link": "https://scholarships.gov.in/"
+  },
+  {
+    "id": 495,
+    "name": "Nagaland State Merit Scholarship",
+    "provider": "Directorate of Higher Education Nagaland",
+    "description": "For high-ranking indigenous students of Nagaland pursuing post-matric studies within India.",
+    "income_limit": "No Limit",
+    "amount": "₹1,500 to ₹3,000/month",
+    "link": "https://highereducation.nagaland.gov.in/"
+  },
+  {
+    "id": 496,
+    "name": "Arunachal Pradesh APST Stipend Scheme",
+    "provider": "Directorate of Higher & Technical Education Arunachal",
+    "description": "Monthly educational stipend for indigenous Scheduled Tribe students pursuing higher education.",
+    "income_limit": "No Limit (APST domicile)",
+    "amount": "₹1,400 to ₹2,000/month",
+    "link": "https://apdhte.nic.in/"
+  },
+  {
+    "id": 497,
+    "name": "Chandigarh Post-Matric SC Scholarship Scheme",
+    "provider": "Education Dept Chandigarh Administration",
+    "description": "Tuition fee reimbursement and monthly allowance for SC students enrolled in colleges across Chandigarh UT.",
+    "income_limit": "₹2,50,000",
+    "amount": "Tuition Fee + Monthly Maintenance",
+    "link": "https://scholarships.gov.in/"
+  },
+  {
+    "id": 498,
+    "name": "Puducherry Perunthalaivar Kamarajar Financial Assistance",
+    "provider": "Directorate of Higher & Technical Education Puducherry",
+    "description": "Covers tuition fees for students admitted to professional courses through CENTAC counseling in Puducherry.",
+    "income_limit": "CENTAC Merit List",
+    "amount": "₹25,000 to ₹1,00,000/year (Covers CENTAC Fee)",
+    "link": "https://dhte.py.gov.in/"
+  },
+  {
+    "id": 499,
+    "name": "Andaman & Nicobar Islands Dr. B.R. Ambedkar Scheme",
+    "provider": "Tribal Welfare Dept Andaman & Nicobar",
+    "description": "Free lodging, boarding, and college tuition reimbursement for islander students pursuing higher education in mainland India.",
+    "income_limit": "₹3,00,000",
+    "amount": "Full Tuition + ₹4,000/month mainland maintenance",
+    "link": "https://www.andaman.gov.in/"
+  },
+  {
+    "id": 500,
+    "name": "Central Sector National Means-cum-Merit Renewal Pool",
+    "provider": "Department of School Education & Literacy (MoE)",
+    "description": "Renewal grant for selected NMMSS scholars to continue secondary and higher secondary education up to Class 12.",
+    "income_limit": "₹3,50,000",
+    "amount": "₹12,000/year continuously for 4 years",
+    "link": "https://scholarships.gov.in/"
   }
 ]
